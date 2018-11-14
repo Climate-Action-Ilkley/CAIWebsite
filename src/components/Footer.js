@@ -6,14 +6,10 @@ import logo from '../assets/images/logo.svg';
 const Footer = (props) => (
     <footer id="footer">
         <section>
-            <h2>Aliquam sed mauris</h2>
-            <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-            <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-            </ul>
+            <a class="twitter-timeline" data-width="450" data-height="350" href="https://twitter.com/ClimateIlkley?ref_src=twsrc%5Etfw">Tweets by ClimateIlkley</a>
         </section>
         <section>
-            <h2>Etiam feugiat</h2>
+            <h2>Contact Us</h2>
             <dl className="alt">
                 <dt>Address</dt>
                 <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
