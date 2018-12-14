@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
-
+import ProjectFeature from '../components/ProjectFeature'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
@@ -81,7 +81,7 @@ class Index extends React.Component {
             </ul>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/projects" className="button">Learn More</Link></li>
+                <li><Link to="/basics" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
@@ -90,26 +90,34 @@ class Index extends React.Component {
               <h2>Current Projects</h2>
             </header>
             <ul className="features">
-              <li>
-                <span className="icon major style1 fa-home"></span>
-                <h3>Neighbourhood Plan</h3>
-                <p>We aim to influence the neighbourhood plan to include concrete action on climate change.</p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-bolt"></span>
-                <h3>Community Energy Company</h3>
-                <p>We want to set up a community energy company that produces local renewable energy, that is then sold locally.</p>
-              </li>
-              <li>
-                <span className="icon major style2 fa-car"></span>
-                <h3>Electric Car Club</h3>
-                <p>We plan for a electric car club giving members of Ilkley an alternate option to a second car.</p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-apple"></span>
-                <h3>ReFood</h3>
-                <p>We are in talks with ReFood to recycle food waste and convert it into gas.</p>
-              </li>
+              <ProjectFeature
+                url="neighbourhoodplan"
+                blurb="We aim to influence the neighbourhood plan to include concrete action on climate change."
+                projectTitle="Neighbourhood Plan"
+                iconStyle="fa-users"
+                styleIndex={2}
+              />
+              <ProjectFeature
+                url="communityenergy"
+                projectTitle="Community Energy Company"
+                blurb="We want to set up a community energy company that produces local renewable energy, that is then sold locally."
+                iconStyle="fa-bolt"
+                styleIndex={4}
+              />
+              <ProjectFeature
+                url="electriccarclub"
+                projectTitle="Electric Car Club"
+                blurb="We plan for a electric car club giving members of Ilkley an alternate option to a second car."
+                iconStyle="fa-car"
+                styleIndex={1}
+              />
+              <ProjectFeature
+                url="foodwaste"
+                projectTitle="Food Waste"
+                blurb="We are in talks with ReFood to recycle food waste and convert it into gas."
+                iconStyle="fa-apple"
+                styleIndex={6}
+              />
             </ul>
             <footer className="major">
               <ul className="actions">

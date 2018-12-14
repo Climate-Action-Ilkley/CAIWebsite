@@ -21,6 +21,10 @@
 			margin-top: (_size(element-margin) * 1.5);
 			padding: 0;
 
+			a {
+				border-bottom: none;
+			}
+
 			&:nth-child(1),
 			&:nth-child(2),
 			&:nth-child(3),
