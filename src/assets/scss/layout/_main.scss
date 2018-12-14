@@ -8,7 +8,7 @@
 
 	#main {
 		@include color(invert);
-		border-radius: _size(border-radius-main);
+		//border-radius: _size(border-radius-main);
 
 		> .main {
 			@include padding(5em, 5em);
