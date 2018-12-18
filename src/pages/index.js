@@ -49,7 +49,15 @@ class Index extends React.Component {
               <span className="image"><img src={logo} alt="" /></span>
             </div>
           </section>
-
+          <section id="about" className="main special">
+              <header className="major">
+                  <h2>About Us</h2>
+                  <p>The members of climate action ilkley ....<br /></p>
+              </header>
+              <ul className="actions">
+                  <li><Link to="/events" className="button">Learn More</Link></li>
+              </ul>
+          </section>
 
 
           <section id="first" className="main special">
@@ -59,23 +67,23 @@ class Index extends React.Component {
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-fire"></span>
+                <span className="icon fa-fire"/>
                 <strong>It's Warming</strong>
               </li>
               <li className="style2">
-                <span className="icon fa-users"></span>
+                <span className="icon fa-users"/>
                 <strong>It's Us</strong>
               </li>
               <li className="style3">
-                <span className="icon fa-signal"></span>
+                <span className="icon fa-signal"/>
                 <strong>We're Sure</strong>
               </li>
               <li className="style1">
-                <span className="icon fa-times-circle"></span>
+                <span className="icon fa-times-circle"/>
                 <strong>It's Bad</strong>
               </li>
               <li className="style5">
-                <span className="icon fa-wrench"></span>
+                <span className="icon fa-wrench"/>
                 <strong>We Can Fix It</strong>
               </li>
             </ul>
@@ -135,7 +143,17 @@ class Index extends React.Component {
               <li><Link to="/events" className="button">Learn More</Link></li>
             </ul>
           </section>
-
+          <section id="network" className="main special">
+              <header className="major">
+                  <h2>Network</h2>
+                  <p>We are a local community group focussed on Ilkley and the surrounding area.<br />
+                  But to have a greater impact we want to connect, learn from and collaborate with other groups.<br/>
+                  Together we can achieve more!</p>
+              </header>
+              <ul className="actions">
+                  <li><Link to="/events" className="button">Learn More</Link></li>
+              </ul>
+          </section>
           <section id="cta" className="main special">
             <header className="major">
               <h2>Get Involved</h2>
