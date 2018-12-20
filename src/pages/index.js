@@ -67,24 +67,35 @@ class Index extends React.Component {
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-fire"/>
-                <strong>It's Warming</strong>
+                <Link to="/basics#warming">
+                  <span className="icon fa-fire"/>
+                  <strong>It's Warming</strong>
+                </Link>
               </li>
               <li className="style2">
-                <span className="icon fa-users"/>
-                <strong>It's Us</strong>
+                <Link to="/basics#us">
+                  <span className="icon fa-users"/>
+                  <strong>It's Us</strong>
+                </Link>
               </li>
               <li className="style3">
-                <span className="icon fa-signal"/>
-                <strong>We're Sure</strong>
+                  <Link to="/basics#sure">
+                    <span className="icon fa-signal"/>
+                    <strong>We're Sure</strong>
+                  </Link>
               </li>
               <li className="style1">
+                <Link to="/basics#bad">
                 <span className="icon fa-times-circle"/>
                 <strong>It's Bad</strong>
+                </Link>
               </li>
               <li className="style5">
-                <span className="icon fa-wrench"/>
-                <strong>We Can Fix It</strong>
+                <Link to="/basics#fix">
+                    <span className="icon fa-wrench"/>
+                    <strong>We Can Fix It</strong>
+                </Link>
+
               </li>
             </ul>
             <footer className="major">

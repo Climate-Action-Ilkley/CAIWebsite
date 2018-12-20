@@ -20,6 +20,10 @@
 			color: _palette(fg-bold);
 			text-align: center;
 
+			a {
+				border-bottom: none;
+			}
+
 			&.style1 {
 				background-color: _palette(accent1);
 			}
@@ -84,6 +88,9 @@
 			margin: 0 auto _size(element-margin) auto;
 
 			li {
+				a {
+					border-bottom: none;
+				}
 				&:first-child {
 					border-bottom-left-radius: 0;
 					border-top-right-radius: _size(border-radius);

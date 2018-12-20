@@ -31,11 +31,15 @@
 			padding: 0.65em;
 			//border-radius: 100%;
 			//border: solid 1px;
+			.icon:before {
+				font-size: 9.7em;
+			}
 
 			img {
 				display: block;
 				//border-radius: 100%;
 				width: 16em;
+				height: 16em;
 			}
 		}
 
