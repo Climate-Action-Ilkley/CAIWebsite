@@ -1,0 +1,44 @@
+.one-planet-nav {
+  display: block;
+  padding: 1em 4em;
+  background-color: orange;
+
+  h2 {
+    display: inline;
+    font-size: 2em;
+    float: right;
+    margin-top: 2px;
+  }
+
+  .dropdown {
+    display: inline;
+  }
+  .btn {
+    font-family: "Roboto Slab", Serif;
+    border: none;
+    height: auto;
+    margin: 2px;
+    padding: 0 5px;
+    text-transform: none;
+    font-size: 2em;
+  }
+}
+
+@include breakpoint(small) {
+  .one-planet-nav {
+    display: block;
+    padding: 0.5em 0.5em;
+    background-color: orange;
+    h2 {
+      display: inline;
+      font-size: 1.2em;
+      float: right;
+    }
+
+    .btn {
+      font-size: 1.2em;
+    }
+  }
+
+
+}

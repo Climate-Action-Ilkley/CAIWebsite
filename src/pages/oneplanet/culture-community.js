@@ -9,16 +9,16 @@ class Generic extends React.Component {
     return (
       <Layout>
         <div id="main">
-            <OnePlanetNav/>
+            <OnePlanetNav area="Culture and Community"/>
 
             <section id="intro" className="main">
                 <div className="spotlight">
                     <div className="content">
                         <header className="major">
 
-                          <h2>Community Energy Company</h2>
+                          <h2>Culture and Community</h2>
                         </header>
-                        <h2>Set up a local, profitable renewable energy company ran by the community for the community</h2>
+                        <h2>Nurturing local identity and heritage, empowering communities and promoting a culture of sustainable living.</h2>
                     </div>
                     <span className="image"><span className="icon major style2 fa-bolt"/></span>
                 </div>
