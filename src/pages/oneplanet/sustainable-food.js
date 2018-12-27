@@ -9,7 +9,7 @@ class Generic extends React.Component {
     return (
       <Layout>
         <div id="main">
-            <OnePlanetNav area="Local and Sustainable Food"/>
+            <OnePlanetNav area="Local and Sustainable Food" navStyle="food"/>
 
             <section id="intro" className="main">
                 <div className="spotlight">

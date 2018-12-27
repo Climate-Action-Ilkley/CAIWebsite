@@ -1,7 +1,6 @@
 .one-planet-nav {
   display: block;
   padding: 1em 4em;
-  background-color: orange;
 
   h2 {
     display: inline;
@@ -22,6 +21,53 @@
     text-transform: none;
     font-size: 2em;
   }
+
+  button {
+    box-shadow: none !important;
+  }
+
+
+
+
+}
+
+.health {
+  background-color: #ffb319;
+}
+
+.equity {
+  background-color: #8dc63f;
+}
+
+.culture {
+  background-color: #1ab349;
+}
+.land {
+  background-color: #00a099;
+}
+
+.water {
+  background-color: #00b3f6;
+}
+
+.food {
+  background-color: #0089d3;
+}
+
+.materials {
+  background-color: #f40090;
+}
+
+.transport {
+  background-color: #bc1998;
+}
+
+.waste {
+  background-color: #ed1651;
+}
+
+.carbon {
+  background-color: #ff7119;
 }
 
 @include breakpoint(small) {
@@ -31,13 +77,15 @@
     background-color: orange;
     h2 {
       display: inline;
-      font-size: 1.2em;
+      font-size: 0.8em;
       float: right;
     }
 
-    .btn {
-      font-size: 1.2em;
+    button, .btn {
+      font-size: 0.8em;
     }
+
+
   }
 
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
-const OnePlanetNav = ({area}) => {
+const OnePlanetNav = ({area, navStyle}) => {
     if (typeof window === `undefined`) {
         return <div>Zero Carbon</div>
     }
     const { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } = require("mdbreact");
     return (
-        <div className="one-planet-nav">
+        <div className={"one-planet-nav " + navStyle}>
             <MDBDropdown>
                 <MDBDropdownToggle left caret color="none">
                     One Planet Living
