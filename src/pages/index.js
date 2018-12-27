@@ -7,7 +7,6 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import logo from '../assets/images/web-icon.png'
-import ProjectContainer from '../components/ProjectContainer';
 
 class Index extends React.Component {
   constructor(props) {
@@ -109,7 +108,6 @@ class Index extends React.Component {
             <header className="major">
               <h2>Current Projects</h2>
             </header>
-            <ProjectContainer/>
             <ul className="features">
               <ProjectFeature
                 url="neighbourhoodplan"
