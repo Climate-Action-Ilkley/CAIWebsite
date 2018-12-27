@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 const Footer = (props) => (
     <footer id="footer">
         <section>
-            <a class="twitter-timeline" data-width="450" data-height="350" href="https://twitter.com/ClimateIlkley?ref_src=twsrc%5Etfw">Tweets by ClimateIlkley</a>
+            <a className="twitter-timeline" data-width="450" data-height="350" href="https://twitter.com/ClimateIlkley?ref_src=twsrc%5Etfw">Tweets by ClimateIlkley</a>
         </section>
         <section>
             <h2>Contact Us</h2>
