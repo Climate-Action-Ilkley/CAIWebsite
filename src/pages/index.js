@@ -5,6 +5,7 @@ import Waypoint from 'react-waypoint'
 import ProjectFeature from '../components/ProjectFeature'
 import Layout from '../components/layout'
 import Header from '../components/Header'
+import ProjectContainer from '../components/ProjectsContainer'
 import Nav from '../components/Nav'
 import logo from '../assets/images/web-icon.png'
 
@@ -105,45 +106,52 @@ class Index extends React.Component {
             </footer>
           </section>
           <section id="second" className="main special">
-            <header className="major">
-              <h2>Current Projects</h2>
+          <header className="major">
+              <h2>One Planet Living Framework</h2>
+              <p>We use the One Planet Living framework to organise and plan our projects within the local community. They are split up into one of these 10 categories.</p>
+
             </header>
-            <ul className="features">
-              <ProjectFeature
-                url="neighbourhoodplan"
-                blurb="We aim to influence the neighbourhood plan to include concrete action on climate change."
-                projectTitle="Neighbourhood Plan"
-                iconStyle="fa-users"
-                styleIndex={2}
-              />
-              <ProjectFeature
-                url="communityenergy"
-                projectTitle="Community Energy Company"
-                blurb="We want to set up a community energy company that produces local renewable energy, that is then sold locally."
-                iconStyle="fa-bolt"
-                styleIndex={4}
-              />
-              <ProjectFeature
-                url="electriccarclub"
-                projectTitle="Electric Car Club"
-                blurb="We plan for a electric car club giving members of Ilkley an alternate option to a second car."
-                iconStyle="fa-car"
-                styleIndex={1}
-              />
-              <ProjectFeature
-                url="foodwaste"
-                projectTitle="Food Waste"
-                blurb="We are in talks with ReFood to recycle food waste and convert it into gas."
-                iconStyle="fa-apple"
-                styleIndex={6}
-              />
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/projects" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
           </section>
+
+            <ProjectContainer 
+              plannedProjects={
+                <ul className="features">
+                  <ProjectFeature
+                    url="communityenergy"
+                    projectTitle="Community Energy Company"
+                    blurb="We want to set up a community energy company that produces local renewable energy, that is then sold locally."
+                    iconStyle="fa-bolt"
+                    styleIndex={4}
+                  />
+              </ul>
+              }
+              activeProjects={
+                <ul className="features">
+                  <ProjectFeature
+                    url="neighbourhoodplan"
+                    blurb="We aim to influence the neighbourhood plan to include concrete action on climate change."
+                    projectTitle="Neighbourhood Plan"
+                    iconStyle="fa-users"
+                    styleIndex={2}
+                  />
+                  <ProjectFeature
+                    url="electriccarclub"
+                    projectTitle="Electric Car Club"
+                    blurb="We plan for a electric car club giving members of Ilkley an alternate option to a second car."
+                    iconStyle="fa-car"
+                    styleIndex={1}
+                  />
+                  <ProjectFeature
+                    url="foodwaste"
+                    projectTitle="Food Waste"
+                    blurb="We are in talks with ReFood to recycle food waste and convert it into gas."
+                    iconStyle="fa-apple"
+                    styleIndex={6}
+                  />
+                </ul>
+              }
+            />
+
 
           <section id="events" className="main special">
             <header className="major">
@@ -168,13 +176,13 @@ class Index extends React.Component {
           <section id="cta" className="main special">
             <header className="major">
               <h2>Get Involved</h2>
-              <p>Join Climate Action Ilkley and find out how you can help<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <p>Sign up for our newsletter to keep up to date with the latest from Climate Action Ilkley. <br/>
+              Or if you are interested in getting more involved, send us an email we welcome more active members of our community.<br/> Together we can make a difference.</p>
             </header>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/getinvolved" className="button">Learn More</Link></li>
+                <li><Link to="/getinvolved" className="button special">Get Involved</Link></li>
+                <li><a href="https://facebook.us18.list-manage.com/subscribe?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="button">Sign Up</a></li>
               </ul>
             </footer>
           </section>

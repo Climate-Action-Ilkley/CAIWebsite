@@ -2,6 +2,8 @@ import React from 'react'
 
 import Layout from '../../components/layout'
 import OnePlanetNav from '../../components/OnePlanetNav';
+import ProjectContainer from '../../components/ProjectsContainer';
+import ProjectFeature from '../../components/ProjectFeature';
 
 class Generic extends React.Component {
   render() {
@@ -23,6 +25,19 @@ class Generic extends React.Component {
                     <span className="image"><span className="icon major style2 fa-bolt"/></span>
                 </div>
             </section>
+
+            <ProjectContainer 
+              plannedProjects={
+                <ul className="features">
+              </ul>
+              }
+              activeProjects={
+                <ul className="features">
+
+                </ul>
+              }
+            />
+
         </div>
       </Layout>
     )

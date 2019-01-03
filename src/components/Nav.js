@@ -22,7 +22,7 @@ const Nav = (props) => (
             </li>
             <li>
                 <Scroll type="id" element="second">
-                    <a href="#">Our Projects</a>
+                    <a href="#">One Planet Living</a>
                 </Scroll>
             </li>
             <li>
