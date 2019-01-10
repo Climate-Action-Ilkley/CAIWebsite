@@ -1,0 +1,9 @@
+{
+  "path": "foodwaste",
+  "projectTitle": "Food Waste",
+  "projectBlurb": "We are in talks with ReFood to recycle food waste and convert it into gas.",
+  "iconStyle" : "style6",
+  "iconName" : "fa-apple",
+  "onePlanetArea": "Zero Waste",
+  "onePlanetNavStyle": "waste"
+}

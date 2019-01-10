@@ -20,6 +20,13 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    'gatsby-plugin-twitter'
+    'gatsby-plugin-twitter',
+    `gatsby-transformer-json`,
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+            path: `./src/data/`,
+        },
+    },
   ],
 }

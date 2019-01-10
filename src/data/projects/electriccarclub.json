@@ -1,0 +1,9 @@
+{
+  "path": "electriccarclub",
+  "projectTitle": "Electric Car Club",
+  "projectBlurb": "We plan for a electric car club giving members of Ilkley an alternate option to a second car.",
+  "iconStyle" : "style1",
+  "iconName" : "fa-car",
+  "onePlanetArea": "Travel and Transport",
+  "onePlanetNavStyle": "transport"
+}

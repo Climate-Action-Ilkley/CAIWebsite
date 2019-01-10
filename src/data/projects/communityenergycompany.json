@@ -1,0 +1,9 @@
+{
+  "path": "communityenergy",
+  "projectTitle": "Community Energy Company",
+  "projectBlurb": "Set up a local, profitable renewable energy company ran by the community for the community",
+  "iconStyle" : "style2",
+  "iconName" : "fa-bolt",
+  "onePlanetArea": "Zero Carbon",
+  "onePlanetNavStyle": "carbon"
+}

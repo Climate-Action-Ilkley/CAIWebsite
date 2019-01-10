@@ -3,7 +3,7 @@ import {Link} from 'gatsby';
 
 const OnePlanetNav = ({area, navStyle}) => {
     if (typeof window === `undefined`) {
-        return <div>Zero Carbon</div>
+        return <div/>
     }
     const { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } = require("mdbreact");
     return (

@@ -1,0 +1,9 @@
+{
+  "path": "neighbourhoodplan",
+  "projectTitle": "Neighbourhood Plan",
+  "projectBlurb": "We aim to influence the neighbourhood plan to include concrete action on climate change.",
+  "iconStyle" : "style2",
+  "iconName" : "fa-users",
+  "onePlanetArea": "Culture and Community",
+  "onePlanetNavStyle": "culture"
+}
