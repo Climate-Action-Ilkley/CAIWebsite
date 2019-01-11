@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118a337c-574c-441b-9996-bfc48d691368" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/CarbonProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/CarbonProjectFeatures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/EquityProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/EquityProjectFeatures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/FoodProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/FoodProjectFeatures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/HealthProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/HealthProjectFeatures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/MaterialsProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/MaterialsProjectFeatures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/oneplanetliving/zerowaste.json" afterPath="$PROJECT_DIR$/src/data/oneplanetliving/zerowaste.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaterProjectFeatures.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WaterProjectFeatures.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -118,77 +111,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransportProjectFeatures.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js">
+      <file leaf-file-name="zerowaste.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/zerowaste.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding>
-                <marker date="1547241197931" expanded="true" signature="257:628" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-                <marker date="1547241197931" expanded="true" signature="263:283" ph="allProjects...allProjects" />
-                <marker date="1547241197931" expanded="true" signature="284:620" ph="{...}" />
-                <marker date="1547241197931" expanded="true" signature="284:628" ph="{...}" />
-                <marker date="1547241197931" expanded="true" signature="296:311" ph="allProjectsJson...allProjectsJson" />
-                <marker date="1547241197931" expanded="true" signature="296:620" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-                <marker date="1547241197931" expanded="true" signature="311:367" ph="(...)" />
-                <marker date="1547241197931" expanded="true" signature="312:318" ph="filter...filter" />
-                <marker date="1547241197931" expanded="true" signature="312:366" ph="filter...{onePlanetArea: { eq: &quot;Travel and Transport&quot;}}" />
-                <marker date="1547241197931" expanded="true" signature="320:366" ph="{...}" />
-                <marker date="1547241197931" expanded="true" signature="321:334" ph="onePlanetArea...onePlanetArea" />
-                <marker date="1547241197931" expanded="true" signature="321:365" ph="onePlanetArea...{ eq: &quot;Travel and Transport&quot;}" />
-                <marker date="1547241197931" expanded="true" signature="336:365" ph="{...}" />
-                <marker date="1547241197931" expanded="true" signature="338:340" ph="eq...eq" />
-                <marker date="1547241197931" expanded="true" signature="368:620" ph="{...}" />
-                <marker date="1547241197931" expanded="true" signature="370:620" ph="{...}" />
-                <marker date="1547241197931" expanded="true" signature="384:389" ph="edges...edges" />
-                <marker date="1547241197931" expanded="true" signature="384:608" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-                <marker date="1547241197931" expanded="true" signature="390:608" ph="{...}" />
-                <marker date="1547241197931" expanded="true" signature="410:414" ph="node...node" />
-                <marker date="1547241197931" expanded="true" signature="410:592" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-                <marker date="1547241197931" expanded="true" signature="415:592" ph="{...}" />
-                <marker date="1547241197931" expanded="true" signature="439:443" ph="path...path" />
-                <marker date="1547241197931" expanded="true" signature="466:478" ph="projectTitle...projectTitle" />
-                <marker date="1547241197931" expanded="true" signature="501:513" ph="projectBlurb...projectBlurb" />
-                <marker date="1547241197931" expanded="true" signature="536:544" ph="iconName...iconName" />
-                <marker date="1547241197931" expanded="true" signature="567:572" ph="state...state" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WasteProjectFeatures.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js">
+      <file leaf-file-name="zerocarbon.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/zerocarbon.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding>
-                <marker date="1547241202043" expanded="true" signature="253:610" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-                <marker date="1547241202043" expanded="true" signature="259:275" ph="allProjects...allProjects" />
-                <marker date="1547241202043" expanded="true" signature="276:610" ph="{...}" />
-                <marker date="1547241202043" expanded="true" signature="288:303" ph="allProjectsJson...allProjectsJson" />
-                <marker date="1547241202043" expanded="true" signature="288:602" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-                <marker date="1547241202043" expanded="true" signature="303:349" ph="(...)" />
-                <marker date="1547241202043" expanded="true" signature="304:310" ph="filter...filter" />
-                <marker date="1547241202043" expanded="true" signature="304:348" ph="filter...{path: { eq: &quot;zero-waste&quot;}}" />
-                <marker date="1547241202043" expanded="true" signature="312:348" ph="{...}" />
-                <marker date="1547241202043" expanded="true" signature="313:326" ph="path...path" />
-                <marker date="1547241202043" expanded="true" signature="313:348" ph="path...{ eq: &quot;zero-waste&quot;}" />
-                <marker date="1547241202043" expanded="true" signature="328:347" ph="{...}" />
-                <marker date="1547241202043" expanded="true" signature="328:348" ph="{...}" />
-                <marker date="1547241202043" expanded="true" signature="330:332" ph="eq...eq" />
-                <marker date="1547241202043" expanded="true" signature="350:602" ph="{...}" />
-                <marker date="1547241202043" expanded="true" signature="366:371" ph="edges...edges" />
-                <marker date="1547241202043" expanded="true" signature="366:590" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-                <marker date="1547241202043" expanded="true" signature="372:590" ph="{...}" />
-                <marker date="1547241202043" expanded="true" signature="392:396" ph="node...node" />
-                <marker date="1547241202043" expanded="true" signature="392:574" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-                <marker date="1547241202043" expanded="true" signature="397:574" ph="{...}" />
-                <marker date="1547241202043" expanded="true" signature="421:425" ph="path...path" />
-                <marker date="1547241202043" expanded="true" signature="448:460" ph="projectTitle...projectTitle" />
-                <marker date="1547241202043" expanded="true" signature="483:495" ph="projectBlurb...projectBlurb" />
-                <marker date="1547241202043" expanded="true" signature="518:526" ph="iconName...iconName" />
-                <marker date="1547241202043" expanded="true" signature="549:554" ph="state...state" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -286,8 +224,6 @@
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/materialsproducts.json" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/sustainablewater.json" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/traveltransport.json" />
-        <option value="$PROJECT_DIR$/src/data/oneplanetliving/zerocarbon.json" />
-        <option value="$PROJECT_DIR$/src/data/oneplanetliving/zerowaste.json" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/healthhappiness.json" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/sustainablefood.json" />
         <option value="$PROJECT_DIR$/src/components/ProjectLists/LandProjectFeatures.js" />
@@ -300,6 +236,8 @@
         <option value="$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/data/oneplanetliving/zerowaste.json" />
+        <option value="$PROJECT_DIR$/src/data/oneplanetliving/zerocarbon.json" />
       </list>
     </option>
   </component>
@@ -683,7 +621,7 @@
       <workItem from="1547140301757" duration="2320000" />
       <workItem from="1547143167632" duration="10106000" />
       <workItem from="1547228090644" duration="6250000" />
-      <workItem from="1547234696516" duration="6371000" />
+      <workItem from="1547234696516" duration="6538000" />
     </task>
     <task id="LOCAL-00001" summary="Change to v1 gatsbycli">
       <created>1541887243447</created>
@@ -703,7 +641,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87881000" />
+    <option name="totallyTimeSpent" value="88048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -1064,26 +1002,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/zerocarbon.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/traveltransport.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/zerowaste.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1468,6 +1390,22 @@
             <marker date="1547241209155" expanded="true" signature="525:533" ph="iconName...iconName" />
             <marker date="1547241209155" expanded="true" signature="556:561" ph="state...state" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/zerowaste.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/zerocarbon.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
