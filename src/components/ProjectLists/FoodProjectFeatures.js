@@ -24,9 +24,8 @@ const FoodProjectFeatures = () => (
 
     `}
     render={data => {
-      return (
-        <ProjectFeaturesContainer projects={data.allProjectsJson.edges}/>
-      )
+      const toRender = data.allProjectsJson ? <ProjectFeaturesContainer projects={data.allProjectsJson.edges}/>:  <div/>;
+      return toRender;
     }}
   />
 );

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118a337c-574c-441b-9996-bfc48d691368" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/LandProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/LandProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/CarbonProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/CarbonProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/EquityProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/EquityProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/FoodProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/FoodProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/HealthProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/HealthProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/MaterialsProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/MaterialsProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js" afterPath="$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,67 +72,122 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sustainablewater.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/sustainablewater.json">
+      <file leaf-file-name="Feature.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Feature.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="145">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sustainablefood.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/sustainablefood.json">
+      <file leaf-file-name="WaterProjectFeatures.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="communityorchard.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/projects/communityorchard.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="103" lean-forward="false" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LandProjectFeatures.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/LandProjectFeatures.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding>
-                <marker date="1547240966823" expanded="true" signature="252:613" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-                <marker date="1547240966823" expanded="true" signature="258:273" ph="allProjects...allProjects" />
-                <marker date="1547240966823" expanded="true" signature="274:613" ph="{...}" />
-                <marker date="1547240966823" expanded="true" signature="286:301" ph="allProjectsJson...allProjectsJson" />
-                <marker date="1547240966823" expanded="true" signature="286:605" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-                <marker date="1547240966823" expanded="true" signature="301:352" ph="(...)" />
-                <marker date="1547240966823" expanded="true" signature="302:308" ph="filter...filter" />
-                <marker date="1547240966823" expanded="true" signature="302:351" ph="filter...{path: { eq: &quot;land-nature&quot;}}" />
-                <marker date="1547240966823" expanded="true" signature="310:351" ph="{...}" />
-                <marker date="1547240966823" expanded="true" signature="311:324" ph="path...path" />
-                <marker date="1547240966823" expanded="true" signature="311:350" ph="path...{ eq: &quot;land-nature&quot;}" />
-                <marker date="1547240966823" expanded="true" signature="326:350" ph="{...}" />
-                <marker date="1547240966823" expanded="true" signature="328:330" ph="eq...eq" />
-                <marker date="1547240966823" expanded="true" signature="353:605" ph="{...}" />
-                <marker date="1547240966823" expanded="true" signature="369:374" ph="edges...edges" />
-                <marker date="1547240966823" expanded="true" signature="369:593" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-                <marker date="1547240966823" expanded="true" signature="375:593" ph="{...}" />
-                <marker date="1547240966823" expanded="true" signature="395:399" ph="node...node" />
-                <marker date="1547240966823" expanded="true" signature="395:577" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-                <marker date="1547240966823" expanded="true" signature="400:577" ph="{...}" />
-                <marker date="1547240966823" expanded="true" signature="424:428" ph="path...path" />
-                <marker date="1547240966823" expanded="true" signature="451:463" ph="projectTitle...projectTitle" />
-                <marker date="1547240966823" expanded="true" signature="486:498" ph="projectBlurb...projectBlurb" />
-                <marker date="1547240966823" expanded="true" signature="521:529" ph="iconName...iconName" />
-                <marker date="1547240966823" expanded="true" signature="552:557" ph="state...state" />
+                <marker date="1547241209155" expanded="true" signature="253:617" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+                <marker date="1547241209155" expanded="true" signature="259:275" ph="allProjects...allProjects" />
+                <marker date="1547241209155" expanded="true" signature="276:617" ph="{...}" />
+                <marker date="1547241209155" expanded="true" signature="288:303" ph="allProjectsJson...allProjectsJson" />
+                <marker date="1547241209155" expanded="true" signature="288:609" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+                <marker date="1547241209155" expanded="true" signature="303:356" ph="(...)" />
+                <marker date="1547241209155" expanded="true" signature="304:310" ph="filter...filter" />
+                <marker date="1547241209155" expanded="true" signature="304:355" ph="filter...{path: { eq: &quot;sustainable-water&quot;}}" />
+                <marker date="1547241209155" expanded="true" signature="312:355" ph="{...}" />
+                <marker date="1547241209155" expanded="true" signature="313:326" ph="path...path" />
+                <marker date="1547241209155" expanded="true" signature="313:354" ph="path...{ eq: &quot;sustainable-water&quot;}" />
+                <marker date="1547241209155" expanded="true" signature="328:354" ph="{...}" />
+                <marker date="1547241209155" expanded="true" signature="330:332" ph="eq...eq" />
+                <marker date="1547241209155" expanded="true" signature="357:609" ph="{...}" />
+                <marker date="1547241209155" expanded="true" signature="373:378" ph="edges...edges" />
+                <marker date="1547241209155" expanded="true" signature="373:597" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+                <marker date="1547241209155" expanded="true" signature="379:597" ph="{...}" />
+                <marker date="1547241209155" expanded="true" signature="399:403" ph="node...node" />
+                <marker date="1547241209155" expanded="true" signature="399:581" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+                <marker date="1547241209155" expanded="true" signature="404:581" ph="{...}" />
+                <marker date="1547241209155" expanded="true" signature="428:432" ph="path...path" />
+                <marker date="1547241209155" expanded="true" signature="455:467" ph="projectTitle...projectTitle" />
+                <marker date="1547241209155" expanded="true" signature="490:502" ph="projectBlurb...projectBlurb" />
+                <marker date="1547241209155" expanded="true" signature="525:533" ph="iconName...iconName" />
+                <marker date="1547241209155" expanded="true" signature="556:561" ph="state...state" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportProjectFeatures.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <marker date="1547241197931" expanded="true" signature="257:628" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+                <marker date="1547241197931" expanded="true" signature="263:283" ph="allProjects...allProjects" />
+                <marker date="1547241197931" expanded="true" signature="284:620" ph="{...}" />
+                <marker date="1547241197931" expanded="true" signature="284:628" ph="{...}" />
+                <marker date="1547241197931" expanded="true" signature="296:311" ph="allProjectsJson...allProjectsJson" />
+                <marker date="1547241197931" expanded="true" signature="296:620" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
+                <marker date="1547241197931" expanded="true" signature="311:367" ph="(...)" />
+                <marker date="1547241197931" expanded="true" signature="312:318" ph="filter...filter" />
+                <marker date="1547241197931" expanded="true" signature="312:366" ph="filter...{onePlanetArea: { eq: &quot;Travel and Transport&quot;}}" />
+                <marker date="1547241197931" expanded="true" signature="320:366" ph="{...}" />
+                <marker date="1547241197931" expanded="true" signature="321:334" ph="onePlanetArea...onePlanetArea" />
+                <marker date="1547241197931" expanded="true" signature="321:365" ph="onePlanetArea...{ eq: &quot;Travel and Transport&quot;}" />
+                <marker date="1547241197931" expanded="true" signature="336:365" ph="{...}" />
+                <marker date="1547241197931" expanded="true" signature="338:340" ph="eq...eq" />
+                <marker date="1547241197931" expanded="true" signature="368:620" ph="{...}" />
+                <marker date="1547241197931" expanded="true" signature="370:620" ph="{...}" />
+                <marker date="1547241197931" expanded="true" signature="384:389" ph="edges...edges" />
+                <marker date="1547241197931" expanded="true" signature="384:608" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+                <marker date="1547241197931" expanded="true" signature="390:608" ph="{...}" />
+                <marker date="1547241197931" expanded="true" signature="410:414" ph="node...node" />
+                <marker date="1547241197931" expanded="true" signature="410:592" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+                <marker date="1547241197931" expanded="true" signature="415:592" ph="{...}" />
+                <marker date="1547241197931" expanded="true" signature="439:443" ph="path...path" />
+                <marker date="1547241197931" expanded="true" signature="466:478" ph="projectTitle...projectTitle" />
+                <marker date="1547241197931" expanded="true" signature="501:513" ph="projectBlurb...projectBlurb" />
+                <marker date="1547241197931" expanded="true" signature="536:544" ph="iconName...iconName" />
+                <marker date="1547241197931" expanded="true" signature="567:572" ph="state...state" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WasteProjectFeatures.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <marker date="1547241202043" expanded="true" signature="253:610" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+                <marker date="1547241202043" expanded="true" signature="259:275" ph="allProjects...allProjects" />
+                <marker date="1547241202043" expanded="true" signature="276:610" ph="{...}" />
+                <marker date="1547241202043" expanded="true" signature="288:303" ph="allProjectsJson...allProjectsJson" />
+                <marker date="1547241202043" expanded="true" signature="288:602" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+                <marker date="1547241202043" expanded="true" signature="303:349" ph="(...)" />
+                <marker date="1547241202043" expanded="true" signature="304:310" ph="filter...filter" />
+                <marker date="1547241202043" expanded="true" signature="304:348" ph="filter...{path: { eq: &quot;zero-waste&quot;}}" />
+                <marker date="1547241202043" expanded="true" signature="312:348" ph="{...}" />
+                <marker date="1547241202043" expanded="true" signature="313:326" ph="path...path" />
+                <marker date="1547241202043" expanded="true" signature="313:348" ph="path...{ eq: &quot;zero-waste&quot;}" />
+                <marker date="1547241202043" expanded="true" signature="328:347" ph="{...}" />
+                <marker date="1547241202043" expanded="true" signature="328:348" ph="{...}" />
+                <marker date="1547241202043" expanded="true" signature="330:332" ph="eq...eq" />
+                <marker date="1547241202043" expanded="true" signature="350:602" ph="{...}" />
+                <marker date="1547241202043" expanded="true" signature="366:371" ph="edges...edges" />
+                <marker date="1547241202043" expanded="true" signature="366:590" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+                <marker date="1547241202043" expanded="true" signature="372:590" ph="{...}" />
+                <marker date="1547241202043" expanded="true" signature="392:396" ph="node...node" />
+                <marker date="1547241202043" expanded="true" signature="392:574" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+                <marker date="1547241202043" expanded="true" signature="397:574" ph="{...}" />
+                <marker date="1547241202043" expanded="true" signature="421:425" ph="path...path" />
+                <marker date="1547241202043" expanded="true" signature="448:460" ph="projectTitle...projectTitle" />
+                <marker date="1547241202043" expanded="true" signature="483:495" ph="projectBlurb...projectBlurb" />
+                <marker date="1547241202043" expanded="true" signature="518:526" ph="iconName...iconName" />
+                <marker date="1547241202043" expanded="true" signature="549:554" ph="state...state" />
               </folding>
             </state>
           </provider>
@@ -215,15 +278,6 @@
         <option value="$PROJECT_DIR$/src/components/ProjectsList.js" />
         <option value="$PROJECT_DIR$/src/templates/oneplanet-page.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectFeaturesContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js" />
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js" />
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/EquityProjectFeatures.js" />
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/FoodProjectFeatures.js" />
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/HealthProjectFeatures.js" />
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/MaterialsProjectFeatures.js" />
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js" />
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js" />
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/CarbonProjectFeatures.js" />
         <option value="$PROJECT_DIR$/src/data/projects/communityorchard.json" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/culturecommunity.json" />
@@ -237,6 +291,15 @@
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/healthhappiness.json" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/sustainablefood.json" />
         <option value="$PROJECT_DIR$/src/components/ProjectLists/LandProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/components/ProjectLists/CarbonProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/components/ProjectLists/EquityProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/components/ProjectLists/FoodProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/components/ProjectLists/HealthProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/components/ProjectLists/MaterialsProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js" />
+        <option value="$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js" />
       </list>
     </option>
   </component>
@@ -620,7 +683,7 @@
       <workItem from="1547140301757" duration="2320000" />
       <workItem from="1547143167632" duration="10106000" />
       <workItem from="1547228090644" duration="6250000" />
-      <workItem from="1547234696516" duration="6250000" />
+      <workItem from="1547234696516" duration="6371000" />
     </task>
     <task id="LOCAL-00001" summary="Change to v1 gatsbycli">
       <created>1541887243447</created>
@@ -640,7 +703,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87760000" />
+    <option name="totallyTimeSpent" value="87881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -907,14 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Feature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ProjectsList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -957,324 +1012,6 @@
           <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#66#0" expanded="false" />
-            <marker date="1547238444011" expanded="true" signature="255:625" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547238444011" expanded="true" signature="261:279" ph="allProjects...allProjects" />
-            <marker date="1547238444011" expanded="true" signature="280:625" ph="{...}" />
-            <marker date="1547238444011" expanded="true" signature="292:307" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547238444011" expanded="true" signature="292:617" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547238444011" expanded="true" signature="307:364" ph="(...)" />
-            <marker date="1547238444011" expanded="true" signature="308:314" ph="filter...filter" />
-            <marker date="1547238444011" expanded="true" signature="308:363" ph="filter...{path: { eq: &quot;culture-community&quot;}}" />
-            <marker date="1547238444011" expanded="true" signature="316:363" ph="{...}" />
-            <marker date="1547238444011" expanded="true" signature="317:330" ph="path...path" />
-            <marker date="1547238444011" expanded="true" signature="317:362" ph="path...{ eq: &quot;culture-community&quot;}" />
-            <marker date="1547238444011" expanded="true" signature="332:362" ph="{...}" />
-            <marker date="1547238444011" expanded="true" signature="334:336" ph="eq...eq" />
-            <marker date="1547238444011" expanded="true" signature="365:617" ph="{...}" />
-            <marker date="1547238444011" expanded="true" signature="381:386" ph="edges...edges" />
-            <marker date="1547238444011" expanded="true" signature="381:605" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547238444011" expanded="true" signature="387:605" ph="{...}" />
-            <marker date="1547238444011" expanded="true" signature="407:411" ph="node...node" />
-            <marker date="1547238444011" expanded="true" signature="407:589" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547238444011" expanded="true" signature="412:589" ph="{...}" />
-            <marker date="1547238444011" expanded="true" signature="436:440" ph="path...path" />
-            <marker date="1547238444011" expanded="true" signature="463:475" ph="projectTitle...projectTitle" />
-            <marker date="1547238444011" expanded="true" signature="498:510" ph="projectBlurb...projectBlurb" />
-            <marker date="1547238444011" expanded="true" signature="533:541" ph="iconName...iconName" />
-            <marker date="1547238444011" expanded="true" signature="564:569" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/EquityProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#66#0" expanded="false" />
-            <marker date="1547238518820" expanded="true" signature="254:626" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547238518820" expanded="true" signature="260:277" ph="allProjects...allProjects" />
-            <marker date="1547238518820" expanded="true" signature="278:626" ph="{...}" />
-            <marker date="1547238518820" expanded="true" signature="290:305" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547238518820" expanded="true" signature="290:618" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547238518820" expanded="true" signature="305:365" ph="(...)" />
-            <marker date="1547238518820" expanded="true" signature="306:312" ph="filter...filter" />
-            <marker date="1547238518820" expanded="true" signature="306:364" ph="filter...{path: { eq: &quot;equity-economy&quot;}}" />
-            <marker date="1547238518820" expanded="true" signature="314:364" ph="{...}" />
-            <marker date="1547238518820" expanded="true" signature="315:328" ph="path...path" />
-            <marker date="1547238518820" expanded="true" signature="315:363" ph="path...{ eq: &quot;equity-economy&quot;}" />
-            <marker date="1547238518820" expanded="true" signature="330:363" ph="{...}" />
-            <marker date="1547238518820" expanded="true" signature="332:334" ph="eq...eq" />
-            <marker date="1547238518820" expanded="true" signature="366:618" ph="{...}" />
-            <marker date="1547238518820" expanded="true" signature="382:387" ph="edges...edges" />
-            <marker date="1547238518820" expanded="true" signature="382:606" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547238518820" expanded="true" signature="388:606" ph="{...}" />
-            <marker date="1547238518820" expanded="true" signature="408:412" ph="node...node" />
-            <marker date="1547238518820" expanded="true" signature="408:590" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547238518820" expanded="true" signature="413:590" ph="{...}" />
-            <marker date="1547238518820" expanded="true" signature="437:441" ph="path...path" />
-            <marker date="1547238518820" expanded="true" signature="464:476" ph="projectTitle...projectTitle" />
-            <marker date="1547238518820" expanded="true" signature="499:511" ph="projectBlurb...projectBlurb" />
-            <marker date="1547238518820" expanded="true" signature="534:542" ph="iconName...iconName" />
-            <marker date="1547238518820" expanded="true" signature="565:570" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/FoodProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#66#0" expanded="false" />
-            <marker date="1547238518932" expanded="true" signature="252:614" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547238518932" expanded="true" signature="258:273" ph="allProjects...allProjects" />
-            <marker date="1547238518932" expanded="true" signature="274:614" ph="{...}" />
-            <marker date="1547238518932" expanded="true" signature="286:301" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547238518932" expanded="true" signature="286:606" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547238518932" expanded="true" signature="301:353" ph="(...)" />
-            <marker date="1547238518932" expanded="true" signature="302:308" ph="filter...filter" />
-            <marker date="1547238518932" expanded="true" signature="302:352" ph="filter...{path: { eq: &quot;sustainable-food&quot;}}" />
-            <marker date="1547238518932" expanded="true" signature="310:352" ph="{...}" />
-            <marker date="1547238518932" expanded="true" signature="311:324" ph="path...path" />
-            <marker date="1547238518932" expanded="true" signature="311:351" ph="path...{ eq: &quot;sustainable-food&quot;}" />
-            <marker date="1547238518932" expanded="true" signature="326:351" ph="{...}" />
-            <marker date="1547238518932" expanded="true" signature="328:330" ph="eq...eq" />
-            <marker date="1547238518932" expanded="true" signature="354:606" ph="{...}" />
-            <marker date="1547238518932" expanded="true" signature="370:375" ph="edges...edges" />
-            <marker date="1547238518932" expanded="true" signature="370:594" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547238518932" expanded="true" signature="376:594" ph="{...}" />
-            <marker date="1547238518932" expanded="true" signature="396:400" ph="node...node" />
-            <marker date="1547238518932" expanded="true" signature="396:578" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547238518932" expanded="true" signature="401:578" ph="{...}" />
-            <marker date="1547238518932" expanded="true" signature="425:429" ph="path...path" />
-            <marker date="1547238518932" expanded="true" signature="452:464" ph="projectTitle...projectTitle" />
-            <marker date="1547238518932" expanded="true" signature="487:499" ph="projectBlurb...projectBlurb" />
-            <marker date="1547238518932" expanded="true" signature="522:530" ph="iconName...iconName" />
-            <marker date="1547238518932" expanded="true" signature="553:558" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/HealthProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#66#0" expanded="false" />
-            <marker date="1547238518856" expanded="true" signature="254:622" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547238518856" expanded="true" signature="260:277" ph="allProjects...allProjects" />
-            <marker date="1547238518856" expanded="true" signature="278:622" ph="{...}" />
-            <marker date="1547238518856" expanded="true" signature="290:305" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547238518856" expanded="true" signature="290:614" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547238518856" expanded="true" signature="305:361" ph="(...)" />
-            <marker date="1547238518856" expanded="true" signature="306:312" ph="filter...filter" />
-            <marker date="1547238518856" expanded="true" signature="306:360" ph="filter...{path: { eq: &quot;health-happiness&quot;}}" />
-            <marker date="1547238518856" expanded="true" signature="314:360" ph="{...}" />
-            <marker date="1547238518856" expanded="true" signature="315:328" ph="path...path" />
-            <marker date="1547238518856" expanded="true" signature="315:359" ph="path...{ eq: &quot;health-happiness&quot;}" />
-            <marker date="1547238518856" expanded="true" signature="330:359" ph="{...}" />
-            <marker date="1547238518856" expanded="true" signature="332:334" ph="eq...eq" />
-            <marker date="1547238518856" expanded="true" signature="362:614" ph="{...}" />
-            <marker date="1547238518856" expanded="true" signature="378:383" ph="edges...edges" />
-            <marker date="1547238518856" expanded="true" signature="378:602" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547238518856" expanded="true" signature="384:602" ph="{...}" />
-            <marker date="1547238518856" expanded="true" signature="404:408" ph="node...node" />
-            <marker date="1547238518856" expanded="true" signature="404:586" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547238518856" expanded="true" signature="409:586" ph="{...}" />
-            <marker date="1547238518856" expanded="true" signature="433:437" ph="path...path" />
-            <marker date="1547238518856" expanded="true" signature="460:472" ph="projectTitle...projectTitle" />
-            <marker date="1547238518856" expanded="true" signature="495:507" ph="projectBlurb...projectBlurb" />
-            <marker date="1547238518856" expanded="true" signature="530:538" ph="iconName...iconName" />
-            <marker date="1547238518856" expanded="true" signature="561:566" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/MaterialsProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#66#0" expanded="false" />
-            <marker date="1547238518836" expanded="true" signature="257:630" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547238518836" expanded="true" signature="263:283" ph="allProjects...allProjects" />
-            <marker date="1547238518836" expanded="true" signature="284:630" ph="{...}" />
-            <marker date="1547238518836" expanded="true" signature="296:311" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547238518836" expanded="true" signature="296:622" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547238518836" expanded="true" signature="311:369" ph="(...)" />
-            <marker date="1547238518836" expanded="true" signature="312:318" ph="filter...filter" />
-            <marker date="1547238518836" expanded="true" signature="312:368" ph="filter...{path: { eq: &quot;materials-products&quot;}}" />
-            <marker date="1547238518836" expanded="true" signature="320:368" ph="{...}" />
-            <marker date="1547238518836" expanded="true" signature="321:334" ph="path...path" />
-            <marker date="1547238518836" expanded="true" signature="321:367" ph="path...{ eq: &quot;materials-products&quot;}" />
-            <marker date="1547238518836" expanded="true" signature="336:367" ph="{...}" />
-            <marker date="1547238518836" expanded="true" signature="338:340" ph="eq...eq" />
-            <marker date="1547238518836" expanded="true" signature="370:622" ph="{...}" />
-            <marker date="1547238518836" expanded="true" signature="386:391" ph="edges...edges" />
-            <marker date="1547238518836" expanded="true" signature="386:610" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547238518836" expanded="true" signature="392:610" ph="{...}" />
-            <marker date="1547238518836" expanded="true" signature="412:416" ph="node...node" />
-            <marker date="1547238518836" expanded="true" signature="412:594" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547238518836" expanded="true" signature="417:594" ph="{...}" />
-            <marker date="1547238518836" expanded="true" signature="441:445" ph="path...path" />
-            <marker date="1547238518836" expanded="true" signature="468:480" ph="projectTitle...projectTitle" />
-            <marker date="1547238518836" expanded="true" signature="503:515" ph="projectBlurb...projectBlurb" />
-            <marker date="1547238518836" expanded="true" signature="538:546" ph="iconName...iconName" />
-            <marker date="1547238518836" expanded="true" signature="569:574" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#66#0" expanded="false" />
-            <marker date="1547238518940" expanded="true" signature="257:628" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547238518940" expanded="true" signature="263:283" ph="allProjects...allProjects" />
-            <marker date="1547238518940" expanded="true" signature="284:620" ph="{...}" />
-            <marker date="1547238518940" expanded="true" signature="284:628" ph="{...}" />
-            <marker date="1547238518940" expanded="true" signature="296:311" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547238518940" expanded="true" signature="296:620" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547238518940" expanded="true" signature="311:367" ph="(...)" />
-            <marker date="1547238518940" expanded="true" signature="312:318" ph="filter...filter" />
-            <marker date="1547238518940" expanded="true" signature="312:366" ph="filter...{onePlanetArea: { eq: &quot;Travel and Transport&quot;}}" />
-            <marker date="1547238518940" expanded="true" signature="320:366" ph="{...}" />
-            <marker date="1547238518940" expanded="true" signature="321:334" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547238518940" expanded="true" signature="321:365" ph="onePlanetArea...{ eq: &quot;Travel and Transport&quot;}" />
-            <marker date="1547238518940" expanded="true" signature="336:365" ph="{...}" />
-            <marker date="1547238518940" expanded="true" signature="338:340" ph="eq...eq" />
-            <marker date="1547238518940" expanded="true" signature="368:620" ph="{...}" />
-            <marker date="1547238518940" expanded="true" signature="370:620" ph="{...}" />
-            <marker date="1547238518940" expanded="true" signature="384:389" ph="edges...edges" />
-            <marker date="1547238518940" expanded="true" signature="384:608" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547238518940" expanded="true" signature="390:608" ph="{...}" />
-            <marker date="1547238518940" expanded="true" signature="410:414" ph="node...node" />
-            <marker date="1547238518940" expanded="true" signature="410:592" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547238518940" expanded="true" signature="415:592" ph="{...}" />
-            <marker date="1547238518940" expanded="true" signature="439:443" ph="path...path" />
-            <marker date="1547238518940" expanded="true" signature="466:478" ph="projectTitle...projectTitle" />
-            <marker date="1547238518940" expanded="true" signature="501:513" ph="projectBlurb...projectBlurb" />
-            <marker date="1547238518940" expanded="true" signature="536:544" ph="iconName...iconName" />
-            <marker date="1547238518940" expanded="true" signature="567:572" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#66#0" expanded="false" />
-            <marker date="1547238443995" expanded="true" signature="253:610" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547238443995" expanded="true" signature="259:275" ph="allProjects...allProjects" />
-            <marker date="1547238443995" expanded="true" signature="276:610" ph="{...}" />
-            <marker date="1547238443995" expanded="true" signature="288:303" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547238443995" expanded="true" signature="288:602" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547238443995" expanded="true" signature="303:349" ph="(...)" />
-            <marker date="1547238443995" expanded="true" signature="304:310" ph="filter...filter" />
-            <marker date="1547238443995" expanded="true" signature="304:348" ph="filter...{path: { eq: &quot;zero-waste&quot;}}" />
-            <marker date="1547238443995" expanded="true" signature="312:348" ph="{...}" />
-            <marker date="1547238443995" expanded="true" signature="313:326" ph="path...path" />
-            <marker date="1547238443995" expanded="true" signature="313:348" ph="path...{ eq: &quot;zero-waste&quot;}" />
-            <marker date="1547238443995" expanded="true" signature="328:347" ph="{...}" />
-            <marker date="1547238443995" expanded="true" signature="328:348" ph="{...}" />
-            <marker date="1547238443995" expanded="true" signature="330:332" ph="eq...eq" />
-            <marker date="1547238443995" expanded="true" signature="350:602" ph="{...}" />
-            <marker date="1547238443995" expanded="true" signature="366:371" ph="edges...edges" />
-            <marker date="1547238443995" expanded="true" signature="366:590" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547238443995" expanded="true" signature="372:590" ph="{...}" />
-            <marker date="1547238443995" expanded="true" signature="392:396" ph="node...node" />
-            <marker date="1547238443995" expanded="true" signature="392:574" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547238443995" expanded="true" signature="397:574" ph="{...}" />
-            <marker date="1547238443995" expanded="true" signature="421:425" ph="path...path" />
-            <marker date="1547238443995" expanded="true" signature="448:460" ph="projectTitle...projectTitle" />
-            <marker date="1547238443995" expanded="true" signature="483:495" ph="projectBlurb...projectBlurb" />
-            <marker date="1547238443995" expanded="true" signature="518:526" ph="iconName...iconName" />
-            <marker date="1547238443995" expanded="true" signature="549:554" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#66#0" expanded="false" />
-            <marker date="1547238518896" expanded="true" signature="253:617" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547238518896" expanded="true" signature="259:275" ph="allProjects...allProjects" />
-            <marker date="1547238518896" expanded="true" signature="276:617" ph="{...}" />
-            <marker date="1547238518896" expanded="true" signature="288:303" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547238518896" expanded="true" signature="288:609" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547238518896" expanded="true" signature="303:356" ph="(...)" />
-            <marker date="1547238518896" expanded="true" signature="304:310" ph="filter...filter" />
-            <marker date="1547238518896" expanded="true" signature="304:355" ph="filter...{path: { eq: &quot;sustainable-water&quot;}}" />
-            <marker date="1547238518896" expanded="true" signature="312:355" ph="{...}" />
-            <marker date="1547238518896" expanded="true" signature="313:326" ph="path...path" />
-            <marker date="1547238518896" expanded="true" signature="313:354" ph="path...{ eq: &quot;sustainable-water&quot;}" />
-            <marker date="1547238518896" expanded="true" signature="328:354" ph="{...}" />
-            <marker date="1547238518896" expanded="true" signature="330:332" ph="eq...eq" />
-            <marker date="1547238518896" expanded="true" signature="357:609" ph="{...}" />
-            <marker date="1547238518896" expanded="true" signature="373:378" ph="edges...edges" />
-            <marker date="1547238518896" expanded="true" signature="373:597" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547238518896" expanded="true" signature="379:597" ph="{...}" />
-            <marker date="1547238518896" expanded="true" signature="399:403" ph="node...node" />
-            <marker date="1547238518896" expanded="true" signature="399:581" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547238518896" expanded="true" signature="404:581" ph="{...}" />
-            <marker date="1547238518896" expanded="true" signature="428:432" ph="path...path" />
-            <marker date="1547238518896" expanded="true" signature="455:467" ph="projectTitle...projectTitle" />
-            <marker date="1547238518896" expanded="true" signature="490:502" ph="projectBlurb...projectBlurb" />
-            <marker date="1547238518896" expanded="true" signature="525:533" ph="iconName...iconName" />
-            <marker date="1547238518896" expanded="true" signature="556:561" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/CarbonProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#66#0" expanded="false" />
-            <marker date="1547238597449" expanded="true" signature="254:613" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547238597449" expanded="true" signature="260:277" ph="allProjects...allProjects" />
-            <marker date="1547238597449" expanded="true" signature="278:613" ph="{...}" />
-            <marker date="1547238597449" expanded="true" signature="290:305" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547238597449" expanded="true" signature="290:605" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547238597449" expanded="true" signature="305:350" ph="(...}" />
-            <marker date="1547238597449" expanded="true" signature="305:352" ph="(...)" />
-            <marker date="1547238597449" expanded="true" signature="306:312" ph="filter...filter" />
-            <marker date="1547238597449" expanded="true" signature="315:328" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547238597449" expanded="true" signature="315:350" ph="onePlanetArea...{ eq: &quot;Zero Carbon&quot;}" />
-            <marker date="1547238597449" expanded="true" signature="328:350" ph="path...{}" />
-            <marker date="1547238597449" expanded="true" signature="330:350" ph="{...}" />
-            <marker date="1547238597449" expanded="true" signature="332:334" ph="eq...eq" />
-            <marker date="1547238597449" expanded="true" signature="353:605" ph="{...}" />
-            <marker date="1547238597449" expanded="true" signature="369:374" ph="edges...edges" />
-            <marker date="1547238597449" expanded="true" signature="369:593" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547238597449" expanded="true" signature="375:593" ph="{...}" />
-            <marker date="1547238597449" expanded="true" signature="395:399" ph="node...node" />
-            <marker date="1547238597449" expanded="true" signature="395:577" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547238597449" expanded="true" signature="400:577" ph="{...}" />
-            <marker date="1547238597449" expanded="true" signature="424:428" ph="path...path" />
-            <marker date="1547238597449" expanded="true" signature="451:463" ph="projectTitle...projectTitle" />
-            <marker date="1547238597449" expanded="true" signature="486:498" ph="projectBlurb...projectBlurb" />
-            <marker date="1547238597449" expanded="true" signature="521:529" ph="iconName...iconName" />
-            <marker date="1547238597449" expanded="true" signature="552:557" ph="state...state" />
           </folding>
         </state>
       </provider>
@@ -1359,10 +1096,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/sustainablewater.json">
+    <entry file="file://$PROJECT_DIR$/src/data/projects/communityorchard.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="87">
+          <caret line="3" column="103" lean-forward="false" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
           <folding />
         </state>
       </provider>
@@ -1375,18 +1112,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/communityorchard.json">
+    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/sustainablewater.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="103" lean-forward="false" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
+        <state relative-caret-position="116">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/LandProjectFeatures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="213">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="24" />
           <folding>
             <marker date="1547240966823" expanded="true" signature="252:613" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
             <marker date="1547240966823" expanded="true" signature="258:273" ph="allProjects...allProjects" />
@@ -1413,6 +1150,323 @@
             <marker date="1547240966823" expanded="true" signature="486:498" ph="projectBlurb...projectBlurb" />
             <marker date="1547240966823" expanded="true" signature="521:529" ph="iconName...iconName" />
             <marker date="1547240966823" expanded="true" signature="552:557" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/CarbonProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1547241171838" expanded="true" signature="254:613" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547241171838" expanded="true" signature="260:277" ph="allProjects...allProjects" />
+            <marker date="1547241171838" expanded="true" signature="278:613" ph="{...}" />
+            <marker date="1547241171838" expanded="true" signature="290:305" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547241171838" expanded="true" signature="290:605" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547241171838" expanded="true" signature="305:350" ph="(...}" />
+            <marker date="1547241171838" expanded="true" signature="305:352" ph="(...)" />
+            <marker date="1547241171838" expanded="true" signature="306:312" ph="filter...filter" />
+            <marker date="1547241171838" expanded="true" signature="315:328" ph="onePlanetArea...onePlanetArea" />
+            <marker date="1547241171838" expanded="true" signature="315:350" ph="onePlanetArea...{ eq: &quot;Zero Carbon&quot;}" />
+            <marker date="1547241171838" expanded="true" signature="328:350" ph="path...{}" />
+            <marker date="1547241171838" expanded="true" signature="330:350" ph="{...}" />
+            <marker date="1547241171838" expanded="true" signature="332:334" ph="eq...eq" />
+            <marker date="1547241171838" expanded="true" signature="353:605" ph="{...}" />
+            <marker date="1547241171838" expanded="true" signature="369:374" ph="edges...edges" />
+            <marker date="1547241171838" expanded="true" signature="369:593" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547241171838" expanded="true" signature="375:593" ph="{...}" />
+            <marker date="1547241171838" expanded="true" signature="395:399" ph="node...node" />
+            <marker date="1547241171838" expanded="true" signature="395:577" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547241171838" expanded="true" signature="400:577" ph="{...}" />
+            <marker date="1547241171838" expanded="true" signature="424:428" ph="path...path" />
+            <marker date="1547241171838" expanded="true" signature="451:463" ph="projectTitle...projectTitle" />
+            <marker date="1547241171838" expanded="true" signature="486:498" ph="projectBlurb...projectBlurb" />
+            <marker date="1547241171838" expanded="true" signature="521:529" ph="iconName...iconName" />
+            <marker date="1547241171838" expanded="true" signature="552:557" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1547241176306" expanded="true" signature="255:625" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547241176306" expanded="true" signature="261:279" ph="allProjects...allProjects" />
+            <marker date="1547241176306" expanded="true" signature="280:625" ph="{...}" />
+            <marker date="1547241176306" expanded="true" signature="292:307" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547241176306" expanded="true" signature="292:617" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547241176306" expanded="true" signature="307:364" ph="(...)" />
+            <marker date="1547241176306" expanded="true" signature="308:314" ph="filter...filter" />
+            <marker date="1547241176306" expanded="true" signature="308:363" ph="filter...{path: { eq: &quot;culture-community&quot;}}" />
+            <marker date="1547241176306" expanded="true" signature="316:363" ph="{...}" />
+            <marker date="1547241176306" expanded="true" signature="317:330" ph="path...path" />
+            <marker date="1547241176306" expanded="true" signature="317:362" ph="path...{ eq: &quot;culture-community&quot;}" />
+            <marker date="1547241176306" expanded="true" signature="332:362" ph="{...}" />
+            <marker date="1547241176306" expanded="true" signature="334:336" ph="eq...eq" />
+            <marker date="1547241176306" expanded="true" signature="365:617" ph="{...}" />
+            <marker date="1547241176306" expanded="true" signature="381:386" ph="edges...edges" />
+            <marker date="1547241176306" expanded="true" signature="381:605" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547241176306" expanded="true" signature="387:605" ph="{...}" />
+            <marker date="1547241176306" expanded="true" signature="407:411" ph="node...node" />
+            <marker date="1547241176306" expanded="true" signature="407:589" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547241176306" expanded="true" signature="412:589" ph="{...}" />
+            <marker date="1547241176306" expanded="true" signature="436:440" ph="path...path" />
+            <marker date="1547241176306" expanded="true" signature="463:475" ph="projectTitle...projectTitle" />
+            <marker date="1547241176306" expanded="true" signature="498:510" ph="projectBlurb...projectBlurb" />
+            <marker date="1547241176306" expanded="true" signature="533:541" ph="iconName...iconName" />
+            <marker date="1547241176306" expanded="true" signature="564:569" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/EquityProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1547241180386" expanded="true" signature="254:626" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547241180386" expanded="true" signature="260:277" ph="allProjects...allProjects" />
+            <marker date="1547241180386" expanded="true" signature="278:626" ph="{...}" />
+            <marker date="1547241180386" expanded="true" signature="290:305" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547241180386" expanded="true" signature="290:618" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547241180386" expanded="true" signature="305:365" ph="(...)" />
+            <marker date="1547241180386" expanded="true" signature="306:312" ph="filter...filter" />
+            <marker date="1547241180386" expanded="true" signature="306:364" ph="filter...{path: { eq: &quot;equity-economy&quot;}}" />
+            <marker date="1547241180386" expanded="true" signature="314:364" ph="{...}" />
+            <marker date="1547241180386" expanded="true" signature="315:328" ph="path...path" />
+            <marker date="1547241180386" expanded="true" signature="315:363" ph="path...{ eq: &quot;equity-economy&quot;}" />
+            <marker date="1547241180386" expanded="true" signature="330:363" ph="{...}" />
+            <marker date="1547241180386" expanded="true" signature="332:334" ph="eq...eq" />
+            <marker date="1547241180386" expanded="true" signature="366:618" ph="{...}" />
+            <marker date="1547241180386" expanded="true" signature="382:387" ph="edges...edges" />
+            <marker date="1547241180386" expanded="true" signature="382:606" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547241180386" expanded="true" signature="388:606" ph="{...}" />
+            <marker date="1547241180386" expanded="true" signature="408:412" ph="node...node" />
+            <marker date="1547241180386" expanded="true" signature="408:590" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547241180386" expanded="true" signature="413:590" ph="{...}" />
+            <marker date="1547241180386" expanded="true" signature="437:441" ph="path...path" />
+            <marker date="1547241180386" expanded="true" signature="464:476" ph="projectTitle...projectTitle" />
+            <marker date="1547241180386" expanded="true" signature="499:511" ph="projectBlurb...projectBlurb" />
+            <marker date="1547241180386" expanded="true" signature="534:542" ph="iconName...iconName" />
+            <marker date="1547241180386" expanded="true" signature="565:570" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/FoodProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1547241185622" expanded="true" signature="252:614" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547241185622" expanded="true" signature="258:273" ph="allProjects...allProjects" />
+            <marker date="1547241185622" expanded="true" signature="274:614" ph="{...}" />
+            <marker date="1547241185622" expanded="true" signature="286:301" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547241185622" expanded="true" signature="286:606" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547241185622" expanded="true" signature="301:353" ph="(...)" />
+            <marker date="1547241185622" expanded="true" signature="302:308" ph="filter...filter" />
+            <marker date="1547241185622" expanded="true" signature="302:352" ph="filter...{path: { eq: &quot;sustainable-food&quot;}}" />
+            <marker date="1547241185622" expanded="true" signature="310:352" ph="{...}" />
+            <marker date="1547241185622" expanded="true" signature="311:324" ph="path...path" />
+            <marker date="1547241185622" expanded="true" signature="311:351" ph="path...{ eq: &quot;sustainable-food&quot;}" />
+            <marker date="1547241185622" expanded="true" signature="326:351" ph="{...}" />
+            <marker date="1547241185622" expanded="true" signature="328:330" ph="eq...eq" />
+            <marker date="1547241185622" expanded="true" signature="354:606" ph="{...}" />
+            <marker date="1547241185622" expanded="true" signature="370:375" ph="edges...edges" />
+            <marker date="1547241185622" expanded="true" signature="370:594" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547241185622" expanded="true" signature="376:594" ph="{...}" />
+            <marker date="1547241185622" expanded="true" signature="396:400" ph="node...node" />
+            <marker date="1547241185622" expanded="true" signature="396:578" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547241185622" expanded="true" signature="401:578" ph="{...}" />
+            <marker date="1547241185622" expanded="true" signature="425:429" ph="path...path" />
+            <marker date="1547241185622" expanded="true" signature="452:464" ph="projectTitle...projectTitle" />
+            <marker date="1547241185622" expanded="true" signature="487:499" ph="projectBlurb...projectBlurb" />
+            <marker date="1547241185622" expanded="true" signature="522:530" ph="iconName...iconName" />
+            <marker date="1547241185622" expanded="true" signature="553:558" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/HealthProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1547241189414" expanded="true" signature="254:622" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547241189414" expanded="true" signature="260:277" ph="allProjects...allProjects" />
+            <marker date="1547241189414" expanded="true" signature="278:622" ph="{...}" />
+            <marker date="1547241189414" expanded="true" signature="290:305" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547241189414" expanded="true" signature="290:614" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547241189414" expanded="true" signature="305:361" ph="(...)" />
+            <marker date="1547241189414" expanded="true" signature="306:312" ph="filter...filter" />
+            <marker date="1547241189414" expanded="true" signature="306:360" ph="filter...{path: { eq: &quot;health-happiness&quot;}}" />
+            <marker date="1547241189414" expanded="true" signature="314:360" ph="{...}" />
+            <marker date="1547241189414" expanded="true" signature="315:328" ph="path...path" />
+            <marker date="1547241189414" expanded="true" signature="315:359" ph="path...{ eq: &quot;health-happiness&quot;}" />
+            <marker date="1547241189414" expanded="true" signature="330:359" ph="{...}" />
+            <marker date="1547241189414" expanded="true" signature="332:334" ph="eq...eq" />
+            <marker date="1547241189414" expanded="true" signature="362:614" ph="{...}" />
+            <marker date="1547241189414" expanded="true" signature="378:383" ph="edges...edges" />
+            <marker date="1547241189414" expanded="true" signature="378:602" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547241189414" expanded="true" signature="384:602" ph="{...}" />
+            <marker date="1547241189414" expanded="true" signature="404:408" ph="node...node" />
+            <marker date="1547241189414" expanded="true" signature="404:586" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547241189414" expanded="true" signature="409:586" ph="{...}" />
+            <marker date="1547241189414" expanded="true" signature="433:437" ph="path...path" />
+            <marker date="1547241189414" expanded="true" signature="460:472" ph="projectTitle...projectTitle" />
+            <marker date="1547241189414" expanded="true" signature="495:507" ph="projectBlurb...projectBlurb" />
+            <marker date="1547241189414" expanded="true" signature="530:538" ph="iconName...iconName" />
+            <marker date="1547241189414" expanded="true" signature="561:566" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/MaterialsProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1547241193886" expanded="true" signature="257:630" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547241193886" expanded="true" signature="263:283" ph="allProjects...allProjects" />
+            <marker date="1547241193886" expanded="true" signature="284:630" ph="{...}" />
+            <marker date="1547241193886" expanded="true" signature="296:311" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547241193886" expanded="true" signature="296:622" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547241193886" expanded="true" signature="311:369" ph="(...)" />
+            <marker date="1547241193886" expanded="true" signature="312:318" ph="filter...filter" />
+            <marker date="1547241193886" expanded="true" signature="312:368" ph="filter...{path: { eq: &quot;materials-products&quot;}}" />
+            <marker date="1547241193886" expanded="true" signature="320:368" ph="{...}" />
+            <marker date="1547241193886" expanded="true" signature="321:334" ph="path...path" />
+            <marker date="1547241193886" expanded="true" signature="321:367" ph="path...{ eq: &quot;materials-products&quot;}" />
+            <marker date="1547241193886" expanded="true" signature="336:367" ph="{...}" />
+            <marker date="1547241193886" expanded="true" signature="338:340" ph="eq...eq" />
+            <marker date="1547241193886" expanded="true" signature="370:622" ph="{...}" />
+            <marker date="1547241193886" expanded="true" signature="386:391" ph="edges...edges" />
+            <marker date="1547241193886" expanded="true" signature="386:610" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547241193886" expanded="true" signature="392:610" ph="{...}" />
+            <marker date="1547241193886" expanded="true" signature="412:416" ph="node...node" />
+            <marker date="1547241193886" expanded="true" signature="412:594" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547241193886" expanded="true" signature="417:594" ph="{...}" />
+            <marker date="1547241193886" expanded="true" signature="441:445" ph="path...path" />
+            <marker date="1547241193886" expanded="true" signature="468:480" ph="projectTitle...projectTitle" />
+            <marker date="1547241193886" expanded="true" signature="503:515" ph="projectBlurb...projectBlurb" />
+            <marker date="1547241193886" expanded="true" signature="538:546" ph="iconName...iconName" />
+            <marker date="1547241193886" expanded="true" signature="569:574" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/TransportProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1547241197931" expanded="true" signature="257:628" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547241197931" expanded="true" signature="263:283" ph="allProjects...allProjects" />
+            <marker date="1547241197931" expanded="true" signature="284:620" ph="{...}" />
+            <marker date="1547241197931" expanded="true" signature="284:628" ph="{...}" />
+            <marker date="1547241197931" expanded="true" signature="296:311" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547241197931" expanded="true" signature="296:620" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547241197931" expanded="true" signature="311:367" ph="(...)" />
+            <marker date="1547241197931" expanded="true" signature="312:318" ph="filter...filter" />
+            <marker date="1547241197931" expanded="true" signature="312:366" ph="filter...{onePlanetArea: { eq: &quot;Travel and Transport&quot;}}" />
+            <marker date="1547241197931" expanded="true" signature="320:366" ph="{...}" />
+            <marker date="1547241197931" expanded="true" signature="321:334" ph="onePlanetArea...onePlanetArea" />
+            <marker date="1547241197931" expanded="true" signature="321:365" ph="onePlanetArea...{ eq: &quot;Travel and Transport&quot;}" />
+            <marker date="1547241197931" expanded="true" signature="336:365" ph="{...}" />
+            <marker date="1547241197931" expanded="true" signature="338:340" ph="eq...eq" />
+            <marker date="1547241197931" expanded="true" signature="368:620" ph="{...}" />
+            <marker date="1547241197931" expanded="true" signature="370:620" ph="{...}" />
+            <marker date="1547241197931" expanded="true" signature="384:389" ph="edges...edges" />
+            <marker date="1547241197931" expanded="true" signature="384:608" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547241197931" expanded="true" signature="390:608" ph="{...}" />
+            <marker date="1547241197931" expanded="true" signature="410:414" ph="node...node" />
+            <marker date="1547241197931" expanded="true" signature="410:592" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547241197931" expanded="true" signature="415:592" ph="{...}" />
+            <marker date="1547241197931" expanded="true" signature="439:443" ph="path...path" />
+            <marker date="1547241197931" expanded="true" signature="466:478" ph="projectTitle...projectTitle" />
+            <marker date="1547241197931" expanded="true" signature="501:513" ph="projectBlurb...projectBlurb" />
+            <marker date="1547241197931" expanded="true" signature="536:544" ph="iconName...iconName" />
+            <marker date="1547241197931" expanded="true" signature="567:572" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1547241202043" expanded="true" signature="253:610" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547241202043" expanded="true" signature="259:275" ph="allProjects...allProjects" />
+            <marker date="1547241202043" expanded="true" signature="276:610" ph="{...}" />
+            <marker date="1547241202043" expanded="true" signature="288:303" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547241202043" expanded="true" signature="288:602" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547241202043" expanded="true" signature="303:349" ph="(...)" />
+            <marker date="1547241202043" expanded="true" signature="304:310" ph="filter...filter" />
+            <marker date="1547241202043" expanded="true" signature="304:348" ph="filter...{path: { eq: &quot;zero-waste&quot;}}" />
+            <marker date="1547241202043" expanded="true" signature="312:348" ph="{...}" />
+            <marker date="1547241202043" expanded="true" signature="313:326" ph="path...path" />
+            <marker date="1547241202043" expanded="true" signature="313:348" ph="path...{ eq: &quot;zero-waste&quot;}" />
+            <marker date="1547241202043" expanded="true" signature="328:347" ph="{...}" />
+            <marker date="1547241202043" expanded="true" signature="328:348" ph="{...}" />
+            <marker date="1547241202043" expanded="true" signature="330:332" ph="eq...eq" />
+            <marker date="1547241202043" expanded="true" signature="350:602" ph="{...}" />
+            <marker date="1547241202043" expanded="true" signature="366:371" ph="edges...edges" />
+            <marker date="1547241202043" expanded="true" signature="366:590" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547241202043" expanded="true" signature="372:590" ph="{...}" />
+            <marker date="1547241202043" expanded="true" signature="392:396" ph="node...node" />
+            <marker date="1547241202043" expanded="true" signature="392:574" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547241202043" expanded="true" signature="397:574" ph="{...}" />
+            <marker date="1547241202043" expanded="true" signature="421:425" ph="path...path" />
+            <marker date="1547241202043" expanded="true" signature="448:460" ph="projectTitle...projectTitle" />
+            <marker date="1547241202043" expanded="true" signature="483:495" ph="projectBlurb...projectBlurb" />
+            <marker date="1547241202043" expanded="true" signature="518:526" ph="iconName...iconName" />
+            <marker date="1547241202043" expanded="true" signature="549:554" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Feature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1547241209155" expanded="true" signature="253:617" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547241209155" expanded="true" signature="259:275" ph="allProjects...allProjects" />
+            <marker date="1547241209155" expanded="true" signature="276:617" ph="{...}" />
+            <marker date="1547241209155" expanded="true" signature="288:303" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547241209155" expanded="true" signature="288:609" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547241209155" expanded="true" signature="303:356" ph="(...)" />
+            <marker date="1547241209155" expanded="true" signature="304:310" ph="filter...filter" />
+            <marker date="1547241209155" expanded="true" signature="304:355" ph="filter...{path: { eq: &quot;sustainable-water&quot;}}" />
+            <marker date="1547241209155" expanded="true" signature="312:355" ph="{...}" />
+            <marker date="1547241209155" expanded="true" signature="313:326" ph="path...path" />
+            <marker date="1547241209155" expanded="true" signature="313:354" ph="path...{ eq: &quot;sustainable-water&quot;}" />
+            <marker date="1547241209155" expanded="true" signature="328:354" ph="{...}" />
+            <marker date="1547241209155" expanded="true" signature="330:332" ph="eq...eq" />
+            <marker date="1547241209155" expanded="true" signature="357:609" ph="{...}" />
+            <marker date="1547241209155" expanded="true" signature="373:378" ph="edges...edges" />
+            <marker date="1547241209155" expanded="true" signature="373:597" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547241209155" expanded="true" signature="379:597" ph="{...}" />
+            <marker date="1547241209155" expanded="true" signature="399:403" ph="node...node" />
+            <marker date="1547241209155" expanded="true" signature="399:581" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547241209155" expanded="true" signature="404:581" ph="{...}" />
+            <marker date="1547241209155" expanded="true" signature="428:432" ph="path...path" />
+            <marker date="1547241209155" expanded="true" signature="455:467" ph="projectTitle...projectTitle" />
+            <marker date="1547241209155" expanded="true" signature="490:502" ph="projectBlurb...projectBlurb" />
+            <marker date="1547241209155" expanded="true" signature="525:533" ph="iconName...iconName" />
+            <marker date="1547241209155" expanded="true" signature="556:561" ph="state...state" />
           </folding>
         </state>
       </provider>
