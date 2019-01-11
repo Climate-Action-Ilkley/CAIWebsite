@@ -22,6 +22,7 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-twitter',
     `gatsby-transformer-json`,
+    "gatsby-transformer-javascript-frontmatter",
     {
         resolve: `gatsby-source-filesystem`,
         options: {
@@ -29,4 +30,4 @@ module.exports = {
         },
     },
   ],
-}
+};

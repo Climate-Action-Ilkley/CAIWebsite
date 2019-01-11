@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import OnePlanetNav from '../../components/OnePlanetNav';
-import ProjectContainer from '../../components/ProjectsContainer';
-import ProjectFeature from '../../components/ProjectFeature';
+import Layout from '../components/layout'
+import OnePlanetNav from '../components/OnePlanetNav';
+import ProjectContainer from '../components/ProjectsContainer';
+import ProjectFeature from '../components/Feature';
 
 class Generic extends React.Component {
   render() {

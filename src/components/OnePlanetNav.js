@@ -29,7 +29,7 @@ const OnePlanetNav = ({area, navStyle}) => {
         </div>
     )
 
-}
+};
 
 
 export default OnePlanetNav;

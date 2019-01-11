@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import OnePlanetNav from '../../components/OnePlanetNav';
-import ProjectContainer from '../../components/ProjectsContainer';
-import ProjectFeature from '../../components/ProjectFeature';
+import Layout from '../components/layout'
+import OnePlanetNav from '../components/OnePlanetNav';
+import ProjectContainer from '../components/ProjectsContainer';
+import Feature from '../components/Feature';
 
 class Generic extends React.Component {
   render() {
@@ -11,20 +11,21 @@ class Generic extends React.Component {
     return (
       <Layout>
         <div id="main">
-            <OnePlanetNav area="Land and Nature" navStyle="land"/>
+            <OnePlanetNav area="Zero Waste" navStyle="waste"/>
 
             <section id="intro" className="main">
                 <div className="spotlight">
                     <div className="content">
                         <header className="major">
 
-                          <h2>Land and Nature</h2>
+                          <h2>Zero Waste</h2>
                         </header>
-                        <h2>Protecting and restoring land for the benefit of people and wildlife</h2>
+                        <h2>Reducing consumption, reusing and recycling to achieve zero waste and zero pollution</h2>
                     </div>
                     <span className="image"><span className="icon major style2 fa-bolt"/></span>
                 </div>
             </section>
+
             <ProjectContainer 
               plannedProjects={
                 <ul className="features">
@@ -32,11 +33,16 @@ class Generic extends React.Component {
               }
               activeProjects={
                 <ul className="features">
-
+                  <Feature
+                      url="foodwaste"
+                      projectTitle="Food Waste"
+                      blurb="We are in talks with ReFood to recycle food waste and convert it into gas."
+                      iconStyle="fa-apple"
+                      styleIndex={6}
+                    />
                 </ul>
               }
-            />
-
+            />  
         </div>
       </Layout>
     )

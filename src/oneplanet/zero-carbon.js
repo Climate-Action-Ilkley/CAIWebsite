@@ -1,10 +1,9 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import OnePlanetNav from '../../components/OnePlanetNav';
-import ProjectContainer from '../../components/ProjectsContainer';
-import ProjectFeature from '../../components/ProjectFeature';
-
+import Layout from '../components/layout'
+import OnePlanetNav from '../components/OnePlanetNav';
+import ProjectContainer from '../components/ProjectsContainer';
+import Feature from '../components/Feature';
 
 class Generic extends React.Component {
   render() {
@@ -12,34 +11,36 @@ class Generic extends React.Component {
     return (
       <Layout>
         <div id="main">
-            <OnePlanetNav area="Culture and Community" navStyle="culture"/>
+            <OnePlanetNav area="Zero Carbon" navStyle="carbon"/>
 
             <section id="intro" className="main">
                 <div className="spotlight">
                     <div className="content">
                         <header className="major">
 
-                          <h2>Culture and Community</h2>
+                          <h2>Zero Carbon</h2>
                         </header>
-                        <h2>Nurturing local identity and heritage, empowering communities and promoting a culture of sustainable living.</h2>
+                        <h2>Making buildings and manufacturing energy efficient and supplying all energy with renewables</h2>
                     </div>
                     <span className="image"><span className="icon major style2 fa-bolt"/></span>
                 </div>
             </section>
+
             <ProjectContainer 
               plannedProjects={
                 <ul className="features">
+                  <Feature
+                    url="communityenergy"
+                    projectTitle="Community Energy Company"
+                    blurb="We want to set up a community energy company that produces local renewable energy, that is then sold locally."
+                    iconStyle="fa-bolt"
+                    styleIndex={4}
+                  />
               </ul>
               }
               activeProjects={
                 <ul className="features">
-                  <ProjectFeature
-                    url="neighbourhoodplan"
-                    blurb="We aim to influence the neighbourhood plan to include concrete action on climate change."
-                    projectTitle="Neighbourhood Plan"
-                    iconStyle="fa-users"
-                    styleIndex={2}
-                  />
+
                 </ul>
               }
             />

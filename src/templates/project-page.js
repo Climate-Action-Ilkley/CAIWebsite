@@ -31,7 +31,7 @@ const ProjectPageTemplate = (props) => {
         </Layout>
         )
 
-}
+};
 
 
 // ProjectPageTemplate.propTypes = {
@@ -46,17 +46,17 @@ const ProjectPageTemplate = (props) => {
 
 
 // For some reason this query returns null rather than project page. Something to do with oath not being correct?
-export const projectPageQuery = graphql`
-    query projectsJson($pathName: String!) {
-      projectsJson(path: { eq: $pathName }) {
-        iconName
-        iconStyle 
-        projectTitle
-        projectBlurb
-        onePlanetArea
-        onePlanetNavStyle
-      }
-    }
-`;
+    export const projectPageQuery = graphql`
+        query projectsJson($pathName: String!) {
+          projectsJson(path: { eq: $pathName }) {
+            iconName
+            iconStyle 
+            projectTitle
+            projectBlurb
+            onePlanetArea
+            onePlanetNavStyle
+          }
+        }
+    `;
 
 export default ProjectPageTemplate;

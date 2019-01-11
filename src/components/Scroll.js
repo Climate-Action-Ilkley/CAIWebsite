@@ -11,7 +11,7 @@ class Scroll extends React.Component {
         offset: PropTypes.number,
         timeout: PropTypes.number,
         children: PropTypes.node.isRequired
-    }
+    };
     constructor() {
         super();
         this.handleClick = this.handleClick.bind(this);

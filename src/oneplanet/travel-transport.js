@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import OnePlanetNav from '../../components/OnePlanetNav';
-import ProjectContainer from '../../components/ProjectsContainer';
-import ProjectFeature from '../../components/ProjectFeature';
+import Layout from '../components/layout'
+import OnePlanetNav from '../components/OnePlanetNav';
+import ProjectContainer from '../components/ProjectsContainer';
+import Feature from '../components/Feature';
 
 class Generic extends React.Component {
   render() {
@@ -33,7 +33,7 @@ class Generic extends React.Component {
               }
               activeProjects={
                 <ul className="features">
-                  <ProjectFeature
+                  <Feature
                     url="electriccarclub"
                     projectTitle="Electric Car Club"
                     blurb="We plan for a electric car club giving members of Ilkley an alternate option to a second car."

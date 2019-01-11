@@ -26,6 +26,6 @@ const Footer = (props) => (
         </section>
         <p className="copyright">&copy; Untitled. Design: <a href="https://misterwip.uk">Mister Wip</a>.</p>
     </footer>
-)
+);
 
 export default Footer

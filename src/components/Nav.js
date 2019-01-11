@@ -42,6 +42,6 @@ const Nav = (props) => (
             </li>
         </Scrollspy>
     </nav>
-)
+);
 
 export default Nav

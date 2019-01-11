@@ -13,6 +13,6 @@ const ProjectTab = ({isActive, children}) => {
     }
 
 
-}
+};
 
 export default ProjectTab;

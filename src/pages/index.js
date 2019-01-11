@@ -1,10 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
-import ProjectFeature from '../components/ProjectFeature'
+import Feature from '../components/Feature'
 import Layout from '../components/layout'
-import Header from '../components/Header'
+import OnePlanetAreaListContainer from '../components/OnePlanetAreaListContainer'
 import ProjectContainer from '../components/ProjectsContainer'
 import Nav from '../components/Nav'
 import logo from '../assets/images/web-icon.png'
@@ -19,11 +18,11 @@ class Index extends React.Component {
 
   _handleWaypointEnter= () => {
     this.setState(() => ({ stickyNav: false }));
-  }
+  };
 
   _handleWaypointLeave = () => {
     this.setState(() => ({ stickyNav: true }));
-  }
+  };
 
   render() {
 
@@ -53,7 +52,8 @@ class Index extends React.Component {
           <section id="about" className="main special">
               <header className="major">
                   <h2>About Us</h2>
-                  <p>The members of climate action ilkley ....<br /></p>
+                  <p>We are a local climate action group that aims to promote community-wide action to tackle climate change and make a just transition to a sustainable zero carbon community for Ilkley. What began as friends discussing climate issues over dinner, has evolved into a structured group of Ilkley residents working in partnership with local, national and international organisations.
+                    Climate Action Ilkley is organised through a Committee, which sets specific, achievable and reasonable goals. Our scope includes influencing Ilkley’s Neighbourhood Plan, improving the food waste regimes and promoting renewable energy projects.</p>
               </header>
               <ul className="actions">
                   <li><Link to="/events" className="button">Learn More</Link></li>
@@ -106,53 +106,8 @@ class Index extends React.Component {
             </footer>
           </section>
           <section id="second" className="main special">
-          <header className="major">
-              <h2>One Planet Living Framework</h2>
-              <p>We use the One Planet Living framework to organise and plan our projects within the local community. They are split up into one of these 10 categories.</p>
-
-            </header>
+          <OnePlanetAreaListContainer/>
           </section>
-
-            <ProjectContainer 
-              plannedProjects={
-                <ul className="features">
-                  <ProjectFeature
-                    url="communityenergy"
-                    projectTitle="Community Energy Company"
-                    blurb="We want to set up a community energy company that produces local renewable energy, that is then sold locally."
-                    iconStyle="fa-bolt"
-                    styleIndex={4}
-                  />
-              </ul>
-              }
-              activeProjects={
-                <ul className="features">
-                  <ProjectFeature
-                    url="neighbourhoodplan"
-                    blurb="We aim to influence the neighbourhood plan to include concrete action on climate change."
-                    projectTitle="Neighbourhood Plan"
-                    iconStyle="fa-users"
-                    styleIndex={2}
-                  />
-                  <ProjectFeature
-                    url="electriccarclub"
-                    projectTitle="Electric Car Club"
-                    blurb="We plan for a electric car club giving members of Ilkley an alternate option to a second car."
-                    iconStyle="fa-car"
-                    styleIndex={1}
-                  />
-                  <ProjectFeature
-                    url="foodwaste"
-                    projectTitle="Food Waste"
-                    blurb="We are in talks with ReFood to recycle food waste and convert it into gas."
-                    iconStyle="fa-apple"
-                    styleIndex={6}
-                  />
-                </ul>
-              }
-            />
-
-
           <section id="events" className="main special">
             <header className="major">
               <h2>Upcoming Events</h2>

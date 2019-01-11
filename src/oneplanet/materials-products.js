@@ -1,9 +1,8 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import OnePlanetNav from '../../components/OnePlanetNav';
-import ProjectContainer from '../../components/ProjectsContainer';
-import ProjectFeature from '../../components/ProjectFeature';
+import Layout from '../components/layout'
+import OnePlanetNav from '../components/OnePlanetNav';
+import ProjectContainer from '../components/ProjectsContainer';
 
 class Generic extends React.Component {
   render() {
@@ -11,16 +10,16 @@ class Generic extends React.Component {
     return (
       <Layout>
         <div id="main">
-            <OnePlanetNav area="Health and Happiness" navStyle="health"/>
+            <OnePlanetNav area="Materials and Products" navStyle="materials"/>
 
             <section id="intro" className="main">
                 <div className="spotlight">
                     <div className="content">
                         <header className="major">
 
-                          <h2>Health and Happiness</h2>
+                          <h2>Materials and Products</h2>
                         </header>
-                        <h2>Encouraging active, sociable, meaningful lives to promote good health and wellbeing</h2>
+                        <h2>Using materials from sustainable sources and promoting products which help people reduce consumption</h2>
                     </div>
                     <span className="image"><span className="icon major style2 fa-bolt"/></span>
                 </div>

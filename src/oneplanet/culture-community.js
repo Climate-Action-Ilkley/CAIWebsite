@@ -1,9 +1,10 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import OnePlanetNav from '../../components/OnePlanetNav';
-import ProjectContainer from '../../components/ProjectsContainer';
-import ProjectFeature from '../../components/ProjectFeature';
+import Layout from '../components/layout'
+import OnePlanetNav from '../components/OnePlanetNav';
+import ProjectContainer from '../components/ProjectsContainer';
+import Feature from '../components/Feature';
+
 
 class Generic extends React.Component {
   render() {
@@ -11,21 +12,20 @@ class Generic extends React.Component {
     return (
       <Layout>
         <div id="main">
-            <OnePlanetNav area="Equity and Local Economy" navStyle="equity"/>
+            <OnePlanetNav area="Culture and Community" navStyle="culture"/>
 
             <section id="intro" className="main">
                 <div className="spotlight">
                     <div className="content">
                         <header className="major">
 
-                          <h2>Equity and Local Economy</h2>
+                          <h2>Culture and Community</h2>
                         </header>
-                        <h2>Creating safe, equitable places to live and work which support local prosperity and international fair trade</h2>
+                        <h2>Nurturing local identity and heritage, empowering communities and promoting a culture of sustainable living.</h2>
                     </div>
                     <span className="image"><span className="icon major style2 fa-bolt"/></span>
                 </div>
             </section>
-
             <ProjectContainer 
               plannedProjects={
                 <ul className="features">
@@ -33,7 +33,13 @@ class Generic extends React.Component {
               }
               activeProjects={
                 <ul className="features">
-
+                  <Feature
+                    url="neighbourhoodplan"
+                    blurb="We aim to influence the neighbourhood plan to include concrete action on climate change."
+                    projectTitle="Neighbourhood Plan"
+                    iconStyle="fa-users"
+                    styleIndex={2}
+                  />
                 </ul>
               }
             />

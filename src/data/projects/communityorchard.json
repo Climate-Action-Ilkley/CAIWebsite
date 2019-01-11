@@ -1,0 +1,10 @@
+{
+  "path": "community-orchard",
+  "projectTitle": "Community Orchard",
+  "projectBlurb": "To work with Friends of Riverside Gardens to establish a community orchard in Ilkley",
+  "iconStyle" : "style6",
+  "iconName" : "fa-tree",
+  "onePlanetArea": "Sustainable Food",
+  "onePlanetNavStyle": "food",
+  "state": "PLANNED"
+}

@@ -7,6 +7,6 @@ const Header = (props) => (
     <header id="header" className="alt">
         <Link className="logo" to="/"><img src={logo} alt="" /></Link>
     </header>
-)
+);
 
 export default Header

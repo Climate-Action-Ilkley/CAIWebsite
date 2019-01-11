@@ -1,7 +1,7 @@
 const path = require('path');
 
 exports.createPages = ({ graphql, actions }) => {
-    const { createPage } = actions
+    const { createPage } = actions;
     return graphql(`{
         allProjectsJson(limit: 1000) {
           edges {
@@ -38,5 +38,36 @@ exports.createPages = ({ graphql, actions }) => {
                 },
             })
         })
+    }).then(() => {
+      return graphql(`{
+        allOneplanetlivingJson {
+          edges {
+            node {
+              path
+            }
+          }
+        }
+						
+      }`).then(result => {
+        if (result.errors) {
+          throw result.errors
+        }
+        const OnePlanetPageTemplate = path.resolve(`src/templates/oneplanet-page.js`);
+
+        result.data.allOneplanetlivingJson.edges.forEach(edge => {
+
+          createPage({
+            // Each page is required to have a `path` as well
+            // as a template component. The `context` is
+            // optional but is often necessary so the template
+            // can query data specific to each page.
+            path: ("oneplanet/" + edge.node.path),
+            component: OnePlanetPageTemplate,
+            context: {
+              pathName: edge.node.path,
+            },
+          })
+        })
+      })
     })
-}
+};

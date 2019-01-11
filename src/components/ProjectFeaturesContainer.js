@@ -1,10 +1,8 @@
 import React from "react";
 import ProjectTab from './ProjectTab';
+import ProjectsList from './ProjectsList';
 
-
-
-
-class ProjectContainer extends React.Component {
+class ProjectFeaturesContainer extends React.Component {
 
     state = {
         activeTab: "1",
@@ -23,6 +21,8 @@ class ProjectContainer extends React.Component {
         if (typeof window === `undefined`) {
             return <div>Projects</div>
         }
+        const activeProjects = this.props.projects.filter(project => project.node.state === "ACTIVE");
+        const plannedProjects = this.props.projects.filter(project => project.node.state === "PLANNED");
 
         return (
             <section className="main special">
@@ -35,10 +35,10 @@ class ProjectContainer extends React.Component {
                     <button className="tab-button" id={"2" === this.state.activeTab ? "active" : ""} onClick={() => this.togglePills("2")}>Planned</button>
                 </div>
                 <ProjectTab isActive={this.state.activeTab === "1"} >
-                    {this.props.activeProjects}
+                    <ProjectsList projects={activeProjects}/>
                 </ProjectTab>
                 <ProjectTab isActive={this.state.activeTab === "2"}>
-                    {this.props.plannedProjects}
+                    <ProjectsList projects={plannedProjects}/>
                 </ProjectTab>
             </div>
             </section>
@@ -46,4 +46,4 @@ class ProjectContainer extends React.Component {
     }
 }
 
-export default ProjectContainer;
+export default ProjectFeaturesContainer;
