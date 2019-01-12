@@ -24,8 +24,8 @@ const HealthProjectFeatures = () => (
 
     `}
     render={data => {
-      const toRender = data.allProjectsJson ? <ProjectFeaturesContainer projects={data.allProjectsJson.edges}/>:  <div/>;
-      return toRender;
+      return <ProjectFeaturesContainer projects={data.allProjectsJson}/>;
+
     }}
   />
 );

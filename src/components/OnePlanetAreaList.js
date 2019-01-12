@@ -17,7 +17,7 @@ const OnePlanetAreaList = ({onePlanetAreas}) => {
         <Feature
           url={"oneplanet/" + edge.node.path}
           blurb={edge.node.description}
-          styleIndex={2}
+          iconStyle={edge.node.style}
           title={edge.node.area}
           icon={edge.node.icon}
         />)})}

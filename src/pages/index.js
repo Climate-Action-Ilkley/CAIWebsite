@@ -1,11 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Waypoint from 'react-waypoint'
-import Feature from '../components/Feature'
 import Layout from '../components/layout'
 import OnePlanetAreaListContainer from '../components/OnePlanetAreaListContainer'
-import ProjectContainer from '../components/ProjectsContainer'
-import Nav from '../components/Nav'
+import HomePageNav from '../components/HomePageNav'
 import logo from '../assets/images/web-icon.png'
 
 class Index extends React.Component {
@@ -34,7 +32,7 @@ class Index extends React.Component {
           onLeave={this._handleWaypointLeave}
         >
         </Waypoint>
-        <Nav sticky={this.state.stickyNav} />
+        <HomePageNav sticky={this.state.stickyNav} />
 
         <div id="main">
 
@@ -99,11 +97,11 @@ class Index extends React.Component {
 
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/basics" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
+            {/*<footer className="major">*/}
+              {/*<ul className="actions">*/}
+                {/*<li><Link to="/basics" className="button">Learn More</Link></li>*/}
+              {/*</ul>*/}
+            {/*</footer>*/}
           </section>
           <section id="second" className="main special">
           <OnePlanetAreaListContainer/>
@@ -128,16 +126,26 @@ class Index extends React.Component {
                   <li><Link to="/events" className="button">Learn More</Link></li>
               </ul>
           </section>
+          <section id="newsletter" className="main special">
+            <header className="major">
+              <h2>Newsletter</h2>
+              <p>Sign up for our newsletter to keep up to date with the latest news and events from Climate Action Ilkley.</p>
+            </header>
+            <footer className="major">
+              <ul className="actions">
+                <li><a href="https://facebook.us18.list-manage.com/subscribe?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="button special">Sign Up</a></li>
+                <li><Link to="/newsletter" className="button">View Archive</Link></li>
+              </ul>
+            </footer>
+          </section>
           <section id="cta" className="main special">
             <header className="major">
               <h2>Get Involved</h2>
-              <p>Sign up for our newsletter to keep up to date with the latest from Climate Action Ilkley. <br/>
-              Or if you are interested in getting more involved, send us an email we welcome more active members of our community.<br/> Together we can make a difference.</p>
+              <p>If you are interested in getting more involved, send us an email. <br/> We always welcome more active members of our community.<br/> Together we can make a difference.</p>
             </header>
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/getinvolved" className="button special">Get Involved</Link></li>
-                <li><a href="https://facebook.us18.list-manage.com/subscribe?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="button">Sign Up</a></li>
               </ul>
             </footer>
           </section>

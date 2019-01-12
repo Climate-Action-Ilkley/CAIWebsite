@@ -17,12 +17,18 @@ class ProjectFeaturesContainer extends React.Component {
         }
     };
 
+    activeProjects = null;
+    plannedProjects = null;
+
     render() {
         if (typeof window === `undefined`) {
-            return <div>Projects</div>
+            return <div/>
         }
-        const activeProjects = this.props.projects.filter(project => project.node.state === "ACTIVE");
-        const plannedProjects = this.props.projects.filter(project => project.node.state === "PLANNED");
+        if (this.props.projects !== null) {
+          this.activeProjects = this.props.projects.edges.filter(project => project.node.state === "ACTIVE");
+          this.plannedProjects = this.props.projects.edges.filter(project => project.node.state === "PLANNED");
+
+        }
 
         return (
             <section className="main special">
@@ -35,10 +41,10 @@ class ProjectFeaturesContainer extends React.Component {
                     <button className="tab-button" id={"2" === this.state.activeTab ? "active" : ""} onClick={() => this.togglePills("2")}>Planned</button>
                 </div>
                 <ProjectTab isActive={this.state.activeTab === "1"} >
-                    <ProjectsList projects={activeProjects}/>
+                    <ProjectsList projects={this.activeProjects}/>
                 </ProjectTab>
                 <ProjectTab isActive={this.state.activeTab === "2"}>
-                    <ProjectsList projects={plannedProjects}/>
+                    <ProjectsList isPlannedList={true} projects={this.plannedProjects}/>
                 </ProjectTab>
             </div>
             </section>

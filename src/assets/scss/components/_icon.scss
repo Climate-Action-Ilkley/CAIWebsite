@@ -74,6 +74,46 @@
 			color: _palette(accent5);
 		}
 
+
+		&.health {
+			color: _palette(health);
+		}
+
+		&.equity {
+			color: _palette(equity);
+		}
+
+		&.culture {
+			color: _palette(culture);
+		}
+		&.land {
+			color: _palette(land);
+		}
+
+		&.water {
+			color: _palette(water);
+		}
+
+		&.food {
+			color: _palette(food);
+		}
+
+		&.materials {
+			color: _palette(materials);
+		}
+
+		&.transport {
+			color: _palette(transport);
+		}
+
+		&.waste {
+			color: _palette(waste);
+		}
+
+		&.carbon {
+			color: _palette(carbon);
+		}
+
 		@include breakpoint(xlarge) {
 			&.major {
 				&:before {

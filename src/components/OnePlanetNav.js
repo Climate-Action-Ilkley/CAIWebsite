@@ -1,13 +1,14 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
-const OnePlanetNav = ({area, navStyle}) => {
+const OnePlanetNav = ({area, navStyle, areaUrl}) => {
     if (typeof window === `undefined`) {
         return <div/>
     }
     const { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } = require("mdbreact");
     return (
         <div className={"one-planet-nav " + navStyle}>
+            <Link to="/"><span className={"icon fa-lg fa-home"}/></Link>
             <MDBDropdown>
                 <MDBDropdownToggle left caret color="none">
                     One Planet Living
@@ -25,11 +26,38 @@ const OnePlanetNav = ({area, navStyle}) => {
                     <Link to="oneplanet/zero-carbon"><MDBDropdownItem>Zero carbon</MDBDropdownItem></Link>
                 </MDBDropdownMenu>
             </MDBDropdown>
-            <h2>{area}</h2>
+            <h2><Link to={"oneplanet/" + getOnePlanetAreaUrl(area)}>{area}</Link></h2>
         </div>
     )
 
 };
+
+function getOnePlanetAreaUrl(area) {
+  switch(area) {
+    case "Culture and Community":
+      return "culture-community";
+    case "Equity and Local Economy":
+      return "equity-economy";
+    case "Health and Happiness":
+      return "health-happiness";
+    case "Land and Nature":
+      return "land-nature";
+    case "Materials and Products":
+      return "materials-products";
+    case "Sustainable Food":
+      return "sustainable-food";
+    case "Sustainable Water":
+      return "sustainable-water";
+    case "Travel and Transport":
+      return "travel-transport";
+    case "Zero Carbon":
+      return "zero-carbon";
+    case "Zero Waste":
+      return "zero-waste";
+    default:
+      return "/" ;
+  }
+}
 
 
 export default OnePlanetNav;

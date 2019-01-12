@@ -32,7 +32,7 @@ const OnePlanetPageTemplate = (props) => {
               </header>
               <h2>{description}</h2>
             </div>
-            <span className="image"><span className={"icon major style2 " + icon}/></span>
+            <span className="image"><span className={"icon major " + style + " " + icon}/></span>
           </div>
         </section>
         {getOnePlanetProjects(area)}

@@ -2,7 +2,7 @@ import React from 'react'
 import Scrollspy from 'react-scrollspy'
 import Scroll from './Scroll'
 
-const Nav = (props) => (
+const HomePageNav = (props) => (
     <nav id="nav" className={props.sticky ? 'alt' : ''}>
         <Scrollspy items={ ['intro', 'about', 'first', 'second', 'events', 'network', 'cta'] } currentClassName="is-active" offset={-300}>
             <li>
@@ -36,6 +36,11 @@ const Nav = (props) => (
                 </Scroll>
             </li>
             <li>
+                <Scroll type="id" element="newsletter">
+                    <a href="#">Newsletter</a>
+                </Scroll>
+            </li>
+            <li>
                 <Scroll type="id" element="cta">
                     <a href="#">Get Involved</a>
                 </Scroll>
@@ -44,4 +49,4 @@ const Nav = (props) => (
     </nav>
 );
 
-export default Nav
+export default HomePageNav

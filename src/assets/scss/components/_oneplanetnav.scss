@@ -27,47 +27,57 @@
   }
 
 
+  &.health {
+    background-color: _palette(health);
+  }
+
+  &.equity {
+    background-color: _palette(equity);
+  }
+
+  &.culture {
+    background-color: _palette(culture);
+  }
+  &.land {
+    background-color: _palette(land);
+  }
+
+  &.water {
+    background-color: _palette(water);
+  }
+
+  &.food {
+    background-color: _palette(food);
+  }
+
+  &.materials {
+    background-color: _palette(materials);
+  }
+
+  &.transport {
+    background-color: _palette(transport);
+  }
+
+  &.waste {
+    background-color: _palette(waste);
+  }
+
+  &.carbon {
+    background-color: _palette(carbon);
+  }
+
 
 
 }
 
-.health {
-  background-color: #ffb319;
-}
-
-.equity {
-  background-color: #8dc63f;
-}
-
-.culture {
-  background-color: #1ab349;
-}
-.land {
-  background-color: #00a099;
-}
-
-.water {
-  background-color: #00b3f6;
-}
-
-.food {
-  background-color: #0089d3;
-}
-
-.materials {
-  background-color: #f40090;
-}
-
-.transport {
-  background-color: #bc1998;
-}
-
-.waste {
-  background-color: #ed1651;
-}
-
-.carbon {
-  background-color: #ff7119;
+@include breakpoint(medium) {
+  .one-planet-nav {
+    display: block;
+    padding: 0.5em 1.5em;
+    button, .btn, h2 {
+      font-size: 1.5em;
+    }
+  }
 }
 
 @include breakpoint(small) {
@@ -89,4 +99,8 @@
   }
 
 
+}
+
+a {
+  border-bottom: none;
 }

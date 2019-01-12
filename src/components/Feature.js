@@ -7,11 +7,11 @@ import { Link } from 'gatsby';
 
 
 
-const Feature = ({ url, title, blurb, icon, styleIndex}) => {
+const Feature = ({ url, title, blurb, icon, iconStyle}) => {
   return (
     <li>
       <Link to={url}>
-        <span className={"icon major style" + styleIndex + " " + icon}/>
+        <span className={"icon major " + iconStyle + " " + icon}/>
         <h3>{title}</h3>
         <p>{blurb}</p>
       </Link>
@@ -24,7 +24,7 @@ Feature.propTypes = {
   title: PropTypes.string.isRequired,
   blurb: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
-  styleIndex: PropTypes.number.isRequired
+  iconStyle: PropTypes.string.isRequired
 };
 
 export default Feature;
