@@ -13,7 +13,6 @@ const Feature = ({ url, title, blurb, icon, iconStyle}) => {
       <Link to={url}>
         <span className={"icon major " + iconStyle + " " + icon}/>
         <h3>{title}</h3>
-        <p>{blurb}</p>
       </Link>
     </li>
   )
