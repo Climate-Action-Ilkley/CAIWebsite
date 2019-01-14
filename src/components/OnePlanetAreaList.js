@@ -10,7 +10,7 @@ const OnePlanetAreaList = ({onePlanetAreas}) => {
       <h2>One Planet Living Framework</h2>
       <p>We use the One Planet Living framework to organise and plan our projects within the local community. They are split up into one of these 10 categories.</p>
     </header>
-    <ul className="features">
+    <ul className="features oneplanet">
       {onePlanetAreas.map(edge => {
         console.log(edge);
         return (

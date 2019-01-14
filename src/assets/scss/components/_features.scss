@@ -15,10 +15,21 @@
 		padding: 0;
 		list-style: none;
 
-		&
+		&.project {
+			li {
+				width: calc(#{(100% / 4)} - #{_size(element-margin)});
+			}
+		}
+
+		&.oneplanet {
+			li {
+				width: calc(#{(100% / 5)} - #{_size(element-margin)});
+
+			}
+		}
+
 
 		li {
-			width: calc(#{(100% / 4)} - #{_size(element-margin)});
 			margin-left: _size(element-margin);
 			padding: 0;
 
