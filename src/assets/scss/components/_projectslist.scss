@@ -1,9 +1,11 @@
 .projects-list {
     .tab-button {
         margin: 10px 0px 20px 0;
-        border-radius: 5px
+        border-radius: 5px;
+        font-weight: bold;
+        color: white!important;
     }
     #active {
-        background-color: blue !important;
+        background-color: #86d6e9 !important;
     }
 }
