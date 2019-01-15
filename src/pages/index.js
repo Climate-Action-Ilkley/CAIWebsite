@@ -83,7 +83,7 @@ class Index extends React.Component {
                     <strong>We're Sure</strong>
                   </Link>
               </li>
-              <li className="style1">
+              <li className="style4">
                 <Link to="/basics#bad">
                 <span className="icon fa-times-circle"/>
                 <strong>It's Bad</strong>
