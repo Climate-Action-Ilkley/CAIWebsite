@@ -14,7 +14,7 @@ const ProjectList = ({projects, isPlannedList}) => {
               icon={project.node.iconName}
               iconStyle="style2 project"
             />
-        }) : null}
+        }) : !isPlannedList ? <h1>Help us move some projects to active</h1> : null}
         {isPlannedList ? <QuestionFeature/> : null}
       </ul>
     )
