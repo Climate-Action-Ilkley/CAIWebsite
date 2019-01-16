@@ -16,6 +16,12 @@ const Footer = (props) => (
                 <li><a href="#" target="_blank" className="icon fa-dribbble alt"><span className="label">Dribbble</span></a></li>
             </ul>
         </section>
+      <section>
+        <h2>Contact Us</h2>
+        <ul className="icons">
+          <li><h3>climateactionilkley@gmail.com</h3></li>
+        </ul>
+      </section>
         <p>Website by: <a href="https://misterwip.uk" target="_blank">Mister Wip</a>.</p>
     </footer>
 );
