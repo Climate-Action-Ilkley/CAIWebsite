@@ -15,6 +15,23 @@
 		padding: 0;
 		list-style: none;
 
+
+
+		&.profile-pictures {
+			li {
+				width: calc(#{(100% / 5)} - #{_size(element-margin)});
+				.headshot {
+					img {
+						width: 100%;
+						border-radius: 100%;
+
+					}
+
+				}
+			}
+
+		}
+
 		&.project {
 			li {
 				width: calc(#{(100% / 4)} - #{_size(element-margin)});
@@ -60,7 +77,7 @@
 		@include breakpoint(small) {
 			width: 100%;
 			margin: 0 0 _size(element-margin) 0;
-			&.oneplanet,&.project {
+			&.profile-pictures,&.oneplanet,&.project {
 				li {
 					width: 100%;
 					margin-left: 0;

@@ -50,11 +50,10 @@ class Index extends React.Component {
           <section id="about" className="main special">
               <header className="major">
                   <h2>About Us</h2>
-                  <p>We are a local climate action group that aims to promote community-wide action to tackle climate change and make a just transition to a sustainable zero carbon community for Ilkley. What began as friends discussing climate issues over dinner, has evolved into a structured group of Ilkley residents working in partnership with local, national and international organisations.
-                    Climate Action Ilkley is organised through a Committee, which sets specific, achievable and reasonable goals. Our scope includes influencing Ilkley’s Neighbourhood Plan, improving the food waste regimes and promoting renewable energy projects.</p>
+                  <h3>A community of climate concious Ilkley residents who believe through coordinated local action we can lead the way into a better future ...</h3>
               </header>
               <ul className="actions">
-                  <li><Link to="/events" className="button">Learn More</Link></li>
+                  <li><Link to="/about" className="button">Learn More</Link></li>
               </ul>
           </section>
 
@@ -62,7 +61,8 @@ class Index extends React.Component {
           <section id="first" className="main special">
             <header className="major">
               <h2>Climate Change Basics</h2>
-              <p>Climate Action Ilkley accepts these five basic facts about climate change. <br/> We neither want to or plan to hold a debate on these.</p>
+              <p>Climate Action Ilkley accepts these five basic facts about climate change which command the support of the overwhelming majority of scientists .
+                </p>
             </header>
             <ul className="statistics">
               <li className="style1">
