@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import OnePlanetAreaListContainer from '../components/OnePlanetAreaListContainer'
 import HomePageNav from '../components/HomePageNav'
 import logo from '../assets/images/web-icon.png'
+import BasicsItem from '../components/BasicsItem';
 
 class Index extends React.Component {
   constructor(props) {
@@ -65,37 +66,12 @@ class Index extends React.Component {
                 </p>
             </header>
             <ul className="statistics">
-              <li className="style1">
-                <Link to="/basics#warming">
-                  <span className="icon fa-fire"/>
-                  <strong>It's Warming</strong>
-                </Link>
-              </li>
-              <li className="style2">
-                <Link to="/basics#us">
-                  <span className="icon fa-users"/>
-                  <strong>It's Us</strong>
-                </Link>
-              </li>
-              <li className="style3">
-                  <Link to="/basics#sure">
-                    <span className="icon fa-signal"/>
-                    <strong>We're Sure</strong>
-                  </Link>
-              </li>
-              <li className="style4">
-                <Link to="/basics#bad">
-                <span className="icon fa-times-circle"/>
-                <strong>It's Bad</strong>
-                </Link>
-              </li>
-              <li className="style5">
-                <Link to="/basics#fix">
-                    <span className="icon fa-wrench"/>
-                    <strong>We Can Fix It</strong>
-                </Link>
+              <BasicsItem itemStyle="style1" iconStyle="fa-fire" linkUrl="/basics#warming" itemTitle="It's Warming"/>
+              <BasicsItem itemStyle="style2" iconStyle="fa-users" linkUrl="/basics#us" itemTitle="It's Us"/>
+              <BasicsItem itemStyle="style3" iconStyle="fa-signal" linkUrl="/basics#sure" itemTitle="We're Sure"/>
+              <BasicsItem itemStyle="style4" iconStyle="fa-times-circle" linkUrl="/basics#bad" itemTitle="It's Bad"/>
+              <BasicsItem itemStyle="style5" iconStyle="fa-wrench" linkUrl="/basics#fix" itemTitle="We Can Fix It"/>
 
-              </li>
             </ul>
             {/*<footer className="major">*/}
               {/*<ul className="actions">*/}

@@ -16,9 +16,14 @@
 
 		li {
 			@include vendor('flex', '1');
-			padding: 1.5em;
+			padding: 1em;
 			color: _palette(fg-bold);
 			text-align: center;
+
+			div {
+				display: flex;
+				flex-direction: column;
+			}
 
 			a {
 				border-bottom: none;
@@ -63,9 +68,16 @@
 				border-bottom-right-radius: _size(border-radius);
 			}
 
+
 			.icon {
 				display: inline-block;
-
+				&.plus {
+					align-self: flex-end;
+					&:before {
+						font-size: 1rem;
+						line-height: 1;
+					}
+				}
 				&:before {
 					font-size: 4rem;
 					line-height: 1.3;

@@ -66,6 +66,13 @@
 			}
 			a {
 				border-bottom: none;
+
+				&:hover {
+					.plus {
+						color: _palette(accent);
+
+					}
+				}
 			}
 
 
