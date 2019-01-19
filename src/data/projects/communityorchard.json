@@ -5,6 +5,6 @@
   "iconStyle" : "style6",
   "iconName" : "fa-tree",
   "onePlanetArea": "Sustainable Food",
-  "onePlanetNavStyle": "food",
+  "onePlanetStyle": "food",
   "state": "PLANNED"
 }

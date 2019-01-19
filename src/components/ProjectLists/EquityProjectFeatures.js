@@ -15,6 +15,7 @@ const EquityProjectFeatures = () => (
                       path
                       projectTitle
                       projectBlurb
+                      onePlanetStyle
                       iconName
                       state
                   }

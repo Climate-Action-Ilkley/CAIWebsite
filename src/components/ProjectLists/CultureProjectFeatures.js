@@ -16,6 +16,7 @@ const CultureProjectFeatures = () => (
                       projectTitle
                       projectBlurb
                       iconName
+                      onePlanetStyle
                       state
                   }
               }

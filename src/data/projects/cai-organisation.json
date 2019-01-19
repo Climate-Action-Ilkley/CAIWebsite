@@ -5,6 +5,6 @@
   "iconStyle" : "style6",
   "iconName" : "fa-sitemap",
   "onePlanetArea": "Culture and Community",
-  "onePlanetNavStyle": "culture",
+  "onePlanetStyle": "culture",
   "state": "ACTIVE"
 }

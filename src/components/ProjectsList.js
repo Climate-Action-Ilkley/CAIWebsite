@@ -12,7 +12,7 @@ const ProjectList = ({projects, isPlannedList}) => {
               blurb={project.node.projectBlurb}
               title={project.node.projectTitle}
               icon={project.node.iconName}
-              iconStyle="style2 project"
+              iconStyle={project.node.onePlanetStyle}
             />
         }) : !isPlannedList ? 
         <h1>Help us move some planned projects to active!</h1> : null

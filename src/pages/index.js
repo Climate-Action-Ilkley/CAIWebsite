@@ -51,7 +51,7 @@ class Index extends React.Component {
           <section id="about" className="main special">
               <header className="major">
                   <h2>About Us</h2>
-                  <h3>A community of climate concious Ilkley residents who believe through coordinated local action we can lead the way into a better future ...</h3>
+                  <h3>We are a community of climate concious Ilkley residents who believe through coordinated local action we can lead the way into a better future ...</h3>
               </header>
               <ul className="actions">
                   <li><Link to="/about" className="button">Learn More</Link></li>
@@ -94,8 +94,8 @@ class Index extends React.Component {
           <section id="network" className="main special">
               <header className="major">
                   <h2>Network</h2>
-                  <p>We are a local community group focussed on Ilkley and the surrounding area.<br />
-                  But to have a greater impact we want to connect, learn from and collaborate with other groups.<br/>
+                  <p>We are a local community group focused on Ilkley and the surrounding area. <br />
+                    But to have a greater impact, we want to connect, learn from and collaborate with other groups and communities.<br/>
                   Together we can achieve more!</p>
               </header>
               <ul className="actions">
@@ -117,7 +117,7 @@ class Index extends React.Component {
           <section id="cta" className="main special">
             <header className="major">
               <h2>Get Involved</h2>
-              <p>If you are interested in getting more involved, send us an email. <br/> We always welcome more active members of our community.<br/> Together we can make a difference.</p>
+              <p>If you are interested in getting involved, send us an email. <br/> We always welcome more active members into our community.<br/> Together we can make a difference.</p>
             </header>
             <footer className="major">
               <ul className="actions">

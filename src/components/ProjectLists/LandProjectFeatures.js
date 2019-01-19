@@ -15,6 +15,7 @@ const LandProjectFeatures = () => (
                       path
                       projectTitle
                       projectBlurb
+                      onePlanetStyle
                       iconName
                       state
                   }

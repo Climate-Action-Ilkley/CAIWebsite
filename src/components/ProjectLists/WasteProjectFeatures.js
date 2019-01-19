@@ -16,6 +16,7 @@ const WasteProjectFeatures = () => (
                       projectTitle
                       projectBlurb
                       iconName
+                      onePlanetStyle
                       state
                   }
               }

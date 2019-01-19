@@ -15,6 +15,7 @@ const TransportProjectFeatures = () => (
                       path
                       projectTitle
                       projectBlurb
+                      onePlanetStyle
                       iconName
                       state
                   }

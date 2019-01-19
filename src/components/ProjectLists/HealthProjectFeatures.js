@@ -15,6 +15,7 @@ const HealthProjectFeatures = () => (
                       path
                       projectTitle
                       projectBlurb
+                      onePlanetStyle
                       iconName
                       state
                   }

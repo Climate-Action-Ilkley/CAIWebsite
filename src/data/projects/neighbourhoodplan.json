@@ -5,6 +5,6 @@
   "iconStyle" : "style2",
   "iconName" : "fa-users",
   "onePlanetArea": "Culture and Community",
-  "onePlanetNavStyle": "culture",
+  "onePlanetStyle": "culture",
   "state": "ACTIVE"
 }

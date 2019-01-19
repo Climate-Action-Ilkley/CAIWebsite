@@ -5,6 +5,6 @@
   "iconStyle" : "style2",
   "iconName" : "fa-bolt",
   "onePlanetArea": "Zero Carbon",
-  "onePlanetNavStyle": "carbon",
+  "onePlanetStyle": "carbon",
   "state": "PLANNED"
 }

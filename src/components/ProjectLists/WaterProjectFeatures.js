@@ -16,6 +16,7 @@ const WaterProjectFeatures = () => (
                       projectTitle
                       projectBlurb
                       iconName
+                      onePlanetStyle
                       state
                   }
               }

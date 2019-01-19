@@ -16,6 +16,7 @@ const CarbonProjectFeatures = () => (
                       projectTitle
                       projectBlurb
                       iconName
+                      onePlanetStyle
                       state
                   }
               }

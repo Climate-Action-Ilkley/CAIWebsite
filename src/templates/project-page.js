@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import OnePlanetNav from "../components/OnePlanetNav";
 import Layout from '../components/layout';
 import { graphql } from "gatsby"
@@ -13,7 +12,7 @@ const ProjectPageTemplate = (props) => {
     return (
         <Layout>
             <div id="main">
-                <OnePlanetNav area={project.onePlanetArea} navStyle={project.onePlanetNavStyle}/>
+                <OnePlanetNav area={project.onePlanetArea} navStyle={project.onePlanetStyle}/>
 
                 <section id="intro" className="main">
                     <div className="spotlight">
@@ -24,7 +23,7 @@ const ProjectPageTemplate = (props) => {
                             </header>
                             <h2>{project.projectBlurb}</h2>
                         </div>
-                        <span className="image"><span className={"icon major " + project.iconStyle + " " + project.iconName}/></span>
+                        <span className="image"><span className={"icon major " + project.onePlanetStyle + " " + project.iconName}/></span>
                     </div>
                 </section>
             </div>
@@ -54,7 +53,7 @@ const ProjectPageTemplate = (props) => {
             projectTitle
             projectBlurb
             onePlanetArea
-            onePlanetNavStyle
+            onePlanetStyle
           }
         }
     `;

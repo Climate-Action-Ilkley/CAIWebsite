@@ -5,6 +5,6 @@
   "iconStyle" : "style6",
   "iconName" : "fa-apple",
   "onePlanetArea": "Zero Waste",
-  "onePlanetNavStyle": "waste",
+  "onePlanetStyle": "waste",
   "state": "PLANNED"
 }
