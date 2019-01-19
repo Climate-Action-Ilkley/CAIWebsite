@@ -11,8 +11,11 @@ const Feature = ({ url, title, blurb, icon, iconStyle}) => {
   return (
     <li>
       <Link to={url}>
+        <div>
+          <span className="icon plus fa-plus"/>
         <span className={"icon major " + iconStyle + " " + icon}/>
         <h3>{title}</h3>
+          </div>
       </Link>
     </li>
   )
