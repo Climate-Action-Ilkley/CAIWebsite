@@ -1,9 +1,9 @@
 import React from 'react'
 
+import Event from '../components/Event';
 import Layout from '../components/layout'
 
-class Generic extends React.Component {
-  render() {
+const Events = ({data}) => {
 
     return (
       <Layout>
@@ -11,13 +11,30 @@ class Generic extends React.Component {
         <div id="main">
           <section id="content" className="main">
             {/*<span className="image main"><img src={pic04} alt="" /></span>*/}
-            <h2>Events Calendar</h2>
-            <iframe src="https://calendar.google.com/calendar/b/1/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e2qbfiobhpcsea7ohqqcfshjhg%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=Europe%2FLondon" style={{"border": 0, width:"100%", height:"100%", frameborder:"0", scrolling:"no"}}></iframe>
+            <h2>Upcoming Events</h2>
+            {data.allEventsJson.edges.map(eventEdge => {
+              return <Event event={eventEdge.node}/>
+            })}
           </section>
         </div>
       </Layout>
     )
-  }
 }
 
-export default Generic
+export const eventQuery = graphql`
+  query eventsQuery {
+      allEventsJson(sort: {order: ASC, fields: [date]}) {
+          edges {
+              node {
+                  date
+                  venue
+                  time
+                  name
+                  description
+              }
+          }
+      }
+  }
+`
+
+export default Events

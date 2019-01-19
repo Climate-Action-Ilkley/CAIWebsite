@@ -12,6 +12,12 @@
 		}
 	}
 
+	.event {
+		margin: 10px 0;
+		border: 2px solid red;
+		padding: 10px;
+	}
+
 	header {
 		&.major {
 			margin-bottom: (_size(element-margin) * 1.5);

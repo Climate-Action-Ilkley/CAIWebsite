@@ -6,6 +6,7 @@ import OnePlanetAreaListContainer from '../components/OnePlanetAreaListContainer
 import HomePageNav from '../components/HomePageNav'
 import logo from '../assets/images/web-icon.png'
 import BasicsItem from '../components/BasicsItem';
+import UpcomingEvent from '../components/UpcomingEvent';
 
 class Index extends React.Component {
   constructor(props) {
@@ -82,13 +83,13 @@ class Index extends React.Component {
           <section id="second" className="main special">
           <OnePlanetAreaListContainer/>
           </section>
-          <section id="events" className="main special">
+          <section id="events" className="main">
             <header className="major">
-              <h2>Upcoming Events</h2>
-              <p>Check out what events we have on<br /></p>
+              <h2>Next Event</h2>
             </header>
+            <UpcomingEvent/>
             <ul className="actions">
-              <li><Link to="/events" className="button">Learn More</Link></li>
+              <li><Link to="/events" className="button">View More</Link></li>
             </ul>
           </section>
           <section id="network" className="main special">
@@ -99,7 +100,7 @@ class Index extends React.Component {
                   Together we can achieve more!</p>
               </header>
               <ul className="actions">
-                  <li><Link to="/events" className="button">Learn More</Link></li>
+                  <li><Link to="/network" className="button">Learn More</Link></li>
               </ul>
           </section>
           <section id="newsletter" className="main special">
