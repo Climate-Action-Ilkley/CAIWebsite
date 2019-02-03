@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118a337c-574c-441b-9996-bfc48d691368" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/UpcomingEvent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/events/template-event1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/network.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/components/_section.scss" afterPath="$PROJECT_DIR$/src/assets/scss/components/_section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/layout/_main.scss" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/events/template-event.json" afterPath="$PROJECT_DIR$/src/data/events/template-event.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/events.js" afterPath="$PROJECT_DIR$/src/pages/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Footer.js" afterPath="$PROJECT_DIR$/src/components/Footer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/QuestionFeature.js" afterPath="$PROJECT_DIR$/src/components/QuestionFeature.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/getinvolved.js" afterPath="$PROJECT_DIR$/src/pages/getinvolved.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.js" afterPath="$PROJECT_DIR$/src/pages/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -73,96 +68,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template-event1.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/events/template-event1.json">
+      <file leaf-file-name="ProjectsList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ProjectsList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="493">
+              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/events.js">
+      <file leaf-file-name="QuestionFeature.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/QuestionFeature.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="232">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <marker date="1547916407559" expanded="true" signature="586:865" ph="query...{&#10;      allEventsJson(sort: {order: ASC, fields: [date]}) {&#10;          edges {&#10;              node {&#10;                  date&#10;                  venue&#10;                  time&#10;                  name&#10;                  description&#10;              }&#10;          }&#10;      }&#10;  }" />
-                <marker date="1547916407559" expanded="true" signature="592:603" ph="eventsQuery...eventsQuery" />
-                <marker date="1547916407559" expanded="true" signature="604:865" ph="{...}" />
-                <marker date="1547916407559" expanded="true" signature="612:625" ph="allEventsJson...allEventsJson" />
-                <marker date="1547916407559" expanded="true" signature="612:861" ph="allEventsJson...{&#10;          edges {&#10;              node {&#10;                  date&#10;                  venue&#10;                  time&#10;                  name&#10;                  description&#10;              }&#10;          }&#10;      }" />
-                <marker date="1547916407559" expanded="true" signature="625:661" ph="(...)" />
-                <marker date="1547916407559" expanded="true" signature="626:630" ph="sort...sort" />
-                <marker date="1547916407559" expanded="true" signature="626:660" ph="sort...{order: ASC, fields: [date]}" />
-                <marker date="1547916407559" expanded="true" signature="632:660" ph="{...}" />
-                <marker date="1547916407559" expanded="true" signature="633:638" ph="order...order" />
-                <marker date="1547916407559" expanded="true" signature="645:651" ph="fields...fields" />
-                <marker date="1547916407559" expanded="true" signature="645:659" ph="fields...[date]" />
-                <marker date="1547916407559" expanded="true" signature="653:659" ph="[...]" />
-                <marker date="1547916407559" expanded="true" signature="662:861" ph="{...}" />
-                <marker date="1547916407559" expanded="true" signature="674:679" ph="edges...edges" />
-                <marker date="1547916407559" expanded="true" signature="674:853" ph="edges...{&#10;              node {&#10;                  date&#10;                  venue&#10;                  time&#10;                  name&#10;                  description&#10;              }&#10;          }" />
-                <marker date="1547916407559" expanded="true" signature="680:853" ph="{...}" />
-                <marker date="1547916407559" expanded="true" signature="696:700" ph="node...node" />
-                <marker date="1547916407559" expanded="true" signature="696:841" ph="node...{&#10;                  date&#10;                  venue&#10;                  time&#10;                  name&#10;                  description&#10;              }" />
-                <marker date="1547916407559" expanded="true" signature="701:841" ph="{...}" />
-                <marker date="1547916407559" expanded="true" signature="721:725" ph="date...date" />
-                <marker date="1547916407559" expanded="true" signature="744:749" ph="venue...venue" />
-                <marker date="1547916407559" expanded="true" signature="768:772" ph="time...time" />
-                <marker date="1547916407559" expanded="true" signature="791:795" ph="name...name" />
-                <marker date="1547916407559" expanded="true" signature="814:825" ph="description...description" />
+                <element signature="e#40#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpcomingEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/UpcomingEvent.js">
+      <file leaf-file-name="getinvolved.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/getinvolved.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="23" column="11" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="23" selection-end-column="11" />
-              <folding>
-                <marker date="1547915713473" expanded="true" signature="208:561" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Zero Waste&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-                <marker date="1547915713473" expanded="true" signature="214:232" ph="upcomingEventQuery...upcomingEventQuery" />
-                <marker date="1547915713473" expanded="true" signature="232:561" ph="{...}" />
-                <marker date="1547915713473" expanded="true" signature="243:560" ph="{...}" />
-                <marker date="1547915713473" expanded="true" signature="259:272" ph="allEventsJson...allEventsJson" />
-                <marker date="1547915713473" expanded="true" signature="259:558" ph="allEventsJson...{&#10;              edges {&#10;                  node {&#10;                      date&#10;                  }&#10;              }&#10;          }" />
-                <marker date="1547915713473" expanded="true" signature="272:318" ph="(...)" />
-                <marker date="1547915713473" expanded="true" signature="273:277" ph="sort...sort" />
-                <marker date="1547915713473" expanded="true" signature="273:307" ph="sort...{order: ASC, fields: [date]}" />
-                <marker date="1547915713473" expanded="true" signature="279:307" ph="{...}" />
-                <marker date="1547915713473" expanded="true" signature="280:285" ph="order...order" />
-                <marker date="1547915713473" expanded="true" signature="292:298" ph="fields...fields" />
-                <marker date="1547915713473" expanded="true" signature="292:306" ph="fields...[date]" />
-                <marker date="1547915713473" expanded="true" signature="300:306" ph="[...]" />
-                <marker date="1547915713473" expanded="true" signature="309:314" ph="limit...limit" />
-                <marker date="1547915713473" expanded="true" signature="319:558" ph="{...}" />
-                <marker date="1547915713473" expanded="true" signature="335:340" ph="edges...edges" />
-                <marker date="1547915713473" expanded="true" signature="335:546" ph="edges...{&#10;                  node {&#10;                      date&#10;                  }&#10;              }" />
-                <marker date="1547915713473" expanded="true" signature="341:546" ph="{...}" />
-                <marker date="1547915713473" expanded="true" signature="361:365" ph="node...node" />
-                <marker date="1547915713473" expanded="true" signature="361:530" ph="node...{&#10;                      date&#10;                  }" />
-                <marker date="1547915713473" expanded="true" signature="366:530" ph="{...}" />
-                <marker date="1547915713473" expanded="true" signature="390:394" ph="date...date" />
-                <marker date="1547915713473" expanded="true" signature="417:422" ph="venue...venue" />
-                <marker date="1547915713473" expanded="true" signature="445:449" ph="time...time" />
-                <marker date="1547915713473" expanded="true" signature="472:476" ph="name...name" />
-                <marker date="1547915713473" expanded="true" signature="499:510" ph="description...description" />
-              </folding>
+            <state relative-caret-position="256">
+              <caret line="24" column="120" lean-forward="false" selection-start-line="24" selection-start-column="120" selection-end-line="24" selection-end-column="120" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <file leaf-file-name="Feature.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Feature.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-976">
-              <caret line="91" column="60" lean-forward="false" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
+            <state relative-caret-position="145">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -225,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/data/oneplanetliving/healthhappiness.json" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/landnature.json" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/materialsproducts.json" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/sustainablefood.json" />
@@ -238,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/components/OnePlanetNav.js" />
         <option value="$PROJECT_DIR$/src/components/HomePageNav.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_oneplanetnav.scss" />
-        <option value="$PROJECT_DIR$/src/components/QuestionFeature.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/layout/_nav.scss" />
         <option value="$PROJECT_DIR$/src/components/ProjectFeaturesContainer.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_button.scss" />
@@ -246,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/pages/basics.js" />
         <option value="$PROJECT_DIR$/src/components/ProfileImage.js" />
         <option value="$PROJECT_DIR$/src/pages/about.js" />
-        <option value="$PROJECT_DIR$/src/components/Footer.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" />
         <option value="$PROJECT_DIR$/src/components/Feature.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_icon.scss" />
@@ -270,12 +209,15 @@
         <option value="$PROJECT_DIR$/src/assets/scss/layout/_main.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_section.scss" />
         <option value="$PROJECT_DIR$/src/components/UpcomingEvent.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/data/events/template-event.json" />
         <option value="$PROJECT_DIR$/src/components/Event.js" />
         <option value="$PROJECT_DIR$/src/data/events/template-event1.json" />
         <option value="$PROJECT_DIR$/src/templates/events-page.js" />
         <option value="$PROJECT_DIR$/src/pages/events.js" />
+        <option value="$PROJECT_DIR$/src/components/Footer.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/components/QuestionFeature.js" />
+        <option value="$PROJECT_DIR$/src/pages/getinvolved.js" />
       </list>
     </option>
   </component>
@@ -698,7 +640,9 @@
       <workItem from="1547485584711" duration="1455000" />
       <workItem from="1547506884283" duration="19000" />
       <workItem from="1547662113102" duration="4641000" />
-      <workItem from="1547895669506" duration="8128000" />
+      <workItem from="1547895669506" duration="8724000" />
+      <workItem from="1548962107049" duration="29000" />
+      <workItem from="1549199389233" duration="2815000" />
     </task>
     <task id="LOCAL-00001" summary="Change to v1 gatsbycli">
       <created>1541887243447</created>
@@ -718,12 +662,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111543000" />
+    <option name="totallyTimeSpent" value="114983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27670172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cargo" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -731,10 +676,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27006087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -742,6 +685,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -782,13 +726,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/OnePlanetAreaListContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/OnePlanetAreaList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -831,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/QuestionFeature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -864,10 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <marker date="1547575196959" expanded="true" signature="15:236" ph="{...}" />
-            <marker date="1547575196959" expanded="true" signature="173:234" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="64" column="139" lean-forward="false" selection-start-line="64" selection-start-column="139" selection-end-line="64" selection-end-column="139" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,9 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,17 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,17 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375">
           <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Feature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
           <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,10 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#40#66#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,69 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <marker date="1547912548281" expanded="true" signature="254:650" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Zero Carbon&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548281" expanded="true" signature="260:277" ph="allCarbonProjects...allCarbonProjects" />
-            <marker date="1547912548281" expanded="true" signature="278:650" ph="{...}" />
-            <marker date="1547912548281" expanded="true" signature="290:305" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548281" expanded="true" signature="290:642" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548281" expanded="true" signature="305:352" ph="(...)" />
-            <marker date="1547912548281" expanded="true" signature="306:312" ph="filter...filter" />
-            <marker date="1547912548281" expanded="true" signature="306:351" ph="filter...{onePlanetArea: { eq: &quot;Zero Carbon&quot;}}" />
-            <marker date="1547912548281" expanded="true" signature="314:351" ph="{...}" />
-            <marker date="1547912548281" expanded="true" signature="315:328" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912548281" expanded="true" signature="315:350" ph="onePlanetArea...{ eq: &quot;Zero Carbon&quot;}" />
-            <marker date="1547912548281" expanded="true" signature="330:350" ph="{...}" />
-            <marker date="1547912548281" expanded="true" signature="332:334" ph="eq...eq" />
-            <marker date="1547912548281" expanded="true" signature="353:642" ph="{...}" />
-            <marker date="1547912548281" expanded="true" signature="369:374" ph="edges...edges" />
-            <marker date="1547912548281" expanded="true" signature="369:630" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }" />
-            <marker date="1547912548281" expanded="true" signature="375:630" ph="{...}" />
-            <marker date="1547912548281" expanded="true" signature="395:399" ph="node...node" />
-            <marker date="1547912548281" expanded="true" signature="395:614" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }" />
-            <marker date="1547912548281" expanded="true" signature="400:614" ph="{...}" />
-            <marker date="1547912548281" expanded="true" signature="424:428" ph="path...path" />
-            <marker date="1547912548281" expanded="true" signature="451:463" ph="projectTitle...projectTitle" />
-            <marker date="1547912548281" expanded="true" signature="486:498" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548281" expanded="true" signature="521:529" ph="iconName...iconName" />
-            <marker date="1547912548281" expanded="true" signature="552:566" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548281" expanded="true" signature="589:594" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <marker date="1547912548337" expanded="true" signature="255:662" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548337" expanded="true" signature="261:279" ph="allProjects...allProjects" />
-            <marker date="1547912548337" expanded="true" signature="280:662" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="292:307" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548337" expanded="true" signature="292:654" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548337" expanded="true" signature="307:364" ph="(...)" />
-            <marker date="1547912548337" expanded="true" signature="308:314" ph="filter...filter" />
-            <marker date="1547912548337" expanded="true" signature="308:363" ph="filter...{path: { eq: &quot;culture-community&quot;}}" />
-            <marker date="1547912548337" expanded="true" signature="316:363" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="317:330" ph="path...path" />
-            <marker date="1547912548337" expanded="true" signature="317:362" ph="path...{ eq: &quot;culture-community&quot;}" />
-            <marker date="1547912548337" expanded="true" signature="332:362" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="334:336" ph="eq...eq" />
-            <marker date="1547912548337" expanded="true" signature="365:654" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="381:386" ph="edges...edges" />
-            <marker date="1547912548337" expanded="true" signature="381:642" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547912548337" expanded="true" signature="387:642" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="407:411" ph="node...node" />
-            <marker date="1547912548337" expanded="true" signature="407:626" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547912548337" expanded="true" signature="412:626" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="436:440" ph="path...path" />
-            <marker date="1547912548337" expanded="true" signature="463:475" ph="projectTitle...projectTitle" />
-            <marker date="1547912548337" expanded="true" signature="498:510" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548337" expanded="true" signature="533:541" ph="iconName...iconName" />
-            <marker date="1547912548337" expanded="true" signature="564:578" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548337" expanded="true" signature="601:606" ph="state...state" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,34 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <marker date="1547912548309" expanded="true" signature="254:663" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Equity and Local Economy&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548309" expanded="true" signature="260:277" ph="allEquityProjects...allEquityProjects" />
-            <marker date="1547912548309" expanded="true" signature="278:663" ph="{...}" />
-            <marker date="1547912548309" expanded="true" signature="290:305" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548309" expanded="true" signature="290:655" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548309" expanded="true" signature="305:365" ph="(...)" />
-            <marker date="1547912548309" expanded="true" signature="306:312" ph="filter...filter" />
-            <marker date="1547912548309" expanded="true" signature="306:364" ph="filter...{onePlanetArea: { eq: &quot;Equity and Local Economy&quot;}}" />
-            <marker date="1547912548309" expanded="true" signature="314:364" ph="{...}" />
-            <marker date="1547912548309" expanded="true" signature="315:328" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912548309" expanded="true" signature="315:363" ph="onePlanetArea...{ eq: &quot;Equity and Local Economy&quot;}" />
-            <marker date="1547912548309" expanded="true" signature="330:363" ph="{...}" />
-            <marker date="1547912548309" expanded="true" signature="332:334" ph="eq...eq" />
-            <marker date="1547912548309" expanded="true" signature="366:655" ph="{...}" />
-            <marker date="1547912548309" expanded="true" signature="382:387" ph="edges...edges" />
-            <marker date="1547912548309" expanded="true" signature="382:643" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }" />
-            <marker date="1547912548309" expanded="true" signature="388:643" ph="{...}" />
-            <marker date="1547912548309" expanded="true" signature="408:412" ph="node...node" />
-            <marker date="1547912548309" expanded="true" signature="408:627" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }" />
-            <marker date="1547912548309" expanded="true" signature="413:627" ph="{...}" />
-            <marker date="1547912548309" expanded="true" signature="437:441" ph="path...path" />
-            <marker date="1547912548309" expanded="true" signature="464:476" ph="projectTitle...projectTitle" />
-            <marker date="1547912548309" expanded="true" signature="499:511" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548309" expanded="true" signature="534:548" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548309" expanded="true" signature="571:579" ph="iconName...iconName" />
-            <marker date="1547912548309" expanded="true" signature="602:607" ph="state...state" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,34 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <marker date="1547912548321" expanded="true" signature="252:651" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Sustainable Food&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548321" expanded="true" signature="258:273" ph="allFoodProjects...allFoodProjects" />
-            <marker date="1547912548321" expanded="true" signature="274:651" ph="{...}" />
-            <marker date="1547912548321" expanded="true" signature="286:301" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548321" expanded="true" signature="286:643" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548321" expanded="true" signature="301:353" ph="(...)" />
-            <marker date="1547912548321" expanded="true" signature="302:308" ph="filter...filter" />
-            <marker date="1547912548321" expanded="true" signature="302:352" ph="filter...{onePlanetArea: { eq: &quot;Sustainable Food&quot;}}" />
-            <marker date="1547912548321" expanded="true" signature="310:352" ph="{...}" />
-            <marker date="1547912548321" expanded="true" signature="311:324" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912548321" expanded="true" signature="311:351" ph="onePlanetArea...{ eq: &quot;Sustainable Food&quot;}" />
-            <marker date="1547912548321" expanded="true" signature="326:351" ph="{...}" />
-            <marker date="1547912548321" expanded="true" signature="328:330" ph="eq...eq" />
-            <marker date="1547912548321" expanded="true" signature="354:643" ph="{...}" />
-            <marker date="1547912548321" expanded="true" signature="370:375" ph="edges...edges" />
-            <marker date="1547912548321" expanded="true" signature="370:631" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }" />
-            <marker date="1547912548321" expanded="true" signature="376:631" ph="{...}" />
-            <marker date="1547912548321" expanded="true" signature="396:400" ph="node...node" />
-            <marker date="1547912548321" expanded="true" signature="396:615" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }" />
-            <marker date="1547912548321" expanded="true" signature="401:615" ph="{...}" />
-            <marker date="1547912548321" expanded="true" signature="425:429" ph="path...path" />
-            <marker date="1547912548321" expanded="true" signature="452:464" ph="projectTitle...projectTitle" />
-            <marker date="1547912548321" expanded="true" signature="487:499" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548321" expanded="true" signature="522:536" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548321" expanded="true" signature="559:567" ph="iconName...iconName" />
-            <marker date="1547912548321" expanded="true" signature="590:595" ph="state...state" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,34 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <marker date="1547912548365" expanded="true" signature="254:659" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Health and Happiness&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548365" expanded="true" signature="260:277" ph="allHealthProjects...allHealthProjects" />
-            <marker date="1547912548365" expanded="true" signature="278:659" ph="{...}" />
-            <marker date="1547912548365" expanded="true" signature="290:305" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548365" expanded="true" signature="290:651" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548365" expanded="true" signature="305:361" ph="(...)" />
-            <marker date="1547912548365" expanded="true" signature="306:312" ph="filter...filter" />
-            <marker date="1547912548365" expanded="true" signature="306:360" ph="filter...{onePlanetArea: { eq: &quot;Health and Happiness&quot;}}" />
-            <marker date="1547912548365" expanded="true" signature="314:360" ph="{...}" />
-            <marker date="1547912548365" expanded="true" signature="315:328" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912548365" expanded="true" signature="315:359" ph="onePlanetArea...{ eq: &quot;Health and Happiness&quot;}" />
-            <marker date="1547912548365" expanded="true" signature="330:359" ph="{...}" />
-            <marker date="1547912548365" expanded="true" signature="332:334" ph="eq...eq" />
-            <marker date="1547912548365" expanded="true" signature="362:651" ph="{...}" />
-            <marker date="1547912548365" expanded="true" signature="378:383" ph="edges...edges" />
-            <marker date="1547912548365" expanded="true" signature="378:639" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }" />
-            <marker date="1547912548365" expanded="true" signature="384:639" ph="{...}" />
-            <marker date="1547912548365" expanded="true" signature="404:408" ph="node...node" />
-            <marker date="1547912548365" expanded="true" signature="404:623" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }" />
-            <marker date="1547912548365" expanded="true" signature="409:623" ph="{...}" />
-            <marker date="1547912548365" expanded="true" signature="433:437" ph="path...path" />
-            <marker date="1547912548365" expanded="true" signature="460:472" ph="projectTitle...projectTitle" />
-            <marker date="1547912548365" expanded="true" signature="495:507" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548365" expanded="true" signature="530:544" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548365" expanded="true" signature="567:575" ph="iconName...iconName" />
-            <marker date="1547912548365" expanded="true" signature="598:603" ph="state...state" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1175,34 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <marker date="1547912548329" expanded="true" signature="252:650" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Land and Nature&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548329" expanded="true" signature="258:273" ph="allLandProjects...allLandProjects" />
-            <marker date="1547912548329" expanded="true" signature="274:650" ph="{...}" />
-            <marker date="1547912548329" expanded="true" signature="286:301" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548329" expanded="true" signature="286:642" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548329" expanded="true" signature="301:352" ph="(...)" />
-            <marker date="1547912548329" expanded="true" signature="302:308" ph="filter...filter" />
-            <marker date="1547912548329" expanded="true" signature="302:351" ph="filter...{onePlanetArea: { eq: &quot;Land and Nature&quot;}}" />
-            <marker date="1547912548329" expanded="true" signature="310:351" ph="{...}" />
-            <marker date="1547912548329" expanded="true" signature="311:324" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912548329" expanded="true" signature="311:350" ph="onePlanetArea...{ eq: &quot;Land and Nature&quot;}" />
-            <marker date="1547912548329" expanded="true" signature="326:350" ph="{...}" />
-            <marker date="1547912548329" expanded="true" signature="328:330" ph="eq...eq" />
-            <marker date="1547912548329" expanded="true" signature="353:642" ph="{...}" />
-            <marker date="1547912548329" expanded="true" signature="369:374" ph="edges...edges" />
-            <marker date="1547912548329" expanded="true" signature="369:630" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }" />
-            <marker date="1547912548329" expanded="true" signature="375:630" ph="{...}" />
-            <marker date="1547912548329" expanded="true" signature="395:399" ph="node...node" />
-            <marker date="1547912548329" expanded="true" signature="395:614" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }" />
-            <marker date="1547912548329" expanded="true" signature="400:614" ph="{...}" />
-            <marker date="1547912548329" expanded="true" signature="424:428" ph="path...path" />
-            <marker date="1547912548329" expanded="true" signature="451:463" ph="projectTitle...projectTitle" />
-            <marker date="1547912548329" expanded="true" signature="486:498" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548329" expanded="true" signature="521:535" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548329" expanded="true" signature="558:566" ph="iconName...iconName" />
-            <marker date="1547912548329" expanded="true" signature="589:594" ph="state...state" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1210,34 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <marker date="1547912548301" expanded="true" signature="257:667" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Materials and Products&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548301" expanded="true" signature="263:283" ph="allMaterialsProjects...allMaterialsProjects" />
-            <marker date="1547912548301" expanded="true" signature="284:667" ph="{...}" />
-            <marker date="1547912548301" expanded="true" signature="296:311" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548301" expanded="true" signature="296:659" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548301" expanded="true" signature="311:369" ph="(...)" />
-            <marker date="1547912548301" expanded="true" signature="312:318" ph="filter...filter" />
-            <marker date="1547912548301" expanded="true" signature="312:368" ph="filter...{onePlanetArea: { eq: &quot;Materials and Products&quot;}}" />
-            <marker date="1547912548301" expanded="true" signature="320:368" ph="{...}" />
-            <marker date="1547912548301" expanded="true" signature="321:334" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912548301" expanded="true" signature="321:367" ph="onePlanetArea...{ eq: &quot;Materials and Products&quot;}" />
-            <marker date="1547912548301" expanded="true" signature="336:367" ph="{...}" />
-            <marker date="1547912548301" expanded="true" signature="338:340" ph="eq...eq" />
-            <marker date="1547912548301" expanded="true" signature="370:659" ph="{...}" />
-            <marker date="1547912548301" expanded="true" signature="386:391" ph="edges...edges" />
-            <marker date="1547912548301" expanded="true" signature="386:647" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }" />
-            <marker date="1547912548301" expanded="true" signature="392:647" ph="{...}" />
-            <marker date="1547912548301" expanded="true" signature="412:416" ph="node...node" />
-            <marker date="1547912548301" expanded="true" signature="412:631" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }" />
-            <marker date="1547912548301" expanded="true" signature="417:631" ph="{...}" />
-            <marker date="1547912548301" expanded="true" signature="441:445" ph="path...path" />
-            <marker date="1547912548301" expanded="true" signature="468:480" ph="projectTitle...projectTitle" />
-            <marker date="1547912548301" expanded="true" signature="503:515" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548301" expanded="true" signature="538:552" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548301" expanded="true" signature="575:583" ph="iconName...iconName" />
-            <marker date="1547912548301" expanded="true" signature="606:611" ph="state...state" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,34 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <marker date="1547912548293" expanded="true" signature="257:665" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Travel and Transport&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548293" expanded="true" signature="263:283" ph="allTransportProjects...allTransportProjects" />
-            <marker date="1547912548293" expanded="true" signature="284:665" ph="{...}" />
-            <marker date="1547912548293" expanded="true" signature="296:311" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548293" expanded="true" signature="296:657" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548293" expanded="true" signature="311:367" ph="(...)" />
-            <marker date="1547912548293" expanded="true" signature="312:318" ph="filter...filter" />
-            <marker date="1547912548293" expanded="true" signature="312:366" ph="filter...{onePlanetArea: { eq: &quot;Travel and Transport&quot;}}" />
-            <marker date="1547912548293" expanded="true" signature="320:366" ph="{...}" />
-            <marker date="1547912548293" expanded="true" signature="321:334" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912548293" expanded="true" signature="321:365" ph="onePlanetArea...{ eq: &quot;Travel and Transport&quot;}" />
-            <marker date="1547912548293" expanded="true" signature="336:365" ph="{...}" />
-            <marker date="1547912548293" expanded="true" signature="338:340" ph="eq...eq" />
-            <marker date="1547912548293" expanded="true" signature="368:657" ph="{...}" />
-            <marker date="1547912548293" expanded="true" signature="384:389" ph="edges...edges" />
-            <marker date="1547912548293" expanded="true" signature="384:645" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }&#10;              }" />
-            <marker date="1547912548293" expanded="true" signature="390:645" ph="{...}" />
-            <marker date="1547912548293" expanded="true" signature="410:414" ph="node...node" />
-            <marker date="1547912548293" expanded="true" signature="410:629" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      onePlanetStyle&#10;                      iconName&#10;                      state&#10;                  }" />
-            <marker date="1547912548293" expanded="true" signature="415:629" ph="{...}" />
-            <marker date="1547912548293" expanded="true" signature="439:443" ph="path...path" />
-            <marker date="1547912548293" expanded="true" signature="466:478" ph="projectTitle...projectTitle" />
-            <marker date="1547912548293" expanded="true" signature="501:513" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548293" expanded="true" signature="536:550" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548293" expanded="true" signature="573:581" ph="iconName...iconName" />
-            <marker date="1547912548293" expanded="true" signature="604:609" ph="state...state" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,50 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <marker date="1547912548345" expanded="true" signature="253:654" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Sustainable Water&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548345" expanded="true" signature="259:275" ph="allWaterProjects...allWaterProjects" />
-            <marker date="1547912548345" expanded="true" signature="276:654" ph="{...}" />
-            <marker date="1547912548345" expanded="true" signature="288:303" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548345" expanded="true" signature="288:646" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548345" expanded="true" signature="303:356" ph="(...)" />
-            <marker date="1547912548345" expanded="true" signature="304:310" ph="filter...filter" />
-            <marker date="1547912548345" expanded="true" signature="304:355" ph="filter...{onePlanetArea: { eq: &quot;Sustainable Water&quot;}}" />
-            <marker date="1547912548345" expanded="true" signature="312:355" ph="{...}" />
-            <marker date="1547912548345" expanded="true" signature="313:326" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912548345" expanded="true" signature="313:354" ph="onePlanetArea...{ eq: &quot;Sustainable Water&quot;}" />
-            <marker date="1547912548345" expanded="true" signature="328:354" ph="{...}" />
-            <marker date="1547912548345" expanded="true" signature="330:332" ph="eq...eq" />
-            <marker date="1547912548345" expanded="true" signature="357:646" ph="{...}" />
-            <marker date="1547912548345" expanded="true" signature="373:378" ph="edges...edges" />
-            <marker date="1547912548345" expanded="true" signature="373:634" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }" />
-            <marker date="1547912548345" expanded="true" signature="379:634" ph="{...}" />
-            <marker date="1547912548345" expanded="true" signature="399:403" ph="node...node" />
-            <marker date="1547912548345" expanded="true" signature="399:618" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }" />
-            <marker date="1547912548345" expanded="true" signature="404:618" ph="{...}" />
-            <marker date="1547912548345" expanded="true" signature="428:432" ph="path...path" />
-            <marker date="1547912548345" expanded="true" signature="455:467" ph="projectTitle...projectTitle" />
-            <marker date="1547912548345" expanded="true" signature="490:502" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548345" expanded="true" signature="525:533" ph="iconName...iconName" />
-            <marker date="1547912548345" expanded="true" signature="556:570" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548345" expanded="true" signature="593:598" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectFeaturesContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1331,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1347,34 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1547912548357" expanded="true" signature="253:647" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Zero Waste&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548357" expanded="true" signature="259:275" ph="allWasteProjects...allWasteProjects" />
-            <marker date="1547912548357" expanded="true" signature="276:647" ph="{...}" />
-            <marker date="1547912548357" expanded="true" signature="288:303" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548357" expanded="true" signature="288:639" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548357" expanded="true" signature="303:349" ph="(...)" />
-            <marker date="1547912548357" expanded="true" signature="304:310" ph="filter...filter" />
-            <marker date="1547912548357" expanded="true" signature="304:348" ph="filter...{onePlanetArea: { eq: &quot;Zero Waste&quot;}}" />
-            <marker date="1547912548357" expanded="true" signature="312:348" ph="{...}" />
-            <marker date="1547912548357" expanded="true" signature="313:326" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912548357" expanded="true" signature="313:347" ph="onePlanetArea...{ eq: &quot;Zero Waste&quot;}" />
-            <marker date="1547912548357" expanded="true" signature="328:347" ph="{...}" />
-            <marker date="1547912548357" expanded="true" signature="330:332" ph="eq...eq" />
-            <marker date="1547912548357" expanded="true" signature="350:639" ph="{...}" />
-            <marker date="1547912548357" expanded="true" signature="366:371" ph="edges...edges" />
-            <marker date="1547912548357" expanded="true" signature="366:627" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }" />
-            <marker date="1547912548357" expanded="true" signature="372:627" ph="{...}" />
-            <marker date="1547912548357" expanded="true" signature="392:396" ph="node...node" />
-            <marker date="1547912548357" expanded="true" signature="392:611" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }" />
-            <marker date="1547912548357" expanded="true" signature="397:611" ph="{...}" />
-            <marker date="1547912548357" expanded="true" signature="421:425" ph="path...path" />
-            <marker date="1547912548357" expanded="true" signature="448:460" ph="projectTitle...projectTitle" />
-            <marker date="1547912548357" expanded="true" signature="483:495" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548357" expanded="true" signature="518:526" ph="iconName...iconName" />
-            <marker date="1547912548357" expanded="true" signature="549:563" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548357" expanded="true" signature="586:591" ph="state...state" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,72 +984,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="25" column="103" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="35" />
-          <folding>
-            <marker date="1547912788518" expanded="true" signature="1635:1894" ph="query...{&#10;          projectsJson(path: { eq: $pathName }) {&#10;            iconName&#10;            iconStyle &#10;            projectTitle&#10;            projectBlurb&#10;            onePlanetArea&#10;            onePlanetStyle&#10;          }&#10;        }" />
-            <marker date="1547912788518" expanded="true" signature="1641:1653" ph="projectsJson...projectsJson" />
-            <marker date="1547912788518" expanded="true" signature="1653:1673" ph="(...)" />
-            <marker date="1547912788518" expanded="true" signature="1665:1671" ph="String...String" />
-            <marker date="1547912788518" expanded="true" signature="1674:1894" ph="{...}" />
-            <marker date="1547912788518" expanded="true" signature="1686:1698" ph="projectsJson...projectsJson" />
-            <marker date="1547912788518" expanded="true" signature="1686:1884" ph="projectsJson...{&#10;            iconName&#10;            iconStyle &#10;            projectTitle&#10;            projectBlurb&#10;            onePlanetArea&#10;            onePlanetStyle&#10;          }" />
-            <marker date="1547912788518" expanded="true" signature="1698:1723" ph="(...)" />
-            <marker date="1547912788518" expanded="true" signature="1699:1703" ph="path...path" />
-            <marker date="1547912788518" expanded="true" signature="1699:1722" ph="path...{ eq: $pathName }" />
-            <marker date="1547912788518" expanded="true" signature="1705:1722" ph="{...}" />
-            <marker date="1547912788518" expanded="true" signature="1707:1709" ph="eq...eq" />
-            <marker date="1547912788518" expanded="true" signature="1724:1884" ph="{...}" />
-            <marker date="1547912788518" expanded="true" signature="1738:1746" ph="iconName...iconName" />
-            <marker date="1547912788518" expanded="true" signature="1759:1768" ph="iconStyle...iconStyle" />
-            <marker date="1547912788518" expanded="true" signature="1782:1794" ph="projectTitle...projectTitle" />
-            <marker date="1547912788518" expanded="true" signature="1807:1819" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912788518" expanded="true" signature="1832:1845" ph="onePlanetArea...onePlanetArea" />
-            <marker date="1547912788518" expanded="true" signature="1858:1872" ph="onePlanetStyle...onePlanetStyle" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/oneplanet-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-          <folding>
-            <marker date="1547308067539" expanded="true" signature="2569:2762" ph="query...{&#10;        oneplanetlivingJson(path: { eq: $pathName }) {&#10;            area&#10;            style&#10;            description&#10;            icon&#10;        }&#10;    }" />
-            <marker date="1547308067539" expanded="true" signature="2575:2593" ph="onePlanetPageQuery...onePlanetPageQuery" />
-            <marker date="1547308067539" expanded="true" signature="2593:2613" ph="(...)" />
-            <marker date="1547308067539" expanded="true" signature="2605:2611" ph="String...String" />
-            <marker date="1547308067539" expanded="true" signature="2614:2762" ph="{...}" />
-            <marker date="1547308067539" expanded="true" signature="2624:2643" ph="oneplanetlivingJson...oneplanetlivingJson" />
-            <marker date="1547308067539" expanded="true" signature="2624:2756" ph="oneplanetlivingJson...{&#10;            area&#10;            style&#10;            description&#10;            icon&#10;        }" />
-            <marker date="1547308067539" expanded="true" signature="2643:2668" ph="(...)" />
-            <marker date="1547308067539" expanded="true" signature="2644:2648" ph="path...path" />
-            <marker date="1547308067539" expanded="true" signature="2644:2667" ph="path...{ eq: $pathName }" />
-            <marker date="1547308067539" expanded="true" signature="2650:2667" ph="{...}" />
-            <marker date="1547308067539" expanded="true" signature="2652:2654" ph="eq...eq" />
-            <marker date="1547308067539" expanded="true" signature="2669:2756" ph="{...}" />
-            <marker date="1547308067539" expanded="true" signature="2683:2687" ph="area...area" />
-            <marker date="1547308067539" expanded="true" signature="2700:2705" ph="style...style" />
-            <marker date="1547308067539" expanded="true" signature="2718:2729" ph="description...description" />
-            <marker date="1547308067539" expanded="true" signature="2742:2746" ph="icon...icon" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/events-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/events-page.js" />
     <entry file="file://$PROJECT_DIR$/src/data/events/template-event1.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1480,17 +996,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-976">
-          <caret line="91" column="60" lean-forward="false" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UpcomingEvent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="522">
           <caret line="23" column="11" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="23" selection-end-column="11" />
           <folding>
             <marker date="1547915713473" expanded="true" signature="208:561" ph="query...{&#10;          allProjectsJson(filter: {onePlanetArea: { eq: &quot;Zero Waste&quot;}}) {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                      onePlanetStyle&#10;                      state&#10;                  }&#10;              }&#10;          }&#10;      }" />
@@ -1524,12 +1032,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="121" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="232">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
             <marker date="1547916407559" expanded="true" signature="586:865" ph="query...{&#10;      allEventsJson(sort: {order: ASC, fields: [date]}) {&#10;          edges {&#10;              node {&#10;                  date&#10;                  venue&#10;                  time&#10;                  name&#10;                  description&#10;              }&#10;          }&#10;      }&#10;  }" />
             <marker date="1547916407559" expanded="true" signature="592:603" ph="eventsQuery...eventsQuery" />
             <marker date="1547916407559" expanded="true" signature="604:865" ph="{...}" />
@@ -1556,6 +1072,145 @@
             <marker date="1547916407559" expanded="true" signature="791:795" ph="name...name" />
             <marker date="1547916407559" expanded="true" signature="814:825" ph="description...description" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/project-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <marker date="1547912788518" expanded="true" signature="1635:1894" ph="query...{&#10;          projectsJson(path: { eq: $pathName }) {&#10;            iconName&#10;            iconStyle &#10;            projectTitle&#10;            projectBlurb&#10;            onePlanetArea&#10;            onePlanetStyle&#10;          }&#10;        }" />
+            <marker date="1547912788518" expanded="true" signature="1641:1653" ph="projectsJson...projectsJson" />
+            <marker date="1547912788518" expanded="true" signature="1653:1673" ph="(...)" />
+            <marker date="1547912788518" expanded="true" signature="1665:1671" ph="String...String" />
+            <marker date="1547912788518" expanded="true" signature="1674:1894" ph="{...}" />
+            <marker date="1547912788518" expanded="true" signature="1686:1698" ph="projectsJson...projectsJson" />
+            <marker date="1547912788518" expanded="true" signature="1686:1884" ph="projectsJson...{&#10;            iconName&#10;            iconStyle &#10;            projectTitle&#10;            projectBlurb&#10;            onePlanetArea&#10;            onePlanetStyle&#10;          }" />
+            <marker date="1547912788518" expanded="true" signature="1698:1723" ph="(...)" />
+            <marker date="1547912788518" expanded="true" signature="1699:1703" ph="path...path" />
+            <marker date="1547912788518" expanded="true" signature="1699:1722" ph="path...{ eq: $pathName }" />
+            <marker date="1547912788518" expanded="true" signature="1705:1722" ph="{...}" />
+            <marker date="1547912788518" expanded="true" signature="1707:1709" ph="eq...eq" />
+            <marker date="1547912788518" expanded="true" signature="1724:1884" ph="{...}" />
+            <marker date="1547912788518" expanded="true" signature="1738:1746" ph="iconName...iconName" />
+            <marker date="1547912788518" expanded="true" signature="1759:1768" ph="iconStyle...iconStyle" />
+            <marker date="1547912788518" expanded="true" signature="1782:1794" ph="projectTitle...projectTitle" />
+            <marker date="1547912788518" expanded="true" signature="1807:1819" ph="projectBlurb...projectBlurb" />
+            <marker date="1547912788518" expanded="true" signature="1832:1845" ph="onePlanetArea...onePlanetArea" />
+            <marker date="1547912788518" expanded="true" signature="1858:1872" ph="onePlanetStyle...onePlanetStyle" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/oneplanet-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <marker date="1547308067539" expanded="true" signature="2569:2762" ph="query...{&#10;        oneplanetlivingJson(path: { eq: $pathName }) {&#10;            area&#10;            style&#10;            description&#10;            icon&#10;        }&#10;    }" />
+            <marker date="1547308067539" expanded="true" signature="2575:2593" ph="onePlanetPageQuery...onePlanetPageQuery" />
+            <marker date="1547308067539" expanded="true" signature="2593:2613" ph="(...)" />
+            <marker date="1547308067539" expanded="true" signature="2605:2611" ph="String...String" />
+            <marker date="1547308067539" expanded="true" signature="2614:2762" ph="{...}" />
+            <marker date="1547308067539" expanded="true" signature="2624:2643" ph="oneplanetlivingJson...oneplanetlivingJson" />
+            <marker date="1547308067539" expanded="true" signature="2624:2756" ph="oneplanetlivingJson...{&#10;            area&#10;            style&#10;            description&#10;            icon&#10;        }" />
+            <marker date="1547308067539" expanded="true" signature="2643:2668" ph="(...)" />
+            <marker date="1547308067539" expanded="true" signature="2644:2648" ph="path...path" />
+            <marker date="1547308067539" expanded="true" signature="2644:2667" ph="path...{ eq: $pathName }" />
+            <marker date="1547308067539" expanded="true" signature="2650:2667" ph="{...}" />
+            <marker date="1547308067539" expanded="true" signature="2652:2654" ph="eq...eq" />
+            <marker date="1547308067539" expanded="true" signature="2669:2756" ph="{...}" />
+            <marker date="1547308067539" expanded="true" signature="2683:2687" ph="area...area" />
+            <marker date="1547308067539" expanded="true" signature="2700:2705" ph="style...style" />
+            <marker date="1547308067539" expanded="true" signature="2718:2729" ph="description...description" />
+            <marker date="1547308067539" expanded="true" signature="2742:2746" ph="icon...icon" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <marker date="1547912548337" expanded="true" signature="255:662" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1547912548337" expanded="true" signature="261:279" ph="allProjects...allProjects" />
+            <marker date="1547912548337" expanded="true" signature="280:662" ph="{...}" />
+            <marker date="1547912548337" expanded="true" signature="292:307" ph="allProjectsJson...allProjectsJson" />
+            <marker date="1547912548337" expanded="true" signature="292:654" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1547912548337" expanded="true" signature="307:364" ph="(...)" />
+            <marker date="1547912548337" expanded="true" signature="308:314" ph="filter...filter" />
+            <marker date="1547912548337" expanded="true" signature="308:363" ph="filter...{path: { eq: &quot;culture-community&quot;}}" />
+            <marker date="1547912548337" expanded="true" signature="316:363" ph="{...}" />
+            <marker date="1547912548337" expanded="true" signature="317:330" ph="path...path" />
+            <marker date="1547912548337" expanded="true" signature="317:362" ph="path...{ eq: &quot;culture-community&quot;}" />
+            <marker date="1547912548337" expanded="true" signature="332:362" ph="{...}" />
+            <marker date="1547912548337" expanded="true" signature="334:336" ph="eq...eq" />
+            <marker date="1547912548337" expanded="true" signature="365:654" ph="{...}" />
+            <marker date="1547912548337" expanded="true" signature="381:386" ph="edges...edges" />
+            <marker date="1547912548337" expanded="true" signature="381:642" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
+            <marker date="1547912548337" expanded="true" signature="387:642" ph="{...}" />
+            <marker date="1547912548337" expanded="true" signature="407:411" ph="node...node" />
+            <marker date="1547912548337" expanded="true" signature="407:626" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
+            <marker date="1547912548337" expanded="true" signature="412:626" ph="{...}" />
+            <marker date="1547912548337" expanded="true" signature="436:440" ph="path...path" />
+            <marker date="1547912548337" expanded="true" signature="463:475" ph="projectTitle...projectTitle" />
+            <marker date="1547912548337" expanded="true" signature="498:510" ph="projectBlurb...projectBlurb" />
+            <marker date="1547912548337" expanded="true" signature="533:541" ph="iconName...iconName" />
+            <marker date="1547912548337" expanded="true" signature="564:578" ph="onePlanetStyle...onePlanetStyle" />
+            <marker date="1547912548337" expanded="true" signature="601:606" ph="state...state" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectFeaturesContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Feature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/QuestionFeature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="e#40#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/getinvolved.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="24" column="120" lean-forward="false" selection-start-line="24" selection-start-column="120" selection-end-line="24" selection-end-column="120" />
+          <folding />
         </state>
       </provider>
     </entry>

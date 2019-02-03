@@ -11,8 +11,8 @@ const Footer = (props) => (
             <ul className="icons">
                 <li><a href="https://twitter.com/ClimateIlkley?lang=en" target="_blank" className="icon fa-twitter alt"><span className="label">Twitter</span></a></li>
                 <li><a href="https://www.facebook.com/climateactionilkley18/" target="_blank" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
-                <li><a href="#" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
-                <li><a href="#" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
+                {/*<li><a href="#" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>*/}
+                {/*<li><a href="#" className="icon fa-github alt"><span className="label">GitHub</span></a></li>*/}
             </ul>
         </section>
       <section>

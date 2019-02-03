@@ -111,7 +111,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li><a href="https://facebook.us18.list-manage.com/subscribe?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="button special">Sign Up</a></li>
-                <li><Link to="/newsletter" className="button">View Archive</Link></li>
+                <li><a href="https://us18.campaign-archive.com/home/?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="button">View Archive</a></li>
               </ul>
             </footer>
           </section>
