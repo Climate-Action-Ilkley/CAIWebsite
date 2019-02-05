@@ -1,8 +1,7 @@
 {
-  "path": "electriccarclub",
+  "path": "electric-car-club",
   "projectTitle": "Electric Car Club",
-  "projectBlurb": "We plan for a electric car club giving members of Ilkley an alternate option to a second car.",
-  "iconStyle" : "style1",
+  "projectBlurb": "We want to develop an Electric Car Club for Ilkley. This has the potential to reduce car ownership and promotes the use of electric cars.",
   "iconName" : "fa-car",
   "onePlanetArea": "Travel and Transport",
   "onePlanetStyle": "transport",

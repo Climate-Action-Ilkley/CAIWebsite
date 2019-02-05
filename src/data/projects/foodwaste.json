@@ -1,8 +1,7 @@
 {
   "path": "foodwaste",
   "projectTitle": "Food Waste",
-  "projectBlurb": "We are in talks with ReFood to recycle food waste and convert it into gas.",
-  "iconStyle" : "style6",
+  "projectBlurb": "We are investigating a food waste collection service with a commercial food waste processing company. Food waste is processed in an anaerobic digester producing gas which is then put into the gas distribution network, and a soil improver by-product. We are starting with commercial food outlets in the first phase of this project.",
   "iconName" : "fa-apple",
   "onePlanetArea": "Zero Waste",
   "onePlanetStyle": "waste",

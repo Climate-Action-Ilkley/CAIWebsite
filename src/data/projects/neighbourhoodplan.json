@@ -1,10 +1,11 @@
 {
   "path": "neighbourhoodplan",
   "projectTitle": "Neighbourhood Plan",
-  "projectBlurb": "We aim to influence the neighbourhood plan to include concrete action on climate change.",
-  "iconStyle" : "style2",
-  "iconName" : "fa-users",
+  "projectBlurb": "We are working with Ilkley Town Council to produce a neighbourhood plan which contains measures to tackle climate change and make a just transition to a zero carbon community.",
+  "state": "ACTIVE",
   "onePlanetArea": "Culture and Community",
   "onePlanetStyle": "culture",
-  "state": "ACTIVE"
+  "iconName" : "fa-users",
+  "iconStyle": "style5"
 }
+

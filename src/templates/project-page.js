@@ -49,7 +49,6 @@ const ProjectPageTemplate = (props) => {
         query projectsJson($pathName: String!) {
           projectsJson(path: { eq: $pathName }) {
             iconName
-            iconStyle 
             projectTitle
             projectBlurb
             onePlanetArea

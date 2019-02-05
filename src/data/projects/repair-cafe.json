@@ -1,0 +1,9 @@
+{
+  "path": "repair-cafe",
+  "projectTitle": "Repair Cafe",
+  "projectBlurb": "To create a community facility where items can be repaired and refurbished",
+  "state": "PLANNED",
+  "onePlanetArea": "Materials and Products",
+  "onePlanetStyle": "materials",
+  "iconName": "fa-wrench"
+}
