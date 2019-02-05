@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'gatsby'
 
 import Layout from '../components/layout'
 
@@ -24,6 +25,18 @@ class Generic extends React.Component {
               <h2>Open Participation</h2>
               <p>We encourage active participation from everyone in our community. We want everyone's voices to be heard</p>
             </header>
+          </section>
+          <section id="projects" className="main">
+            {/*<span className="image main"><img src={pic04} alt="" /></span>*/}
+            <header className="major">
+              <h2>Current Projects</h2>
+              <p>We split our work into separate projects. Take a look at our current active and planned projects, get in touch if you see one that interests you and we will find a way to get you involved.
+              How much you do is completely up to you.</p>
+            </header>
+            <ul className="actions">
+              <li><Link to="/projects" className="button">View Projects</Link></li>
+            </ul>
+
           </section>
           <section id="project-suggestions" className="main">
             {/*<span className="image main"><img src={pic04} alt="" /></span>*/}

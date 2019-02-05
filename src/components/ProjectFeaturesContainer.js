@@ -29,7 +29,8 @@ class ProjectFeaturesContainer extends React.Component {
           this.plannedProjects = this.props.projects.edges.filter(project => project.node.state === "PLANNED");
 
         }
-
+        console.log("projects", this.props.projects)
+        console.log("Active", this.activeProjects, "planned", this.plannedProjects)
         return (
             <section className="main special">
             <header className="major">
