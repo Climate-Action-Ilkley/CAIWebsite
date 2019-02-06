@@ -24,6 +24,7 @@ export const allProjectPageQuery = graphql`
         allProjectsJson {
             edges {
                 node {
+                    path
                     iconName
                     state
                     projectTitle
