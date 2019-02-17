@@ -8,7 +8,7 @@ const OnePlanetAreaList = ({onePlanetAreas}) => {
   return (<div>
     <header className="major">
       <h2>One Planet Living Framework</h2>
-      <p>We use the One Planet Living framework to organise and plan our projects within the local community. They are split up into one of these 10 categories.</p>
+      <p>We use the <a href="https://www.bioregional.com/one-planet-living" target="_blank" className="link">One Planet Living framework</a> to organise and plan our projects within the local community. They are split up into one of these 10 categories.</p>
     </header>
     <ul className="features oneplanet">
       {onePlanetAreas.map(edge => {

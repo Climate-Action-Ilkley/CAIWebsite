@@ -22,6 +22,10 @@
 		&.major {
 			margin-bottom: (_size(element-margin) * 1.5);
 
+			.link {
+				text-decoration: underline;
+			}
+
 			h2 {
 				font-size: 2em;
 

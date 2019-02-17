@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118a337c-574c-441b-9996-bfc48d691368" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/events/public-talk.json" afterPath="$PROJECT_DIR$/src/data/events/public-talk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json" afterPath="$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/campaigning-engagement.json" afterPath="$PROJECT_DIR$/src/data/projects/campaigning-engagement.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/clean-river.json" afterPath="$PROJECT_DIR$/src/data/projects/clean-river.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/co-housing.json" afterPath="$PROJECT_DIR$/src/data/projects/co-housing.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/community-fridges.json" afterPath="$PROJECT_DIR$/src/data/projects/community-fridges.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/electriccarclub.json" afterPath="$PROJECT_DIR$/src/data/projects/electriccarclub.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/ilkley-moor.json" afterPath="$PROJECT_DIR$/src/data/projects/ilkley-moor.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/ilkley-riverside.json" afterPath="$PROJECT_DIR$/src/data/projects/ilkley-riverside.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/international-connections.json" afterPath="$PROJECT_DIR$/src/data/projects/international-connections.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/mens-shed.json" afterPath="$PROJECT_DIR$/src/data/projects/mens-shed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/repair-cafe.json" afterPath="$PROJECT_DIR$/src/data/projects/repair-cafe.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/research.json" afterPath="$PROJECT_DIR$/src/data/projects/research.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/school-competition.json" afterPath="$PROJECT_DIR$/src/data/projects/school-competition.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/sustainability-festival.json" afterPath="$PROJECT_DIR$/src/data/projects/sustainability-festival.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/sustainability-plan.json" afterPath="$PROJECT_DIR$/src/data/projects/sustainability-plan.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/tackling-plastic.json" afterPath="$PROJECT_DIR$/src/data/projects/tackling-plastic.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/transport.json" afterPath="$PROJECT_DIR$/src/data/projects/transport.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/what-you--can-do.json" afterPath="$PROJECT_DIR$/src/data/projects/what-you--can-do.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/wood-recycling.json" afterPath="$PROJECT_DIR$/src/data/projects/wood-recycling.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/basics.js" afterPath="$PROJECT_DIR$/src/pages/basics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/getinvolved.js" afterPath="$PROJECT_DIR$/src/pages/getinvolved.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.js" afterPath="$PROJECT_DIR$/src/pages/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/components/_section.scss" afterPath="$PROJECT_DIR$/src/assets/scss/components/_section.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/components/_spotlight.scss" afterPath="$PROJECT_DIR$/src/assets/scss/components/_spotlight.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/OnePlanetAreaList.js" afterPath="$PROJECT_DIR$/src/components/OnePlanetAreaList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,41 +66,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getinvolved.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/getinvolved.js">
+      <file leaf-file-name="OnePlanetAreaListContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/OnePlanetAreaListContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="19" column="141" lean-forward="false" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+            <state relative-caret-position="319">
+              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding>
+                <marker date="1547154302863" expanded="true" signature="262:641" ph="query...{&#10;                allOneplanetlivingJson {&#10;                    edges {&#10;                        node {&#10;                            path&#10;                            style&#10;                            area&#10;                            description&#10;                            icon&#10;                        }&#10;                    }&#10;                }&#10;            }" />
+                <marker date="1547154302863" expanded="true" signature="268:286" ph="allOnePlanetLiving...allOnePlanetLiving" />
+                <marker date="1547154302863" expanded="true" signature="287:641" ph="{...}" />
+                <marker date="1547154302863" expanded="true" signature="305:327" ph="allOneplanetlivingJson...allOneplanetlivingJson" />
+                <marker date="1547154302863" expanded="true" signature="305:627" ph="allOneplanetlivingJson...{&#10;                    edges {&#10;                        node {&#10;                            path&#10;                            style&#10;                            area&#10;                            description&#10;                            icon&#10;                        }&#10;                    }&#10;                }" />
+                <marker date="1547154302863" expanded="true" signature="328:627" ph="{...}" />
+                <marker date="1547154302863" expanded="true" signature="350:355" ph="edges...edges" />
+                <marker date="1547154302863" expanded="true" signature="350:609" ph="edges...{&#10;                        node {&#10;                            path&#10;                            style&#10;                            area&#10;                            description&#10;                            icon&#10;                        }&#10;                    }" />
+                <marker date="1547154302863" expanded="true" signature="356:609" ph="{...}" />
+                <marker date="1547154302863" expanded="true" signature="382:386" ph="node...node" />
+                <marker date="1547154302863" expanded="true" signature="382:587" ph="node...{&#10;                            path&#10;                            style&#10;                            area&#10;                            description&#10;                            icon&#10;                        }" />
+                <marker date="1547154302863" expanded="true" signature="387:587" ph="{...}" />
+                <marker date="1547154302863" expanded="true" signature="417:421" ph="path...path" />
+                <marker date="1547154302863" expanded="true" signature="450:455" ph="style...style" />
+                <marker date="1547154302863" expanded="true" signature="484:488" ph="area...area" />
+                <marker date="1547154302863" expanded="true" signature="517:528" ph="description...description" />
+                <marker date="1547154302863" expanded="true" signature="557:561" ph="icon...icon" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnePlanetAreaList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/OnePlanetAreaList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="10" column="103" lean-forward="false" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="healthhappiness.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/healthhappiness.json">
+      <file leaf-file-name="_spotlight.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_spotlight.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_section.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_section.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
-              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="equityeconomy.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sustainability-festival.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/data/projects/sustainability-festival.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="122" lean-forward="false" selection-start-line="3" selection-start-column="122" selection-end-line="3" selection-end-column="122" />
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -184,9 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/assets/scss/layout/_main.scss" />
-        <option value="$PROJECT_DIR$/src/assets/scss/components/_section.scss" />
-        <option value="$PROJECT_DIR$/src/data/events/template-event.json" />
         <option value="$PROJECT_DIR$/src/data/events/template-event1.json" />
         <option value="$PROJECT_DIR$/src/templates/events-page.js" />
         <option value="$PROJECT_DIR$/src/components/Footer.js" />
@@ -235,6 +230,9 @@
         <option value="$PROJECT_DIR$/src/data/projects/campaigning-engagement.json" />
         <option value="$PROJECT_DIR$/src/pages/getinvolved.js" />
         <option value="$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json" />
+        <option value="$PROJECT_DIR$/src/assets/scss/components/_spotlight.scss" />
+        <option value="$PROJECT_DIR$/src/assets/scss/components/_section.scss" />
+        <option value="$PROJECT_DIR$/src/components/OnePlanetAreaList.js" />
       </list>
     </option>
   </component>
@@ -339,14 +337,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -362,73 +352,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="oneplanetliving" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CAIWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CAIWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CAIWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CAIWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CAIWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CAIWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectLists" />
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,6 +379,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -711,7 +643,7 @@
       <workItem from="1549307250695" duration="7622000" />
       <workItem from="1549489717829" duration="2340000" />
       <workItem from="1549534865670" duration="1743000" />
-      <workItem from="1550407292276" duration="6268000" />
+      <workItem from="1550407292276" duration="7506000" />
     </task>
     <task id="LOCAL-00001" summary="Change to v1 gatsbycli">
       <created>1541887243447</created>
@@ -731,7 +663,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133414000" />
+    <option name="totallyTimeSpent" value="134652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="0" />
@@ -810,38 +742,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectFeaturesContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/landnature.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/network.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="98" lean-forward="false" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1034,14 +934,6 @@
           <folding>
             <element signature="e#0#25#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="107" column="47" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,8 +1147,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/projects/sustainability-festival.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="78" column="32" lean-forward="false" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OnePlanetAreaListContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <marker date="1547154302863" expanded="true" signature="262:641" ph="query...{&#10;                allOneplanetlivingJson {&#10;                    edges {&#10;                        node {&#10;                            path&#10;                            style&#10;                            area&#10;                            description&#10;                            icon&#10;                        }&#10;                    }&#10;                }&#10;            }" />
+            <marker date="1547154302863" expanded="true" signature="268:286" ph="allOnePlanetLiving...allOnePlanetLiving" />
+            <marker date="1547154302863" expanded="true" signature="287:641" ph="{...}" />
+            <marker date="1547154302863" expanded="true" signature="305:327" ph="allOneplanetlivingJson...allOneplanetlivingJson" />
+            <marker date="1547154302863" expanded="true" signature="305:627" ph="allOneplanetlivingJson...{&#10;                    edges {&#10;                        node {&#10;                            path&#10;                            style&#10;                            area&#10;                            description&#10;                            icon&#10;                        }&#10;                    }&#10;                }" />
+            <marker date="1547154302863" expanded="true" signature="328:627" ph="{...}" />
+            <marker date="1547154302863" expanded="true" signature="350:355" ph="edges...edges" />
+            <marker date="1547154302863" expanded="true" signature="350:609" ph="edges...{&#10;                        node {&#10;                            path&#10;                            style&#10;                            area&#10;                            description&#10;                            icon&#10;                        }&#10;                    }" />
+            <marker date="1547154302863" expanded="true" signature="356:609" ph="{...}" />
+            <marker date="1547154302863" expanded="true" signature="382:386" ph="node...node" />
+            <marker date="1547154302863" expanded="true" signature="382:587" ph="node...{&#10;                            path&#10;                            style&#10;                            area&#10;                            description&#10;                            icon&#10;                        }" />
+            <marker date="1547154302863" expanded="true" signature="387:587" ph="{...}" />
+            <marker date="1547154302863" expanded="true" signature="417:421" ph="path...path" />
+            <marker date="1547154302863" expanded="true" signature="450:455" ph="style...style" />
+            <marker date="1547154302863" expanded="true" signature="484:488" ph="area...area" />
+            <marker date="1547154302863" expanded="true" signature="517:528" ph="description...description" />
+            <marker date="1547154302863" expanded="true" signature="557:561" ph="icon...icon" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_spotlight.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_section.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
-          <caret line="3" column="122" lean-forward="false" selection-start-line="3" selection-start-column="122" selection-end-line="3" selection-end-column="122" />
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OnePlanetAreaList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="10" column="103" lean-forward="false" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
           <folding />
         </state>
       </provider>
