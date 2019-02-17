@@ -9,7 +9,9 @@ const Event = ({event}) => {
       <header className="major">
         <h2>{event.name}</h2>
         <h3>Venue : {event.venue}</h3>
-        <h3><span>Time : {event.time}</span> <span>Date: {event.date}</span></h3>
+        <h3><span>Date: {formatDate(event.date)}</span></h3>
+
+        <h3><span>Time : {event.time}</span> </h3>
         <h3>{event.description}</h3>
       </header>
 
@@ -17,5 +19,11 @@ const Event = ({event}) => {
     </div>
   )
 };
+
+function formatDate(dateString) {
+  console.log(dateString)
+  let date = new Date(Date.parse(dateString))
+  return date.getDate()  + " / " + (date.getMonth()+1) + " / " + date.getFullYear()
+}
 
 export default Event;

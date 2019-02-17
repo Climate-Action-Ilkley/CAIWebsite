@@ -2,7 +2,11 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import ProfileImage from '../components/ProfileImage';
-import placeholder from '../assets/images/placeholder-headshot.jpg'
+import vicky from '../assets/images/steeringroup/vicky.jpg'
+import george from '../assets/images/steeringroup/george.jpg'
+import kath from '../assets/images/steeringroup/kath.jpg'
+import will from '../assets/images/steeringroup/will_a.jpg'
+import steve from '../assets/images/steeringroup/steve.jpg'
 
 class Generic extends React.Component {
   render() {
@@ -12,23 +16,23 @@ class Generic extends React.Component {
         <div id="main">
           <section className="main">
             <header className="major">
-              <h2>Climate Action Ilkley Board</h2>
+              <h2>Climate Action Ilkley Steering Group</h2>
             </header>
             <ul className="features profile-pictures">
               <li>
-                <ProfileImage imgSrc={placeholder}/>
+                <ProfileImage imgSrc={kath}/>
               </li>
               <li>
-                <ProfileImage imgSrc={placeholder}/>
+                <ProfileImage imgSrc={will}/>
               </li>
               <li>
-                <ProfileImage imgSrc={placeholder}/>
+                <ProfileImage imgSrc={steve}/>
               </li>
               <li>
-                <ProfileImage imgSrc={placeholder}/>
+                <ProfileImage imgSrc={vicky}/>
               </li>
               <li>
-                <ProfileImage imgSrc={placeholder}/>
+                <ProfileImage imgSrc={george}/>
               </li>
 
             </ul>
