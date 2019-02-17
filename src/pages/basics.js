@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'gatsby'
 
 import Layout from '../components/layout'
 
@@ -65,6 +66,7 @@ class Generic extends React.Component {
             <h3>The basic facts of climate change are grim: 80% of fossil fuel reserves need to stay in the ground for us to stay below 2°C of warming and fossil fuel companies aren’t going to do that without a fight.</h3>
             <ul className="actions">
               <li><a href="https://350.org/science/#solutions" className="button special">Learn More</a></li>
+              <li><Link to="/projects" className="button">View Projects</Link></li>
             </ul>
           </section>
         </div>

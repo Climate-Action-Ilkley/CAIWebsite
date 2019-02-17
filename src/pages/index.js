@@ -74,11 +74,6 @@ class Index extends React.Component {
               <BasicsItem itemStyle="style5" iconStyle="fa-wrench" linkUrl="/basics#fix" itemTitle="We Can Fix It"/>
 
             </ul>
-            {/*<footer className="major">*/}
-              {/*<ul className="actions">*/}
-                {/*<li><Link to="/basics" className="button">Learn More</Link></li>*/}
-              {/*</ul>*/}
-            {/*</footer>*/}
           </section>
           <section id="second" className="main special">
           <OnePlanetAreaListContainer/>

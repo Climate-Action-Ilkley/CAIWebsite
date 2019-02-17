@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118a337c-574c-441b-9996-bfc48d691368" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/steeringroup/george.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/steeringroup/kath.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/steeringroup/will_a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/events/cai-igm.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/events/public-talk.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/data/events/template-event1.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/events/template-event.json" afterPath="$PROJECT_DIR$/src/data/events/cai-hustings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Event.js" afterPath="$PROJECT_DIR$/src/components/Event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/about.js" afterPath="$PROJECT_DIR$/src/pages/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/events/public-talk.json" afterPath="$PROJECT_DIR$/src/data/events/public-talk.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json" afterPath="$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/campaigning-engagement.json" afterPath="$PROJECT_DIR$/src/data/projects/campaigning-engagement.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/clean-river.json" afterPath="$PROJECT_DIR$/src/data/projects/clean-river.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/co-housing.json" afterPath="$PROJECT_DIR$/src/data/projects/co-housing.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/community-fridges.json" afterPath="$PROJECT_DIR$/src/data/projects/community-fridges.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/electriccarclub.json" afterPath="$PROJECT_DIR$/src/data/projects/electriccarclub.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/ilkley-moor.json" afterPath="$PROJECT_DIR$/src/data/projects/ilkley-moor.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/ilkley-riverside.json" afterPath="$PROJECT_DIR$/src/data/projects/ilkley-riverside.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/international-connections.json" afterPath="$PROJECT_DIR$/src/data/projects/international-connections.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/mens-shed.json" afterPath="$PROJECT_DIR$/src/data/projects/mens-shed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/repair-cafe.json" afterPath="$PROJECT_DIR$/src/data/projects/repair-cafe.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/research.json" afterPath="$PROJECT_DIR$/src/data/projects/research.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/school-competition.json" afterPath="$PROJECT_DIR$/src/data/projects/school-competition.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/sustainability-festival.json" afterPath="$PROJECT_DIR$/src/data/projects/sustainability-festival.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/sustainability-plan.json" afterPath="$PROJECT_DIR$/src/data/projects/sustainability-plan.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/tackling-plastic.json" afterPath="$PROJECT_DIR$/src/data/projects/tackling-plastic.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/transport.json" afterPath="$PROJECT_DIR$/src/data/projects/transport.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/what-you--can-do.json" afterPath="$PROJECT_DIR$/src/data/projects/what-you--can-do.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/projects/wood-recycling.json" afterPath="$PROJECT_DIR$/src/data/projects/wood-recycling.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/basics.js" afterPath="$PROJECT_DIR$/src/pages/basics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/getinvolved.js" afterPath="$PROJECT_DIR$/src/pages/getinvolved.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.js" afterPath="$PROJECT_DIR$/src/pages/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,41 +86,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Event.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Event.js">
+      <file leaf-file-name="getinvolved.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/getinvolved.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="19" column="141" lean-forward="false" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cai-hustings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/events/cai-hustings.json">
+      <file leaf-file-name="healthhappiness.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/healthhappiness.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="87">
+              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cai-igm.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/events/cai-igm.json">
+      <file leaf-file-name="equityeconomy.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public-talk.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/events/public-talk.json">
+      <file leaf-file-name="sustainability-festival.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/data/projects/sustainability-festival.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="87">
+              <caret line="3" column="122" lean-forward="false" selection-start-line="3" selection-start-column="122" selection-end-line="3" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -171,46 +184,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/ProjectLists/WasteProjectFeatures.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/layout/_main.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_section.scss" />
         <option value="$PROJECT_DIR$/src/data/events/template-event.json" />
         <option value="$PROJECT_DIR$/src/data/events/template-event1.json" />
         <option value="$PROJECT_DIR$/src/templates/events-page.js" />
         <option value="$PROJECT_DIR$/src/components/Footer.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/components/QuestionFeature.js" />
         <option value="$PROJECT_DIR$/src/templates/project-page.js" />
         <option value="$PROJECT_DIR$/src/data/projects/neighbourhoodplan.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/electriccarclub.json" />
         <option value="$PROJECT_DIR$/src/data/projects/foodwaste.json" />
         <option value="$PROJECT_DIR$/src/data/projects/cai-organisation.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/sustainability-plan.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/research.json" />
         <option value="$PROJECT_DIR$/src/data/projects/communityenergycompany.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/what-you--can-do.json" />
         <option value="$PROJECT_DIR$/src/data/projects/communityorchard.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/transport.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/international-connections.json" />
         <option value="$PROJECT_DIR$/src/data/projects/incredible-edible.json" />
         <option value="$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js" />
-        <option value="$PROJECT_DIR$/src/data/projects/clean-river.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/tackling-plastic.json" />
-        <option value="$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/sustainability-festival.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/ilkley-riverside.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/ilkley-moor.json" />
         <option value="$PROJECT_DIR$/src/data/projects/library-of-things.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/school-competition.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/repair-cafe.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/community-fridges.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/wood-recycling.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/co-housing.json" />
-        <option value="$PROJECT_DIR$/src/data/projects/campaigning-engagement.json" />
         <option value="$PROJECT_DIR$/src/components/ProjectFeaturesContainer.js" />
-        <option value="$PROJECT_DIR$/src/pages/getinvolved.js" />
         <option value="$PROJECT_DIR$/src/pages/projects.js" />
-        <option value="$PROJECT_DIR$/src/data/projects/mens-shed.json" />
         <option value="$PROJECT_DIR$/src/pages/network.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/assets/css/font-awesome.min.css" />
@@ -218,10 +209,32 @@
         <option value="$PROJECT_DIR$/src/components/UpcomingEvent.js" />
         <option value="$PROJECT_DIR$/src/pages/events.js" />
         <option value="$PROJECT_DIR$/src/pages/about.js" />
-        <option value="$PROJECT_DIR$/src/data/events/public-talk.json" />
         <option value="$PROJECT_DIR$/src/data/events/cai-igm.json" />
         <option value="$PROJECT_DIR$/src/data/events/cai-hustings.json" />
         <option value="$PROJECT_DIR$/src/components/Event.js" />
+        <option value="$PROJECT_DIR$/src/data/events/public-talk.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/electriccarclub.json" />
+        <option value="$PROJECT_DIR$/src/pages/basics.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/data/projects/wood-recycling.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/what-you--can-do.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/transport.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/tackling-plastic.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/sustainability-plan.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/sustainability-festival.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/school-competition.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/research.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/repair-cafe.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/mens-shed.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/international-connections.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/ilkley-riverside.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/ilkley-moor.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/co-housing.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/community-fridges.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/clean-river.json" />
+        <option value="$PROJECT_DIR$/src/data/projects/campaigning-engagement.json" />
+        <option value="$PROJECT_DIR$/src/pages/getinvolved.js" />
+        <option value="$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json" />
       </list>
     </option>
   </component>
@@ -328,6 +341,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CAIWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CAIWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneplanetliving" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -672,7 +711,7 @@
       <workItem from="1549307250695" duration="7622000" />
       <workItem from="1549489717829" duration="2340000" />
       <workItem from="1549534865670" duration="1743000" />
-      <workItem from="1550407292276" duration="4474000" />
+      <workItem from="1550407292276" duration="6268000" />
     </task>
     <task id="LOCAL-00001" summary="Change to v1 gatsbycli">
       <created>1541887243447</created>
@@ -692,7 +731,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131620000" />
+    <option name="totallyTimeSpent" value="133414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="0" />
@@ -771,216 +810,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data/projects/research.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/what-you--can-do.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/electriccarclub.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/transport.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/communityorchard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/international-connections.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/incredible-edible.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/sustainablewater.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/WaterProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/clean-river.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/tackling-plastic.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/sustainability-festival.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/ilkley-riverside.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/ilkley-moor.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/materialsproducts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/repair-cafe.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/community-fridges.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/wood-recycling.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/campaigning-engagement.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/co-housing.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectLists/CultureProjectFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1547912548337" expanded="true" signature="255:662" ph="query...{&#10;          allProjectsJson {&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1547912548337" expanded="true" signature="261:279" ph="allProjects...allProjects" />
-            <marker date="1547912548337" expanded="true" signature="280:662" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="292:307" ph="allProjectsJson...allProjectsJson" />
-            <marker date="1547912548337" expanded="true" signature="292:654" ph="allProjectsJson...{&#10;              edges {&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1547912548337" expanded="true" signature="307:364" ph="(...)" />
-            <marker date="1547912548337" expanded="true" signature="308:314" ph="filter...filter" />
-            <marker date="1547912548337" expanded="true" signature="308:363" ph="filter...{path: { eq: &quot;culture-community&quot;}}" />
-            <marker date="1547912548337" expanded="true" signature="316:363" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="317:330" ph="path...path" />
-            <marker date="1547912548337" expanded="true" signature="317:362" ph="path...{ eq: &quot;culture-community&quot;}" />
-            <marker date="1547912548337" expanded="true" signature="332:362" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="334:336" ph="eq...eq" />
-            <marker date="1547912548337" expanded="true" signature="365:654" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="381:386" ph="edges...edges" />
-            <marker date="1547912548337" expanded="true" signature="381:642" ph="edges...{&#10;                  node {&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }&#10;              }" />
-            <marker date="1547912548337" expanded="true" signature="387:642" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="407:411" ph="node...node" />
-            <marker date="1547912548337" expanded="true" signature="407:626" ph="node...{&#10;                      path&#10;                      projectTitle&#10;                      projectBlurb&#10;                      iconName&#10;                  }" />
-            <marker date="1547912548337" expanded="true" signature="412:626" ph="{...}" />
-            <marker date="1547912548337" expanded="true" signature="436:440" ph="path...path" />
-            <marker date="1547912548337" expanded="true" signature="463:475" ph="projectTitle...projectTitle" />
-            <marker date="1547912548337" expanded="true" signature="498:510" ph="projectBlurb...projectBlurb" />
-            <marker date="1547912548337" expanded="true" signature="533:541" ph="iconName...iconName" />
-            <marker date="1547912548337" expanded="true" signature="564:578" ph="onePlanetStyle...onePlanetStyle" />
-            <marker date="1547912548337" expanded="true" signature="601:606" ph="state...state" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="57" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/school-competition.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/getinvolved.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ProjectFeaturesContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -996,31 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/healthhappiness.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/landnature.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/library-of-things.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/projects/mens-shed.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1031,14 +839,6 @@
           <folding>
             <element signature="e#0#25#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2523">
-          <caret line="95" column="14" lean-forward="false" selection-start-line="95" selection-start-column="14" selection-end-line="100" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,14 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/events/public-talk.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/events/cai-igm.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1213,8 +1005,258 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Event.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/events/public-talk.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/electriccarclub.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/basics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="69" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="107" column="47" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/wood-recycling.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="101" lean-forward="false" selection-start-line="3" selection-start-column="101" selection-end-line="3" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/what-you--can-do.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="166" lean-forward="false" selection-start-line="3" selection-start-column="166" selection-end-line="3" selection-end-column="166" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/transport.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="209" lean-forward="false" selection-start-line="3" selection-start-column="209" selection-end-line="3" selection-end-column="209" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/tackling-plastic.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="151" lean-forward="false" selection-start-line="3" selection-start-column="151" selection-end-line="3" selection-end-column="151" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/sustainability-plan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="347" lean-forward="false" selection-start-line="3" selection-start-column="347" selection-end-line="3" selection-end-column="347" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/school-competition.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="169" lean-forward="false" selection-start-line="3" selection-start-column="169" selection-end-line="3" selection-end-column="169" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/research.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="235" lean-forward="false" selection-start-line="3" selection-start-column="235" selection-end-line="3" selection-end-column="235" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/repair-cafe.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="94" lean-forward="false" selection-start-line="3" selection-start-column="94" selection-end-line="3" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/neighbourhoodplan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/mens-shed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="81" lean-forward="false" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/library-of-things.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/international-connections.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="299" lean-forward="false" selection-start-line="3" selection-start-column="299" selection-end-line="3" selection-end-column="299" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/incredible-edible.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/ilkley-riverside.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="173" lean-forward="false" selection-start-line="3" selection-start-column="173" selection-end-line="3" selection-end-column="173" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/ilkley-moor.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="178" lean-forward="false" selection-start-line="3" selection-start-column="178" selection-end-line="3" selection-end-column="178" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/foodwaste.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/communityorchard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/communityenergycompany.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/co-housing.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="3" column="91" lean-forward="false" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/community-fridges.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="3" column="170" lean-forward="false" selection-start-line="3" selection-start-column="170" selection-end-line="3" selection-end-column="170" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/clean-river.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="110" lean-forward="false" selection-start-line="3" selection-start-column="110" selection-end-line="3" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/campaigning-engagement.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="132" lean-forward="false" selection-start-line="3" selection-start-column="132" selection-end-line="3" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/cai-organisation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/getinvolved.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="19" column="141" lean-forward="false" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/healthhappiness.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/oneplanetliving/equityeconomy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/projects/sustainability-festival.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="122" lean-forward="false" selection-start-line="3" selection-start-column="122" selection-end-line="3" selection-end-column="122" />
           <folding />
         </state>
       </provider>
