@@ -20,19 +20,19 @@ class Generic extends React.Component {
             </header>
             <ul className="features profile-pictures">
               <li>
-                <ProfileImage imgSrc={kath}/>
+                <ProfileImage firstName="Kath" lastName="Steward" imgSrc={kath}/>
               </li>
               <li>
-                <ProfileImage imgSrc={will}/>
+                <ProfileImage firstName="Will" lastName="Abramson" imgSrc={will}/>
               </li>
               <li>
-                <ProfileImage imgSrc={steve}/>
+                <ProfileImage firstName="Steve" lastName="Peel" imgSrc={steve}/>
               </li>
               <li>
-                <ProfileImage imgSrc={vicky}/>
+                <ProfileImage firstName="Vicky" lastName="Walker" imgSrc={vicky}/>
               </li>
               <li>
-                <ProfileImage imgSrc={george}/>
+                <ProfileImage firstName="George" lastName="Abramson" imgSrc={george}/>
               </li>
 
             </ul>

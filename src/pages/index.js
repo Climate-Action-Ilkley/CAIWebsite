@@ -52,7 +52,7 @@ class Index extends React.Component {
           <section id="about" className="main special">
               <header className="major">
                   <h2>About Us</h2>
-                  <h3>We are a community of climate concious Ilkley residents who believe through coordinated local action we can lead the way into a better future ...</h3>
+                  <h3>We are a community of climate conscious Ilkley residents who believe through coordinated local action we can lead the way into a better future ...</h3>
               </header>
               <ul className="actions">
                   <li><Link to="/about" className="button">Learn More</Link></li>
