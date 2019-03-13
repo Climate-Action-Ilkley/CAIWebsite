@@ -19,6 +19,7 @@ const UpcomingEvent = () => (
                       time
                       name
                       description
+                      link
                   }
               }
           }

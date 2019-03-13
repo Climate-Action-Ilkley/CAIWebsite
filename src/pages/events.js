@@ -31,6 +31,7 @@ export const eventQuery = graphql`
                   time
                   name
                   description
+                  link
               }
           }
       }

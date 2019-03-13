@@ -11,8 +11,10 @@ const Event = ({event}) => {
         <h3>Venue : {event.venue}</h3>
         <h3><span>Date: {formatDate(event.date)}</span></h3>
 
-        <h3><span>Time : {event.time}</span> </h3>
+        <bu><span>Time : {event.time}</span> </bu>
         <h3>{event.description}</h3>
+        {event.link !== "" ? <a className="button primary" href={event.link} target="_blank">Sign Up</a> : null}
+
       </header>
 
 
