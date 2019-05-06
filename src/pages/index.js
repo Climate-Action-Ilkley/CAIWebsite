@@ -98,6 +98,18 @@ class Index extends React.Component {
                   <li><Link to="/network" className="button">Learn More</Link></li>
               </ul>
           </section>
+
+          <section id="cta" className="main special">
+            <header className="major">
+              <h2>Get Involved</h2>
+              <p>If you are interested in getting involved, send us an email. <br/> We always welcome more active members into our community.<br/> Together we can make a difference.</p>
+            </header>
+            <footer className="major">
+              <ul className="actions">
+                <li><Link to="/getinvolved" className="button special">Get Involved</Link></li>
+              </ul>
+            </footer>
+          </section>
           <section id="newsletter" className="main special">
             <header className="major">
               <h2>Newsletter</h2>
@@ -107,17 +119,6 @@ class Index extends React.Component {
               <ul className="actions">
                 <li><a href="https://facebook.us18.list-manage.com/subscribe?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="button special">Sign Up</a></li>
                 <li><a href="https://us18.campaign-archive.com/home/?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="button">View Archive</a></li>
-              </ul>
-            </footer>
-          </section>
-          <section id="cta" className="main special">
-            <header className="major">
-              <h2>Get Involved</h2>
-              <p>If you are interested in getting involved, send us an email. <br/> We always welcome more active members into our community.<br/> Together we can make a difference.</p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/getinvolved" className="button special">Get Involved</Link></li>
               </ul>
             </footer>
           </section>

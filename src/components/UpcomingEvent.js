@@ -19,6 +19,7 @@ const UpcomingEvent = () => (
                       time
                       name
                       description
+                      link
                   }
               }
           }
@@ -28,9 +29,32 @@ const UpcomingEvent = () => (
     `}
                render={data => {
                  console.log(data.allEventsJson);
-                 return <Event event={data.allEventsJson.edges[0].node}/>;
+                 return getUpcomingEvent(data.allEventsJson.edges);
                }}
   />
   );
+
+const getUpcomingEvent = (eventEdges) => {
+  const events = filterEvents(eventEdges);
+
+  if (events.length === 0) {
+    return <h2>No Upcoming Events</h2>
+  } else {
+    return <Event event={events[0]}/>
+  }
+}
+
+const filterEvents = (eventEdges) => {
+  const events = eventEdges.filter(eventEdge => {
+    const eventDate = new Date(Date.parse(eventEdge.node.date));
+
+    if (eventDate > Date.now()) {
+      return eventEdge.node;
+    }
+  });
+  console.log(events);
+
+  return events;
+}
 
 export default UpcomingEvent;

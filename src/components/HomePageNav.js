@@ -36,13 +36,13 @@ const HomePageNav = (props) => (
                 </Scroll>
             </li>
             <li>
-                <Scroll type="id" element="newsletter">
-                    <a href="#">Newsletter</a>
+                <Scroll type="id" element="cta">
+                    <a href="#">Get Involved</a>
                 </Scroll>
             </li>
             <li>
-                <Scroll type="id" element="cta">
-                    <a href="#">Get Involved</a>
+                <Scroll type="id" element="newsletter">
+                    <a href="#">Newsletter</a>
                 </Scroll>
             </li>
         </Scrollspy>

@@ -29,6 +29,10 @@
 		text-decoration: none;
 		white-space: nowrap;
 
+		&.primary {
+			background-color: _palette(accent) !important;
+		}
+
 		&.icon {
 			padding-left: 1.35em;
 
@@ -75,6 +79,8 @@
 			&:hover {
 				background-color: _palette($p, border-bg);
 			}
+
+
 
 			&:active {
 				background-color: _palette($p, border2-bg);
