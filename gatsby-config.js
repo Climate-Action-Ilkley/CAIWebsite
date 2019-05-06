@@ -18,6 +18,12 @@ module.exports = {
         icon: 'src/assets/images/web-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+        resolve: 'gatsby-plugin-mailchimp',
+        options: {
+            endpoint: 'https://facebook.us18.list-manage.com/subscribe/post?u=a1a0e5958b2d727a3b3578b04&amp;id=ccb7d8ba53', // add your MC list endpoint here; see instructions below
+        },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     'gatsby-plugin-twitter',
