@@ -7,6 +7,7 @@ import HomePageNav from '../components/HomePageNav'
 import logo from '../assets/images/web-icon.png'
 import BasicsItem from '../components/BasicsItem';
 import UpcomingEvent from '../components/UpcomingEvent';
+import SubscribeForm from "../components/SubscribeForm";
 
 class Index extends React.Component {
   constructor(props) {
@@ -113,12 +114,13 @@ class Index extends React.Component {
           <section id="newsletter" className="main special">
             <header className="major">
               <h2>Newsletter</h2>
-              <p>Sign up for our newsletter to keep up to date with the latest news and events from Climate Action Ilkley.</p>
+              <p>Sign up for our newsletter to keep up to date with the latest news and events from Climate Action Ilkley. <br/>You can view the newsletter archive            <a href="https://us18.campaign-archive.com/home/?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="link">here</a>.
+              </p>
             </header>
             <footer className="major">
+
               <ul className="actions">
-                <li><a href="https://facebook.us18.list-manage.com/subscribe?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="button special">Sign Up</a></li>
-                <li><a href="https://us18.campaign-archive.com/home/?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="button">View Archive</a></li>
+                  <SubscribeForm/>
               </ul>
             </footer>
           </section>

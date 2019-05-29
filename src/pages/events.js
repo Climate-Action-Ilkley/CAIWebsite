@@ -12,8 +12,8 @@ const Events = ({ data }) => {
       return <h2>No Upcoming Events</h2>
     } else {
       return <div>
-        {events.map(event => {
-          return <Event event={event}/>
+        {events.map(edge => {
+          return <Event event={edge.node}/>
         })}
       </div>
     }

@@ -11,7 +11,7 @@ const UpcomingEvent = () => (
     graphql`
       query upcomingEventQuery
           {
-              allEventsJson(sort: {order: ASC, fields: [date]}, limit: 1) {
+              allEventsJson(sort: {order: ASC, fields: [date]}) {
               edges {
                   node {
                       date
@@ -40,21 +40,20 @@ const getUpcomingEvent = (eventEdges) => {
   if (events.length === 0) {
     return <h2>No Upcoming Events</h2>
   } else {
-    return <Event event={events[0]}/>
+    return <Event event={events[0].node}/>
   }
 }
 
 const filterEvents = (eventEdges) => {
-  const events = eventEdges.filter(eventEdge => {
-    const eventDate = new Date(Date.parse(eventEdge.node.date));
+    const events = eventEdges.filter(eventEdge => {
+        const eventDate = new Date(Date.parse(eventEdge.node.date));
 
-    if (eventDate > Date.now()) {
-      return eventEdge.node;
-    }
-  });
-  console.log(events);
+        if (eventDate > Date.now()) {
+            return eventEdge.node;
+        }
+    });
+    console.log(events);
 
-  return events;
+    return events;
 }
-
 export default UpcomingEvent;
