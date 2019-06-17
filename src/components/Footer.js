@@ -18,7 +18,7 @@ const Footer = (props) => (
       <section>
         <h2>Contact Us</h2>
         <ul className="icons">
-          <li><h3>climateactionilkley@gmail.com</h3></li>
+          <li><a href="mailto:climateactionilkley@gmail.com">climateactionilkley@gmail.com</a></li>
         </ul>
       </section>
       <p className="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.Development by: <a href="https://misterwip.uk" target="_blank">Mister Wip</a>.</p>

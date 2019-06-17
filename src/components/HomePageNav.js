@@ -17,12 +17,12 @@ const HomePageNav = (props) => (
             </li>
             <li>
                 <Scroll type="id" element="first">
-                    <a href="#">The Basics</a>
+                    <a href="#">The Facts</a>
                 </Scroll>
             </li>
             <li>
                 <Scroll type="id" element="second">
-                    <a href="#">One Planet Living</a>
+                    <a href="#">Our Projects</a>
                 </Scroll>
             </li>
             <li>

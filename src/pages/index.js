@@ -7,7 +7,7 @@ import HomePageNav from '../components/HomePageNav'
 import logo from '../assets/images/web-icon.png'
 import BasicsItem from '../components/BasicsItem';
 import UpcomingEvent from '../components/UpcomingEvent';
-import SubscribeForm from "../components/SubscribeForm";
+import SignUpForm from "../components/SignUpForm";
 
 class Index extends React.Component {
   constructor(props) {
@@ -63,16 +63,16 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Climate Change Basics</h2>
+              <h2>Climate Change Facts</h2>
               <p>Climate Action Ilkley accepts these five basic facts about climate change which command the support of the overwhelming majority of scientists .
                 </p>
             </header>
             <ul className="statistics">
-              <BasicsItem itemStyle="style1" iconStyle="fa-fire" linkUrl="/basics#warming" itemTitle="It's Warming"/>
-              <BasicsItem itemStyle="style2" iconStyle="fa-users" linkUrl="/basics#us" itemTitle="It's Us"/>
-              <BasicsItem itemStyle="style3" iconStyle="fa-signal" linkUrl="/basics#sure" itemTitle="We're Sure"/>
-              <BasicsItem itemStyle="style4" iconStyle="fa-times-circle" linkUrl="/basics#bad" itemTitle="It's Bad"/>
-              <BasicsItem itemStyle="style5" iconStyle="fa-wrench" linkUrl="/basics#fix" itemTitle="We Can Fix It"/>
+              <BasicsItem itemStyle="style1" iconStyle="fa-fire" linkUrl="/facts#warming" itemTitle="It's Warming"/>
+              <BasicsItem itemStyle="style2" iconStyle="fa-users" linkUrl="/facts#us" itemTitle="It's Us"/>
+              <BasicsItem itemStyle="style3" iconStyle="fa-signal" linkUrl="/facts#sure" itemTitle="We're Sure"/>
+              <BasicsItem itemStyle="style4" iconStyle="fa-times-circle" linkUrl="/facts#bad" itemTitle="It's Bad"/>
+              <BasicsItem itemStyle="style5" iconStyle="fa-wrench" linkUrl="/facts#fix" itemTitle="We Can Fix It"/>
 
             </ul>
           </section>
@@ -120,7 +120,7 @@ class Index extends React.Component {
             <footer className="major">
 
               <ul className="actions">
-                  <SubscribeForm/>
+                  <SignUpForm/>
               </ul>
             </footer>
           </section>

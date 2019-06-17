@@ -11,8 +11,9 @@
 	}
 
 	label {
-		display: block;
-		font-size: 0.9em;
+		display: inline-block;
+		font-size: 1.2em;
+		padding: 5px;
 		font-weight: _font(weight-bold);
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 	}

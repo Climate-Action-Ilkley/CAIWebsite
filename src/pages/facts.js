@@ -18,7 +18,7 @@ class Generic extends React.Component {
             </header>
             <h3>Right now, annual global average temperature is about 1° Celsius hotter than average.</h3>
             <ul className="actions">
-              <li><a href="https://350.org/science/#warming" className="button special">Learn More</a></li>
+              <li><a target="_blank" href="https://350.org/science/#warming" className="button special">Learn More</a></li>
             </ul>
           </section>
 
@@ -30,7 +30,7 @@ class Generic extends React.Component {
             <h3>Human beings are causing climate change, largely by burning fossil fuels.</h3>
             <h3>Rising temperatures correlate almost exactly with the release of greenhouse gases.</h3>
             <ul className="actions">
-              <li><a href="https://350.org/science/#causes" className="button special">Learn More</a></li>
+              <li><a  target="_blank" href="https://350.org/science/#causes" className="button special">Learn More</a></li>
             </ul>
           </section>
           <section id="sure" className="main basics">
@@ -43,7 +43,7 @@ class Generic extends React.Component {
             <h3>There is no meaningful debate about the basic science of climate change.</h3>
 
             <ul className="actions">
-              <li><a href="https://350.org/science/#denial" className="button special">Learn More</a></li>
+              <li><a  target="_blank" href="https://350.org/science/#denial" className="button special">Learn More</a></li>
             </ul>
           </section>
           <section id="bad" className="main">
@@ -54,7 +54,7 @@ class Generic extends React.Component {
             </header>
             <h3>One degree of warming has already resulted in devastating impacts across the planet.</h3>
             <ul className="actions">
-              <li><a href="https://350.org/science/#impacts" className="button special">Learn More</a></li>
+              <li><a  target="_blank" href="https://350.org/science/#impacts" className="button special">Learn More</a></li>
             </ul>
           </section>
           <section id="fix" className="main">
@@ -65,7 +65,7 @@ class Generic extends React.Component {
             </header>
             <h3>The basic facts of climate change are grim: 80% of fossil fuel reserves need to stay in the ground for us to stay below 2°C of warming and fossil fuel companies aren’t going to do that without a fight.</h3>
             <ul className="actions">
-              <li><a href="https://350.org/science/#solutions" className="button special">Learn More</a></li>
+              <li><a  target="_blank" href="https://350.org/science/#solutions" className="button special">Learn More</a></li>
               <li><Link to="/projects" className="button">View Projects</Link></li>
             </ul>
           </section>

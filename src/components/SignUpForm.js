@@ -1,7 +1,7 @@
 import React from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 
-const SubscribeForm = () => {
+const SignUpForm = () => {
 
     const [email, setEmail] = React.useState('');
 
@@ -23,12 +23,18 @@ const SubscribeForm = () => {
     }
 
     return (
-        <form onSubmit={(e) => handleSubmit(e)} className="submit-form">
-            <input value={email} onChange={(e) => setEmail(e.target.value)}/>
-            <button type="submit" className="button special">Subscribe</button>
+        <form onSubmit={(e) => handleSubmit(e)}>
+            {/*<div className="form-field">*/}
+                <label>Email :</label>
+                <input value={email} onChange={(e) => setEmail(e.target.value)}/>
+            {/*</div>*/}
+
+
+
+            <button type="submit" className="button special">Sign Up</button>
 
         </form>
     )
 }
 
-export default SubscribeForm;
+export default SignUpForm;
