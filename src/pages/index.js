@@ -111,19 +111,6 @@ class Index extends React.Component {
               </ul>
             </footer>
           </section>
-          <section id="newsletter" className="main special">
-            <header className="major">
-              <h2>Newsletter</h2>
-              <p>Sign up for our newsletter to keep up to date with the latest news and events from Climate Action Ilkley. <br/>You can view the newsletter archive            <a href="https://us18.campaign-archive.com/home/?u=a1a0e5958b2d727a3b3578b04&id=2a8d87987d" target="_blank" className="link">here</a>.
-              </p>
-            </header>
-            <footer className="major">
-
-              <ul className="actions">
-                  <SignUpForm/>
-              </ul>
-            </footer>
-          </section>
 
         </div>
 

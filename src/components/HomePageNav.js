@@ -40,11 +40,6 @@ const HomePageNav = (props) => (
                     <a href="#">Get Involved</a>
                 </Scroll>
             </li>
-            <li>
-                <Scroll type="id" element="newsletter">
-                    <a href="#">Newsletter</a>
-                </Scroll>
-            </li>
         </Scrollspy>
     </nav>
 );

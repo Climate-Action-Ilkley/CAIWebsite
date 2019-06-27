@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import privacyPolicy from '../assets/documents/PrivacyPolicyV1.pdf';
 
 const Footer = (props) => (
     <footer id="footer">
@@ -21,6 +22,12 @@ const Footer = (props) => (
           <li><a href="mailto:climateactionilkley@gmail.com">climateactionilkley@gmail.com</a></li>
         </ul>
       </section>
+        <section>
+            <h2>Documents</h2>
+            <ul className="icons">
+                <li><a href={privacyPolicy} download>Privacy Policy</a></li>
+            </ul>
+        </section>
       <p className="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.Development by: <a href="https://misterwip.uk" target="_blank">Mister Wip</a>.</p>
     </footer>
 );
