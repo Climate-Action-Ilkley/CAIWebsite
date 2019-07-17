@@ -1,12 +1,8 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import ProfileImage from '../components/ProfileImage';
-import vicky from '../assets/images/steeringroup/vicky.jpg'
-import george from '../assets/images/steeringroup/george.jpg'
-import kath from '../assets/images/steeringroup/kath.jpg'
-import will from '../assets/images/steeringroup/will_a.jpg'
-import steve from '../assets/images/steeringroup/steve.jpg'
+import CAICommittee from "../components/CAICommittee";
+
 
 class Generic extends React.Component {
   render() {
@@ -14,30 +10,7 @@ class Generic extends React.Component {
     return (
       <Layout>
         <div id="main">
-          <section className="main">
-            <header className="major">
-              <h2>Climate Action Ilkley Steering Group</h2>
-            </header>
-            <ul className="features profile-pictures">
-              <li>
-                <ProfileImage firstName="Kath" lastName="Steward" imgSrc={kath}/>
-              </li>
-              <li>
-                <ProfileImage firstName="Will" lastName="Abramson" imgSrc={will}/>
-              </li>
-              <li>
-                <ProfileImage firstName="Steve" lastName="Peel" imgSrc={steve}/>
-              </li>
-              <li>
-                <ProfileImage firstName="Vicky" lastName="Walker" imgSrc={vicky}/>
-              </li>
-              <li>
-                <ProfileImage firstName="George" lastName="Abramson" imgSrc={george}/>
-              </li>
-
-            </ul>
-
-          </section>
+          <CAICommittee/>
           <section id="about" className="main">
             <header className="major">
               <h2>What We Do</h2>

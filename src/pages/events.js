@@ -8,11 +8,11 @@ const Events = ({ data }) => {
   const getFutureEvents = (eventEdges) => {
     const events = filterEvents(eventEdges)
 
-    if (events.length === 0) {
+    if (eventEdges.length === 0) {
       return <h2>No Upcoming Events</h2>
     } else {
       return <div>
-        {events.map(edge => {
+        {eventEdges.map(edge => {
           return <Event event={edge.node}/>
         })}
       </div>
@@ -20,18 +20,18 @@ const Events = ({ data }) => {
   };
 
   const filterEvents = (eventEdges) => {
-    const events = eventEdges.filter(eventEdge => {
-      const eventDate = new Date(Date.parse(eventEdge.node.date));
+      const events = eventEdges.filter(eventEdge => {
+          console.log("edge", eventEdge.node.eventDate)
+          const eventDate = new Date(eventEdge.node.eventDate);
 
-      if (eventDate > Date.now()) {
-        return eventEdge.node;
-      }
-    });
-    console.log(events);
+          if (eventDate > Date.now()) {
+              return eventEdge.node;
+          }
+      });
+      console.log(events);
 
-    return events;
+      return events;
   }
-
 
 
   return (
@@ -41,28 +41,30 @@ const Events = ({ data }) => {
         <section id="content" className="main">
           {/*<span className="image main"><img src={pic04} alt="" /></span>*/}
           <h2>Upcoming Events</h2>
-          {getFutureEvents(data.allEventsJson.edges)}
+          {getFutureEvents(data.allContentfulEvent.edges)}
         </section>
       </div>
     </Layout>
   )
 }
 
-export const eventQuery = graphql`
-    query eventsQuery {
-        allEventsJson(sort: {order: ASC, fields: [date]}) {
-            edges {
-                node {
-                    date
-                    venue
-                    time
-                    name
-                    description
-                    link
-                }
-            }
-        }
-    }
-`
+export const eventQuery =     graphql`
+      query allEvents
+          {
+              allContentfulEvent(sort: {order: ASC, fields: [eventDate]} ) {
+              edges {
+                  node {
+                      eventDate
+                      venueName
+                      name
+                      description
+                      registrationLink
+                  }
+              }
+          }
+       }
+
+
+    `
 
 export default Events

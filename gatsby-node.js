@@ -1,73 +1,51 @@
 const path = require('path');
 
-exports.createPages = ({ graphql, actions }) => {
-    const { createPage } = actions;
-    return graphql(`{
-        allProjectsJson(limit: 1000) {
-          edges {
-            node {
-              path
+exports.createPages = ({graphql, actions}) => {
+    const {createPage} = actions;
+    const workgroupTemplate = path.resolve('src/templates/workgroup-page.js');
+    const projectTemplate = path.resolve('src/templates/project-page.js');
+    return graphql(`
+        {
+          allContentfulWorkgroup (limit:100) {
+            edges {
+              node {
+                path 
+                projects {
+                    path
+                }           
+              }
             }
           }
         }
-      }
-    `).then(result => {
+      `).then((result) => {
         if (result.errors) {
-            throw result.errors
+            reject(result.errors)
         }
-
-        // Create image post pages.
-        const projectTemplate = path.resolve(`src/templates/project-page.js`);
-        // We want to create a detailed page for each
-        // Instagram post. Since the scrapped Instagram data
-        // already includes an ID field, we just use that for
-        // each page's path.
-        result.data.allProjectsJson.edges.forEach(edge => {
-            // Gatsby uses Redux to manage its internal state.
-            // Plugins and sites can use functions like "createPage"
-            // to interact with Gatsby.
+        result.data.allContentfulWorkgroup.edges.forEach((edge) => {
             createPage({
-                // Each page is required to have a `path` as well
-                // as a template component. The `context` is
-                // optional but is often necessary so the template
-                // can query data specific to each page.
-                path: ("projects/" + edge.node.path),
-                component: projectTemplate,
+                path: edge.node.path,
+                component: workgroupTemplate,
                 context: {
-                    pathName: edge.node.path,
-                },
+                    pathName: edge.node.path
+                }
             })
-        })
-    }).then(() => {
-      return graphql(`{
-        allOneplanetlivingJson {
-          edges {
-            node {
-              path
+            if (edge.node.projects) {
+                edge.node.projects.forEach(project => {
+                    console.log("PROJECT", project)
+                    createPage({
+                        path: edge.node.path + "/" + project.path,
+                        component: projectTemplate,
+                        context: {
+                            pathName: project.path
+                        }
+                    })
+                })
             }
-          }
-        }
-						
-      }`).then(result => {
-        if (result.errors) {
-          throw result.errors
-        }
-        const OnePlanetPageTemplate = path.resolve(`src/templates/oneplanet-page.js`);
 
-        result.data.allOneplanetlivingJson.edges.forEach(edge => {
 
-          createPage({
-            // Each page is required to have a `path` as well
-            // as a template component. The `context` is
-            // optional but is often necessary so the template
-            // can query data specific to each page.
-            path: ("oneplanet/" + edge.node.path),
-            component: OnePlanetPageTemplate,
-            context: {
-              pathName: edge.node.path,
-            },
-          })
         })
-      })
     })
-};
+
+}
+;
+

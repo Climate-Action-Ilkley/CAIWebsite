@@ -11,25 +11,24 @@ const UpcomingEvent = () => (
     graphql`
       query upcomingEventQuery
           {
-              allEventsJson(sort: {order: ASC, fields: [date]}) {
+              allContentfulEvent(sort: {order: ASC, fields: [eventDate]}) {
               edges {
                   node {
-                      date
-                      venue
-                      time
+                      eventDate
+                      venueName
                       name
                       description
-                      link
+                      registrationLink
                   }
               }
           }
-}
+       }
 
 
     `}
                render={data => {
-                 console.log(data.allEventsJson);
-                 return getUpcomingEvent(data.allEventsJson.edges);
+                 console.log(data.allContentfulEvent);
+                 return getUpcomingEvent(data.allContentfulEvent.edges);
                }}
   />
   );
@@ -46,7 +45,8 @@ const getUpcomingEvent = (eventEdges) => {
 
 const filterEvents = (eventEdges) => {
     const events = eventEdges.filter(eventEdge => {
-        const eventDate = new Date(Date.parse(eventEdge.node.date));
+        console.log("edge", eventEdge.node.eventDate)
+        const eventDate = new Date(eventEdge.node.eventDate);
 
         if (eventDate > Date.now()) {
             return eventEdge.node;

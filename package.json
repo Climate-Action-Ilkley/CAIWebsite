@@ -2,19 +2,21 @@
   "name": "ClimateActionIlkleyWebsite",
   "description": "Website for CAI",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Will Abramson",
   "dependencies": {
     "bootstrap-css-only": "^4.1.3",
     "bulma": "^0.7.5",
     "classnames": "^2.2.6",
-    "gatsby": "^2.0.0",
-    "gatsby-cli": "^2.4.5",
+    "contentful": "^7.8.2",
+    "gatsby": "^2.13.19",
+    "gatsby-cli": "^2.7.13",
     "gatsby-plugin-mailchimp": "^5.1.0",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-twitter": "^2.0.7",
+    "gatsby-source-contentful": "^2.1.13",
     "gatsby-source-filesystem": "^2.0.12",
     "gatsby-transformer-javascript-frontmatter": "^2.0.5",
     "gatsby-transformer-json": "^2.1.6",
@@ -22,9 +24,10 @@
     "node-sass": "^4.9.3",
     "path": "^0.12.7",
     "prop-types": "^15.6.2",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
+    "react-router-dom": "^5.0.1",
     "react-scroll-to-element": "^0.2.0",
     "react-scrollspy": "^3.3.5",
     "react-waypoint": "^8.0.3"
@@ -41,6 +44,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "contentful-import": "^7.5.1",
     "prettier": "^1.14.2"
   },
   "repository": {

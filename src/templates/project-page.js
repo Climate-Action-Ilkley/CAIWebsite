@@ -1,29 +1,29 @@
 import React from 'react';
-import OnePlanetNav from "../components/OnePlanetNav";
+import WorkgroupNav from "../components/WorkgroupNav";
 import Layout from '../components/layout';
 import { graphql } from "gatsby"
 
 const ProjectPageTemplate = (props) => {
     console.log(props);
-   const project = props.data.projectsJson;
+   const project = props.data.contentfulProject;
    if (project == null) {
        return <div/>
    }
     return (
         <Layout>
             <div id="main">
-                <OnePlanetNav area={project.onePlanetArea} navStyle={project.onePlanetStyle}/>
+                <WorkgroupNav navName={project.workgroup.name} className={project.workgroup.className}/>
 
                 <section id="intro" className="main">
                     <div className="spotlight">
                         <div className="content">
                             <header className="major">
 
-                                <h2>{project.projectTitle}</h2>
+                                <h2>{project.name}</h2>
                             </header>
-                            <h2>{project.projectBlurb}</h2>
+                            <h2>{project.purpose}</h2>
                         </div>
-                        <span className="image"><span className={"icon major " + project.onePlanetStyle + " " + project.iconName}/></span>
+                        <span className="image"><span className={"icon major " + project.workgroup.className + " " + project.iconName}/></span>
                     </div>
                 </section>
             </div>
@@ -46,14 +46,18 @@ const ProjectPageTemplate = (props) => {
 
 // For some reason this query returns null rather than project page. Something to do with oath not being correct?
     export const projectPageQuery = graphql`
-        query projectsJson($pathName: String!) {
-          projectsJson(path: { eq: $pathName }) {
-            iconName
-            projectTitle
-            projectBlurb
-            onePlanetArea
-            onePlanetStyle
+        query contentfulProject($pathName: String!) {
+          contentfulProject(path: {eq: $pathName}) {
+            path
+            name
+            purpose
+            workgroup {
+                name
+                path 
+                className
+            }
           }
+
         }
     `;
 

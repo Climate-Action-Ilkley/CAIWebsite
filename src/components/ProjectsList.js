@@ -6,15 +6,15 @@ const ProjectList = ({projects, isPlannedList}) => {
     return (
       <ul className="features project">
         {projects ? projects.map(project => {
-          console.log(project);
+          console.log("PROJECT LIST", project);
           return <Feature
-              url={"projects/" + project.node.path}
-              blurb={project.node.projectBlurb}
-              title={project.node.projectTitle}
-              icon={project.node.iconName}
-              iconStyle={project.node.onePlanetStyle}
+              url={project.workgroup.path + "/" + project.path}
+              blurb={project.purpose}
+              title={project.name}
+              icon="fa-sun"
+              iconStyle="food"
             />
-        }) : !isPlannedList ? 
+        }) : !isPlannedList ?
         <h1>Help us move some planned projects to active!</h1> : null
       }
         {isPlannedList ? <QuestionFeature/> : null}

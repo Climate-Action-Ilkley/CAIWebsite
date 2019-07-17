@@ -17,22 +17,10 @@
 
 
 
+
 		&.profile-pictures {
 			li {
 				width: calc(#{(100% / 5)} - #{_size(element-margin)});
-				.headshot {
-
-					img {
-						width: 100%;
-						border-radius: 100%;
-
-					}
-					h3 {
-						text-align: center;
-						margin-bottom: 0px;
-					}
-
-				}
 			}
 
 		}
@@ -50,6 +38,23 @@
 			}
 		}
 
+      &.workgroup {
+        li {
+          width: calc(#{(100% / 4)} - #{_size(element-margin)});
+
+          .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+          }
+
+          h3 {
+            text-align: center;
+          }
+        }
+
+      }
 
 		li {
 			margin-left: _size(element-margin);
@@ -108,7 +113,7 @@
 				li {
 					width: 100%;
 					margin-left: 0;
-	
+
 					// &:nth-child(2),
 					// &:nth-child(3),
 					// &:nth-child(4){

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
-import OnePlanetAreaListContainer from '../components/OnePlanetAreaListContainer'
+import WorkgroupListContainer from '../components/WorkgroupListContainer'
 import HomePageNav from '../components/HomePageNav'
 import logo from '../assets/images/web-icon.png'
 import BasicsItem from '../components/BasicsItem';
@@ -77,7 +77,7 @@ class Index extends React.Component {
             </ul>
           </section>
           <section id="second" className="main special">
-          <OnePlanetAreaListContainer/>
+          <WorkgroupListContainer/>
           </section>
           <section id="events" className="main">
             <header className="major">

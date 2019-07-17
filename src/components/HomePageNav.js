@@ -22,7 +22,7 @@ const HomePageNav = (props) => (
             </li>
             <li>
                 <Scroll type="id" element="second">
-                    <a href="#">Our Projects</a>
+                    <a href="#">Work Groups</a>
                 </Scroll>
             </li>
             <li>

@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 class Generic extends React.Component {
   render() {
 
-    let projects = this.props.data.allProjectsJson;
+    let projects = this.props.data.allContentfulProject.edges.map(edge => edge.node)
     console.log(projects)
     return (
       <Layout>
@@ -20,22 +20,22 @@ class Generic extends React.Component {
 }
 
 export const allProjectPageQuery = graphql`
-    query allProjectsJson {
-        allProjectsJson {
+        query allContentfulProject {
+          allContentfulProject {
             edges {
                 node {
+                    name
                     path
-                    iconName
-                    state
-                    projectTitle
-                    projectBlurb
-                    onePlanetArea
-                    onePlanetStyle
-                }
-            }
+                    purpose
+                    isActive
+                    workgroup {
+                        path
+                    }
+                  }
+              }
+          }
 
         }
-    }
-`;
+    `;
 
 export default Generic

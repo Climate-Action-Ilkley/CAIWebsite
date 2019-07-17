@@ -1,3 +1,8 @@
+require('dotenv').config();
+
+const { ACCESS_TOKEN, SPACE_ID } = process.env;
+
+
 module.exports = {
   siteMetadata: {
     title: "Climate Action Ilkley",
@@ -30,11 +35,11 @@ module.exports = {
     `gatsby-transformer-json`,
     "gatsby-transformer-javascript-frontmatter",
     {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-            path: `./src/data/`,
-            name: 'data'
-        },
+      resolve: 'gatsby-source-contentful',
+      options: {
+          spaceId: SPACE_ID,
+          accessToken: ACCESS_TOKEN,
+      },
     },
   ],
 };
