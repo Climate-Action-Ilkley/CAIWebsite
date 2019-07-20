@@ -11,7 +11,7 @@ const CAICommittee = () => {
             <StaticQuery
                 query={graphql`
       query AllCommitteeMembers {
-        allContentfulCommitteeMember {
+        allContentfulCommitteeMember(sort: {fields: order, order: ASC}) {
             edges {
               node {
                 role

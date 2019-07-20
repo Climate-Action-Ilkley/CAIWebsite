@@ -7,7 +7,8 @@ import WorkgroupNav from '../components/WorkgroupNav'
 import Feature from "../components/Feature";
 
 const WorkgroupPage = (props) => {
-    const {name, purpose, coordinator, folder, projects, fontAwesomeIcon, className} = props.data.contentfulWorkgroup;
+    const {name, purpose, coordinator, folder, fontAwesomeIcon, className} = props.data.contentfulWorkgroup;
+    const projects = props.data.allContentfulProject.edges.map(edge => edge.node)
     return (
         <Layout>
             <div id="main">
@@ -64,15 +65,21 @@ export const workgroupPage = graphql`
                 }
             }
             folder 
-            projects {
-                name
-                path
-                purpose
-                isActive
-                workgroup {
+                   
+        }
+        allContentfulProject(filter: {workgroup: { path: { eq: $pathName } } }) {
+            edges {
+                node {
+                    name
                     path
+                    purpose
+                    isActive
+                    workgroup {
+                        path
+                    }
+                     
                 }
-            }          
+            }
         }
     }
 `;

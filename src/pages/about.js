@@ -2,6 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import CAICommittee from "../components/CAICommittee";
+import CAISupporters from "../components/CAISupporters";
 
 
 class Generic extends React.Component {
@@ -11,6 +12,7 @@ class Generic extends React.Component {
       <Layout>
         <div id="main">
           <CAICommittee/>
+          <CAISupporters/>
           <section id="about" className="main">
             <header className="major">
               <h2>What We Do</h2>

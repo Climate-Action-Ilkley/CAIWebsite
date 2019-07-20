@@ -6,22 +6,32 @@ exports.createPages = ({graphql, actions}) => {
     const projectTemplate = path.resolve('src/templates/project-page.js');
     return graphql(`
         {
-          allContentfulWorkgroup (limit:100) {
+          allContentfulWorkgroup{
             edges {
               node {
                 path 
-                projects {
-                    path
-                }           
+         
               }
             }
           }
+          allContentfulProject {
+            edges {
+                node {
+                    path
+                    workgroup {
+                        path
+                    }
+                   
+                    }
+                }
+            }
         }
       `).then((result) => {
         if (result.errors) {
             reject(result.errors)
         }
         result.data.allContentfulWorkgroup.edges.forEach((edge) => {
+            console.log("Create Workgroup", edge.node.path)
             createPage({
                 path: edge.node.path,
                 component: workgroupTemplate,
@@ -29,20 +39,19 @@ exports.createPages = ({graphql, actions}) => {
                     pathName: edge.node.path
                 }
             })
-            if (edge.node.projects) {
-                edge.node.projects.forEach(project => {
-                    console.log("PROJECT", project)
-                    createPage({
-                        path: edge.node.path + "/" + project.path,
-                        component: projectTemplate,
-                        context: {
-                            pathName: project.path
-                        }
-                    })
-                })
-            }
 
 
+        })
+
+        result.data.allContentfulProject.edges.forEach(edge => {
+            console.log("Create project", edge.node.path)
+            createPage({
+                path: edge.node.workgroup.path + "/" + edge.node.path,
+                component: projectTemplate,
+                context: {
+                    pathName: edge.node.path
+                }
+            })
         })
     })
 
