@@ -8,6 +8,7 @@ import logo from '../assets/images/web-icon.png'
 import BasicsItem from '../components/BasicsItem';
 import UpcomingEvent from '../components/UpcomingEvent';
 import SignUpForm from "../components/SignUpForm";
+import isp from "../assets/documents/ISP.pdf";
 
 class Index extends React.Component {
   constructor(props) {
@@ -44,8 +45,11 @@ class Index extends React.Component {
               <div className="content">
                 <header className="major">
                   <h2>Vision</h2>
+                    <h2>To take action together to tackle the challenge of climate change and safeguard Ilkley for future generations by creating a sustainable zero carbon town.
+                    </h2>
+                    <h2>Read our <a href={isp} download className="link">Sustainability Plan</a>.</h2>
                 </header>
-                <h2>To take action together to tackle the challenge of climate change and safeguard Ilkley for future generations by creating a sustainable zero carbon town.</h2>
+
               </div>
               <span className="image"><img src={logo} alt="" /></span>
             </div>

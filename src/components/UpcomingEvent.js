@@ -11,7 +11,7 @@ const UpcomingEvent = () => (
     graphql`
       query upcomingEventQuery
           {
-              allContentfulEvent(sort: {order: ASC, fields: [eventDate]}) {
+              allContentfulEvent(sort: {order: ASC, fields: [eventDate]}, limit: 3) {
               edges {
                   node {
                       eventDate
@@ -39,7 +39,13 @@ const getUpcomingEvent = (eventEdges) => {
   if (events.length === 0) {
     return <h2>No Upcoming Events</h2>
   } else {
-    return <Event event={events[0].node}/>
+      return (<ul className="features events">
+          {events.map(event => {
+            return <li>
+                <Event event={event.node}/>
+            </li>
+          })}
+      </ul>)
   }
 }
 

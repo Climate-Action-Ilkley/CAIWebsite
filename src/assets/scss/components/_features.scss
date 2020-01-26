@@ -25,6 +25,12 @@
 
 		}
 
+		&.events {
+			li {
+				width: calc(#{(100% / 3)} - #{_size(element-margin)});
+			}
+		}
+
 		&.project {
 			li {
 				width: calc(#{(100% / 4)} - #{_size(element-margin)});
